@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Bighead Productions Ltd</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:   #111110;
+      --dark:    #1c1c1b;
+      --mid:     #3c3c3c;
+      --muted:   #6b6b6a;
+      --border:  #e2e0db;
+      --light:   #f5f3ef;
+      --white:   #ffffff;
+      --accent:  #d4c9b0;
+      --fs-xs:   0.72rem;
+      --fs-sm:   0.875rem;
+      --fs-base: 1rem;
+      --fs-md:   1.125rem;
+      --fs-lg:   1.5rem;
+      --ease:    cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--light);
+      color: var(--black);
+      overflow-x: hidden;
+      hyphens: none;
+    }
+
+    /* ── Reveal ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.85s var(--ease), transform 0.85s var(--ease);
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+    .d1 { transition-delay: 0.1s; }
+    .d2 { transition-delay: 0.22s; }
+    .d3 { transition-delay: 0.36s; }
+    .d4 { transition-delay: 0.5s; }
+
+    /* ══ NAV ══════════════════════════════════════════════════ */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 900;
+      display: grid; grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      padding: 1.1rem 2.5rem;
+      background: var(--light);
+      border-bottom: 1px solid var(--border);
+      transition: padding 0.4s var(--ease);
+    }
+    nav.compact { padding: 0.75rem 2.5rem; }
+
+    .nav-logo { display: flex; align-items: center; }
+    .nav-logo img { height: 14px; display: block; transition: opacity 0.3s; }
+    .nav-logo:hover img { opacity: 0.45; }
+
+    .nav-links {
+      display: flex; align-items: center; gap: 2rem; list-style: none;
+      justify-content: center;
+    }
+    .nav-links a {
+      color: rgba(0,0,0,0.55); font-size: 0.875rem; font-weight: 400;
+      letter-spacing: 0.005em; text-decoration: none;
+      transition: color 0.25s;
+    }
+    .nav-links a:hover { color: var(--black); }
+    .nav-links a.active { color: var(--black); }
+
+    .nav-right {
+      display: flex; align-items: center; gap: 1.25rem; justify-content: flex-end;
+    }
+    .nav-search {
+      width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
+      color: rgba(0,0,0,0.45); cursor: pointer; transition: color 0.25s;
+      background: none; border: none;
+    }
+    .nav-search:hover { color: var(--black); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      padding: 0.6rem 2.2rem;
+      background: transparent; color: var(--black) !important;
+      border: 1.5px solid rgba(0,0,0,0.25);
+      border-radius: 100px; font-size: 0.875rem !important;
+      font-weight: 400; letter-spacing: 0.01em !important;
+      transition: background 0.25s, border-color 0.25s !important;
+      text-decoration: none;
+    }
+    .nav-btn:hover { background: var(--black); color: var(--white) !important; border-color: var(--black); }
+
+    /* ══ PAGE HEADER ══════════════════════════════════════════ */
+    .page-header {
+      padding-top: 80px;
+      text-align: center;
+      padding-bottom: 0;
+    }
+
+    .services-pill {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      padding: 0.45rem 1.15rem;
+      border: 1px solid rgba(0,0,0,0.18);
+      border-radius: 100px;
+      font-size: 0.82rem; letter-spacing: 0.03em;
+      color: var(--mid);
+      margin-top: 3.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .services-pill-dot {
+      width: 8px; height: 8px;
+      background: var(--mid);
+      border-radius: 50%; flex-shrink: 0;
+    }
+    .services-heading {
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      color: var(--black);
+      line-height: 1.2;
+      margin-bottom: 0;
+    }
+
+    /* ══ SERVICES LIST ════════════════════════════════════════ */
+    .services-list {
+      margin-top: 3rem;
+    }
+
+    .svc-row {
+      display: grid;
+      grid-template-columns: 1fr 1.8fr;
+      gap: 3rem;
+      padding: 3.5rem 3rem;
+      border-top: 1px solid var(--border);
+      position: relative;
+    }
+    .svc-row:last-child { border-bottom: 1px solid var(--border); }
+
+    /* Left: text */
+    .svc-text { display: flex; flex-direction: column; }
+    .svc-name {
+      font-size: clamp(1.4rem, 2.5vw, 2rem);
+      font-weight: 600;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+      color: var(--black);
+      margin-bottom: 1rem;
+    }
+    .svc-desc {
+      font-size: var(--fs-sm);
+      font-weight: 300;
+      line-height: 1.85;
+      color: var(--muted);
+      max-width: 340px;
+      flex: 1;
+    }
+
+    /* Right: images + CTA */
+    .svc-visual {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .svc-images {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+    .svc-img-box {
+      background: var(--dark);
+      border-radius: 4px;
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      position: relative;
+    }
+    .svc-img-box img {
+      width: 100%; height: 100%;
+      object-fit: cover; display: block;
+      transition: transform 0.7s var(--ease);
+    }
+    .svc-row:hover .svc-img-box img { transform: scale(1.04); }
+
+    .svc-cta-row {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .svc-cta {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.65rem 1.5rem;
+      background: var(--dark);
+      border-radius: 100px;
+      color: var(--white); font-size: var(--fs-sm);
+      text-decoration: none; letter-spacing: 0.02em;
+      transition: background 0.3s, gap 0.3s;
+    }
+    .svc-cta:hover { background: var(--black); gap: 0.75rem; }
+    .svc-cta svg { flex-shrink: 0; }
+
+    /* ══ FOOTER ═══════════════════════════════════════════════ */
+    footer {
+      background: var(--light);
+      border-top: 1px solid rgba(0,0,0,0.07);
+      padding: 4rem 3rem 0;
+    }
+    .footer-top {
+      display: grid; grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem; margin-bottom: 3.5rem;
+    }
+    .footer-logo { height: 14px; display: block; margin-bottom: 1.25rem; }
+    .footer-brand p {
+      font-size: var(--fs-sm); font-weight: 300; color: rgba(0,0,0,0.4);
+      line-height: 1.75; max-width: 240px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col ul a {
+      color: rgba(0,0,0,0.5); font-size: var(--fs-sm); font-weight: 300;
+      text-decoration: none; transition: color 0.25s;
+    }
+    .footer-col ul a:hover { color: var(--black); }
+
+    .footer-social-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+    .footer-social-list li { border-bottom: 1px solid rgba(0,0,0,0.08); }
+    .footer-social-list li:first-child { border-top: 1px solid rgba(0,0,0,0.08); }
+    .footer-social-list a {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.7rem 0;
+      color: var(--black); font-size: var(--fs-sm); font-weight: 300;
+      text-decoration: none; transition: opacity 0.25s;
+    }
+    .footer-social-list a:hover { opacity: 0.55; }
+    .footer-social-list .soc-icon {
+      width: 22px; height: 22px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .footer-social-list .soc-icon img {
+      width: 18px; height: 18px; display: block;
+      filter: brightness(0);
+    }
+    .footer-social-list .soc-label { flex: 1; }
+    .footer-social-list .soc-arrow { font-size: 0.75rem; opacity: 0.4; }
+
+    .footer-bottom {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.5rem 0;
+      border-top: 1px solid rgba(0,0,0,0.08);
+    }
+    .footer-copy { font-size: var(--fs-xs); color: rgba(0,0,0,0.3); letter-spacing: 0.04em; }
+    .footer-up {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--black); color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      text-decoration: none; flex-shrink: 0; transition: opacity 0.25s;
+    }
+    .footer-up:hover { opacity: 0.7; }
+    .footer-up svg { display: block; }
+
+    /* ══ RESPONSIVE ═══════════════════════════════════════════ */
+    @media (max-width: 960px) {
+      nav { padding: 1.2rem 1.5rem; }
+      .nav-links li:not(:last-child):not(:nth-last-child(2)) { display: none; }
+      .svc-row {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2.5rem 1.5rem;
+      }
+      .svc-desc { max-width: 100%; }
+      footer { padding: 3rem 1.5rem 0; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    }
+    @media (max-width: 580px) {
+      .svc-images { grid-template-columns: 1fr; }
+      .footer-top { grid-template-columns: 1fr; }
+      .footer-social-list { border-top: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ NAV ══════════════════════════════════════════════════ -->
+  <nav id="nav">
+    <a href="index.html" class="nav-logo" aria-label="Bighead Productions home">
+      <img src="Brand_assets/bighead-logo.svg" alt="Bighead Productions" height="14">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="index.html#projects">Works</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <button class="nav-search" aria-label="Search">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.3"/>
+          <path d="M10.5 10.5 14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <a href="index.html#projects" class="nav-btn">Our Work</a>
+    </div>
+  </nav>
+
+  <!-- ══ PAGE HEADER ══════════════════════════════════════════ -->
+  <header class="page-header">
+    <div class="services-pill reveal">
+      <span class="services-pill-dot"></span>
+      Service
+    </div>
+    <h1 class="services-heading reveal d1">Things we have done</h1>
+  </header>
+
+  <!-- ══ SERVICES LIST ════════════════════════════════════════ -->
+  <main class="services-list">
+
+    <!-- 01 Photography & Visual Content -->
+    <div class="svc-row reveal">
+      <div class="svc-text">
+        <h2 class="svc-name">Photography<br>&amp; Visual Content</h2>
+        <p class="svc-desc">We design solutions that look amazing, convey the right brand message and are highly oriented for conversion.</p>
+      </div>
+      <div class="svc-visual">
+        <div class="svc-images">
+          <div class="svc-img-box"></div>
+          <div class="svc-img-box"></div>
+        </div>
+        <div class="svc-cta-row">
+          <a href="contact.html" class="svc-cta">
+            Connect
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 02 Video Production -->
+    <div class="svc-row reveal">
+      <div class="svc-text">
+        <h2 class="svc-name">Video Production</h2>
+        <p class="svc-desc">We design solutions that look amazing, convey the right brand message and are highly oriented for conversion.</p>
+      </div>
+      <div class="svc-visual">
+        <div class="svc-images">
+          <div class="svc-img-box"></div>
+          <div class="svc-img-box"></div>
+        </div>
+        <div class="svc-cta-row">
+          <a href="contact.html" class="svc-cta">
+            Connect
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 03 Event & Hybrid Production -->
+    <div class="svc-row reveal">
+      <div class="svc-text">
+        <h2 class="svc-name">Event &amp; Hybrid<br>Production</h2>
+        <p class="svc-desc">We design solutions that look amazing, convey the right brand message and are highly oriented for conversion.</p>
+      </div>
+      <div class="svc-visual">
+        <div class="svc-images">
+          <div class="svc-img-box"></div>
+          <div class="svc-img-box"></div>
+        </div>
+        <div class="svc-cta-row">
+          <a href="contact.html" class="svc-cta">
+            Connect
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 04 AI Generative Media -->
+    <div class="svc-row reveal">
+      <div class="svc-text">
+        <h2 class="svc-name">AI Generative Media</h2>
+        <p class="svc-desc">We design solutions that look amazing, convey the right brand message and are highly oriented for conversion.</p>
+      </div>
+      <div class="svc-visual">
+        <div class="svc-images">
+          <div class="svc-img-box"></div>
+          <div class="svc-img-box"></div>
+        </div>
+        <div class="svc-cta-row">
+          <a href="contact.html" class="svc-cta">
+            Connect
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 05 Motion, Design & Animation -->
+    <div class="svc-row reveal">
+      <div class="svc-text">
+        <h2 class="svc-name">Motion, Design<br>&amp; Animation</h2>
+        <p class="svc-desc">We design solutions that look amazing, convey the right brand message and are highly oriented for conversion.</p>
+      </div>
+      <div class="svc-visual">
+        <div class="svc-images">
+          <div class="svc-img-box"></div>
+          <div class="svc-img-box"></div>
+        </div>
+        <div class="svc-cta-row">
+          <a href="contact.html" class="svc-cta">
+            Connect
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 06 Web / Interactive Media -->
+    <div class="svc-row reveal">
+      <div class="svc-text">
+        <h2 class="svc-name">Web / Interactive<br>Media</h2>
+        <p class="svc-desc">We design solutions that look amazing, convey the right brand message and are highly oriented for conversion.</p>
+      </div>
+      <div class="svc-visual">
+        <div class="svc-images">
+          <div class="svc-img-box"></div>
+          <div class="svc-img-box"></div>
+        </div>
+        <div class="svc-cta-row">
+          <a href="contact.html" class="svc-cta">
+            Connect
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ══ FOOTER ═════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="Brand_assets/bighead-logo.svg" alt="Bighead Productions" class="footer-logo">
+        <p>A Hong kong-based creative production community making work that captures the imagination.</p>
+      </div>
+
+      <div class="footer-col">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="index.html#projects">Works</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <ul class="footer-social-list" aria-label="Social media">
+          <li>
+            <a href="#">
+              <span class="soc-icon"><img src="assets/icon:/icon_Viemo.svg" alt="" width="18" height="18"></span>
+              <span class="soc-label">Showreel</span>
+              <span class="soc-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="soc-icon"><img src="assets/icon:/icon_FB.svg" alt="" width="18" height="18"></span>
+              <span class="soc-label">Facebook</span>
+              <span class="soc-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="soc-icon"><img src="assets/icon:/icon_IG.svg" alt="" width="18" height="18"></span>
+              <span class="soc-label">Instagram</span>
+              <span class="soc-arrow">→</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2026 Bighead Productions Ltd. All rights reserved.</p>
+      <a href="#" class="footer-up" aria-label="Back to top">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M7 11.5V2.5M2.5 7 7 2.5 11.5 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ══ JS ════════════════════════════════════════════════════ -->
+  <script>
+    // Nav compact on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('compact', window.scrollY > 60);
+    }, { passive: true });
+
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -36px 0px' });
+    revealEls.forEach(el => io.observe(el));
+
+    // Header reveals immediately on load
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.page-header .reveal').forEach((el, i) => {
+        setTimeout(() => el.classList.add('visible'), 150 + i * 120);
+      });
+    });
+  </script>
+</body>
+</html>

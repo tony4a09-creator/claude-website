@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siemens × TVB — Bighead Productions Ltd</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --black:   #111110;
+      --dark:    #1c1c1b;
+      --mid:     #3c3c3c;
+      --muted:   #6b6b6a;
+      --border:  #e2e0db;
+      --light:   #f5f3ef;
+      --white:   #ffffff;
+      --accent:  #d4c9b0;
+      --fs-xs:   0.72rem;
+      --fs-sm:   0.875rem;
+      --fs-base: 1rem;
+      --fs-md:   1.125rem;
+      --fs-lg:   1.5rem;
+      --ease:    cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--light);
+      color: var(--black);
+      overflow-x: hidden;
+      hyphens: none;
+    }
+
+    /* ── Reveal ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.85s var(--ease), transform 0.85s var(--ease);
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+    .d1 { transition-delay: 0.1s; }
+    .d2 { transition-delay: 0.22s; }
+    .d3 { transition-delay: 0.36s; }
+    .d4 { transition-delay: 0.5s; }
+
+    /* ══ NAV ══════════════════════════════════════════════════ */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 900;
+      display: grid; grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      padding: 1.1rem 2.5rem;
+      background: var(--light);
+      border-bottom: 1px solid var(--border);
+      transition: padding 0.4s var(--ease);
+    }
+    nav.compact { padding: 0.75rem 2.5rem; }
+
+    .nav-logo { display: flex; align-items: center; }
+    .nav-logo img { height: 14px; display: block; transition: opacity 0.3s; }
+    .nav-logo:hover img { opacity: 0.45; }
+
+    .nav-links {
+      display: flex; align-items: center; gap: 2rem; list-style: none;
+      justify-content: center;
+    }
+    .nav-links a {
+      color: rgba(0,0,0,0.55); font-size: 0.875rem; font-weight: 400;
+      letter-spacing: 0.005em; text-decoration: none;
+      transition: color 0.25s;
+    }
+    .nav-links a:hover { color: var(--black); }
+    .nav-links a.active { color: var(--black); font-weight: 500; }
+
+    .nav-right {
+      display: flex; align-items: center; gap: 1.25rem; justify-content: flex-end;
+    }
+    .nav-search {
+      width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
+      color: rgba(0,0,0,0.45); cursor: pointer; transition: color 0.25s;
+      background: none; border: none;
+    }
+    .nav-search:hover { color: var(--black); }
+    .nav-btn {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      padding: 0.6rem 2.2rem;
+      background: transparent; color: var(--black) !important;
+      border: 1.5px solid rgba(0,0,0,0.25);
+      border-radius: 100px; font-size: 0.875rem !important;
+      font-weight: 400; letter-spacing: 0.01em !important;
+      transition: background 0.25s, border-color 0.25s !important;
+      text-decoration: none;
+    }
+    .nav-btn:hover { background: var(--black); color: var(--white) !important; border-color: var(--black); }
+
+    /* ══ SHOWCASE ══════════════════════════════════════════════ */
+    .showcase-page {
+      padding-top: 80px;
+      min-height: 100svh;
+      background: var(--light);
+    }
+
+    .showcase-layout {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 4.5rem;
+      padding: 3rem 3rem 5rem;
+      align-items: start;
+    }
+
+    /* Left column — image */
+    .showcase-img-col {}
+
+    .showcase-img-wrap {
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background: var(--dark);
+    }
+    .showcase-img-wrap img {
+      width: 100%; height: 100%;
+      object-fit: cover; display: block;
+      transition: transform 0.8s var(--ease);
+    }
+    .showcase-img-wrap:hover img { transform: scale(1.025); }
+
+    /* Right column — info panel */
+    .showcase-info {
+      padding-top: 0.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    /* Project meta */
+    .proj-meta { display: flex; flex-direction: column; gap: 0.55rem; }
+
+    .meta-row {
+      display: flex;
+      gap: 4rem;
+      align-items: baseline;
+    }
+
+    .meta-item { display: flex; align-items: baseline; gap: 0.45rem; }
+    .meta-label {
+      font-size: var(--fs-sm); font-weight: 600;
+      color: var(--black); letter-spacing: -0.01em;
+    }
+    .meta-value {
+      font-size: var(--fs-sm); font-weight: 400;
+      color: var(--muted);
+    }
+    .meta-value.prominent {
+      font-size: var(--fs-sm); font-weight: 600;
+      color: var(--black);
+    }
+
+    /* Divider */
+    .proj-divider {
+      width: 100%;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* Service section */
+    .service-section { display: flex; flex-direction: column; gap: 1.25rem; }
+
+    .service-cover-tag {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      padding: 0.4rem 1.1rem;
+      border: 1px solid rgba(0,0,0,0.18);
+      border-radius: 100px;
+      font-size: 0.82rem; letter-spacing: 0.01em;
+      color: var(--mid);
+      width: fit-content;
+    }
+    .tag-dot {
+      width: 8px; height: 8px;
+      background: var(--mid);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .tags-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+    }
+
+    .svc-tag {
+      display: flex; align-items: center; gap: 0.5rem;
+      padding: 0.42rem 0.9rem;
+      border: 1px solid rgba(0,0,0,0.14);
+      border-radius: 100px;
+      font-size: 0.78rem; font-weight: 400;
+      color: var(--mid);
+      background: var(--white);
+      letter-spacing: 0.005em;
+      white-space: nowrap;
+      overflow: hidden;
+      transition: border-color 0.25s, color 0.25s;
+    }
+    .svc-tag:hover { border-color: var(--mid); color: var(--black); }
+    .svc-tag .tag-dot {
+      width: 6px; height: 6px;
+      flex-shrink: 0;
+    }
+
+    /* CTA row */
+    .showcase-cta-row {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 0.5rem;
+    }
+
+    .btn-more {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      padding: 0.75rem 2rem;
+      background: var(--dark); color: var(--white);
+      border-radius: 100px; font-size: var(--fs-sm); font-weight: 400;
+      text-decoration: none; letter-spacing: 0.02em;
+      transition: background 0.25s, gap 0.3s;
+    }
+    .btn-more:hover { background: var(--black); gap: 0.9rem; }
+    .btn-more svg { flex-shrink: 0; }
+
+    /* ══ FOOTER ═══════════════════════════════════════════════ */
+    footer {
+      background: var(--light);
+      border-top: 1px solid rgba(0,0,0,0.07);
+      padding: 4rem 3rem 0;
+    }
+    .footer-top {
+      display: grid; grid-template-columns: 2fr 1fr 1fr;
+      gap: 3rem; margin-bottom: 3.5rem;
+    }
+    .footer-logo { height: 14px; display: block; margin-bottom: 1.25rem; }
+    .footer-brand p {
+      font-size: var(--fs-sm); font-weight: 300; color: rgba(0,0,0,0.4);
+      line-height: 1.75; max-width: 240px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col ul a {
+      color: rgba(0,0,0,0.5); font-size: var(--fs-sm); font-weight: 300;
+      text-decoration: none; transition: color 0.25s;
+    }
+    .footer-col ul a:hover { color: var(--black); }
+
+    .footer-social-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+    .footer-social-list li { border-bottom: 1px solid rgba(0,0,0,0.08); }
+    .footer-social-list li:first-child { border-top: 1px solid rgba(0,0,0,0.08); }
+    .footer-social-list a {
+      display: flex; align-items: center; gap: 0.75rem;
+      padding: 0.7rem 0;
+      color: var(--black); font-size: var(--fs-sm); font-weight: 300;
+      text-decoration: none;
+      transition: opacity 0.25s;
+    }
+    .footer-social-list a:hover { opacity: 0.55; }
+    .footer-social-list .soc-icon {
+      width: 22px; height: 22px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .footer-social-list .soc-icon img {
+      width: 18px; height: 18px; display: block;
+      filter: brightness(0);
+    }
+    .footer-social-list .soc-label { flex: 1; }
+    .footer-social-list .soc-arrow { font-size: 0.75rem; opacity: 0.4; }
+
+    .footer-bottom {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.5rem 0;
+      border-top: 1px solid rgba(0,0,0,0.08);
+    }
+    .footer-copy { font-size: var(--fs-xs); color: rgba(0,0,0,0.3); letter-spacing: 0.04em; }
+    .footer-up {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--black); color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      text-decoration: none; flex-shrink: 0;
+      transition: opacity 0.25s;
+    }
+    .footer-up:hover { opacity: 0.7; }
+    .footer-up svg { display: block; }
+
+    /* ══ RESPONSIVE ═══════════════════════════════════════════ */
+    @media (max-width: 960px) {
+      nav { padding: 1.2rem 1.5rem; }
+      .nav-links li:not(:last-child):not(:nth-last-child(2)) { display: none; }
+      .showcase-layout {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 2rem 1.5rem 4rem;
+      }
+      footer { padding: 3rem 1.5rem 0; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    }
+    @media (max-width: 680px) {
+      .tags-grid { grid-template-columns: repeat(2, 1fr); }
+      .meta-row { flex-direction: column; gap: 0.4rem; }
+    }
+    @media (max-width: 580px) {
+      .footer-top { grid-template-columns: 1fr; }
+      .tags-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ NAV ══════════════════════════════════════════════════ -->
+  <nav id="nav">
+    <a href="index.html" class="nav-logo" aria-label="Bighead Productions home">
+      <img src="Brand_assets/bighead-logo.svg" alt="Bighead Productions" height="14">
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="works.html" class="active">Works</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <button class="nav-search" aria-label="Search">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.3"/>
+          <path d="M10.5 10.5 14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <a href="works.html" class="nav-btn">Our Work</a>
+    </div>
+  </nav>
+
+  <!-- ══ SHOWCASE ══════════════════════════════════════════════ -->
+  <main class="showcase-page">
+    <div class="showcase-layout">
+
+      <!-- Left: project image -->
+      <div class="showcase-img-col">
+        <div class="showcase-img-wrap reveal">
+          <img
+            src="assets/images:/Showcase:/Video:/Project-V01/Cover-V01.webp"
+            alt="Siemens × TVB — 30 Seconds Commercial"
+            loading="eager"
+          >
+        </div>
+      </div>
+
+      <!-- Right: project info -->
+      <div class="showcase-info reveal d1">
+
+        <!-- Meta: Client / Nature / Duration -->
+        <div class="proj-meta">
+          <div class="meta-row">
+            <div class="meta-item">
+              <span class="meta-label">Client:</span>
+              <span class="meta-value">TVB</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Nature:</span>
+              <span class="meta-value prominent">Siemens</span>
+            </div>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Duration:</span>
+            <span class="meta-value">30 Seconds Video</span>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="proj-divider"></div>
+
+        <!-- Services -->
+        <div class="service-section">
+          <div class="service-cover-tag">
+            <span class="tag-dot"></span>
+            Service Cover
+          </div>
+
+          <div class="tags-grid">
+            <div class="svc-tag"><span class="tag-dot"></span>2D motion graphic</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Graphic and Network</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Photos Editing</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Online Editing</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Colour Grading</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Audio Mixing</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Video Shooting</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Producing</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Art Direction</div>
+            <div class="svc-tag"><span class="tag-dot"></span>Set Design</div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="showcase-cta-row">
+          <a href="works.html" class="btn-more">
+            More
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ══ FOOTER ═════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="Brand_assets/bighead-logo.svg" alt="Bighead Productions" class="footer-logo">
+        <p>A Hong kong-based creative production community making work that captures the imagination.</p>
+      </div>
+
+      <div class="footer-col">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="clients.html">Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <ul class="footer-social-list" aria-label="Social media">
+          <li>
+            <a href="#">
+              <span class="soc-icon"><img src="assets/icon:/icon_Viemo.svg" alt="" width="18" height="18"></span>
+              <span class="soc-label">Showreel</span>
+              <span class="soc-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="soc-icon"><img src="assets/icon:/icon_FB.svg" alt="" width="18" height="18"></span>
+              <span class="soc-label">Facebook</span>
+              <span class="soc-arrow">→</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="soc-icon"><img src="assets/icon:/icon_IG.svg" alt="" width="18" height="18"></span>
+              <span class="soc-label">Instagram</span>
+              <span class="soc-arrow">→</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2026 Bighead Productions Ltd. All rights reserved.</p>
+      <a href="#" class="footer-up" aria-label="Back to top">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M7 11.5V2.5M2.5 7 7 2.5 11.5 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ══ JS ════════════════════════════════════════════════════ -->
+  <script>
+    // Nav compact on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('compact', window.scrollY > 60);
+    }, { passive: true });
+
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+    revealEls.forEach(el => io.observe(el));
+
+    // Trigger reveal on load (above fold)
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.showcase-page .reveal').forEach((el, i) => {
+        setTimeout(() => el.classList.add('visible'), 120 + i * 130);
+      });
+    });
+  </script>
+</body>
+</html>

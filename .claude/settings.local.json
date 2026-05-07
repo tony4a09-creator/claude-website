@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -c /Users/bighead/Desktop/BH-Website2026/Skils/claude-website/projects.js)",
+      "Bash(python3)"
+    ]
+  }
+}
