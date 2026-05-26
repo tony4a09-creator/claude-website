@@ -47,7 +47,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V03/Cover-V03.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/_RTivqNG2mQ?si=9vUf-1ScfsS86KEu',
     services: ['000000'],
   },
   {
@@ -57,7 +57,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V04/Cover-V04.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/wSeZHcAqsYw?si=BUmO7sQuPWrJ2zXD',
     services: ['000000'],
   },
   {
@@ -67,7 +67,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V05/Cover-V05.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/doAeVqT5gro?si=9NxJ2cDav6R2d2Jd',
     services: ['000000'],
   },
   {
@@ -77,7 +77,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V06/Cover-V06.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/bojWpoyABhY?si=IDqFBn7lI-bDOIZh',
     services: ['000000'],
   },
   {
@@ -87,7 +87,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V07/Cover-V07.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/qQPL6zweW6k?si=uAIjkH3Wd3FZxkex',
     services: ['000000'],
   },
   {
@@ -97,7 +97,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V08/Cover-V08.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/Vfm0Jr_1ae8?si=KvYeEJ3IF7v0XATo',
     services: ['000000'],
   },
   {
@@ -107,7 +107,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V09/Cover-V09.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/VA4muotoxN8?si=PxIKyICZH8pHZWli',
     services: ['000000'],
   },
   {
@@ -117,7 +117,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V010/Cover-V010.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/uHpuCxvLnwU?si=t6o4GS80B_f0aYm6',
     services: ['000000'],
   },
   {
@@ -127,7 +127,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V011/Cover-V011.webp',
-    videoUrl: '',
+    videoUrl: 'https://youtu.be/F1UxiTIUSpI?si=3nJPQqlczaHOjZq5',
     services: ['000000'],
   },
   {
@@ -137,7 +137,7 @@ const PROJECTS = [
     nature: '000000',
     duration: '000000',
     cover: 'assets/images:/Showcase:/Video:/Project-V012/Cover-V012.webp',
-    videoUrl: '',
+    videoUrl: 'https://vimeo.com/995657232?share=copy&fl=cl&fe=ci',
     services: ['000000'],
   },
 ];
