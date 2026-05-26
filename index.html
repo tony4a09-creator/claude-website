@@ -119,12 +119,14 @@
       height: clamp(360px, 58vw, 680px);
       overflow: hidden;
     }
+    .hero-img-wrap > video:first-child,
     .hero-img-wrap > img:first-child {
       position: absolute; inset: 0;
       width: 100%; height: 100%;
       object-fit: cover; object-position: center;
       transition: transform 1s var(--ease);
     }
+    .hero-img-wrap:hover > video:first-child,
     .hero-img-wrap:hover > img:first-child { transform: scale(1.02); }
 
 /* Connect button — centered at image bottom */
@@ -586,7 +588,7 @@
     </div>
 
     <div class="hero-img-wrap">
-      <img src="assets/images:/Head_image_01.png" alt="Bighead Productions studio">
+      <video src="assets/images:/HeroVideo:/Website-hero-01.webm" autoplay muted loop playsinline></video>
 
 <div class="hero-cta-wrap">
         <a href="#about" class="hero-cta">
