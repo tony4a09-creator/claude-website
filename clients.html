@@ -270,25 +270,25 @@
     }
     .client-card:hover::before { opacity: 0.03; }
 
-    .client-placeholder {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.4rem;
+    .client-card img {
+      max-width: 75%;
+      max-height: 46px;
+      object-fit: contain;
+      display: block;
+      filter: grayscale(100%);
+      opacity: 0.55;
+      transition: filter 0.35s, opacity 0.35s;
       position: relative;
       z-index: 1;
     }
-    .client-placeholder-bar {
-      height: 3px;
-      border-radius: 100px;
-      background: var(--accent);
+    .client-card:hover img {
+      filter: grayscale(0%);
+      opacity: 1;
     }
-    .client-placeholder-bar:nth-child(1) { width: 60px; }
-    .client-placeholder-bar:nth-child(2) { width: 40px; opacity: 0.5; }
 
     /* ── Featured client card (larger) ── */
     .client-card.featured {
-      width: 240px;
+      width: 200px;
       height: 80px;
     }
     .client-card.narrow {
@@ -642,50 +642,55 @@
   <section class="clients-section" aria-label="Our clients">
     <div class="marquee-rows" id="marquee-rows">
 
-      <!-- Row 1 — left scroll -->
+      <!-- Row 1 — left scroll (Assets 1–10) -->
       <div class="marquee-row" id="row1">
         <div class="marquee-track">
           <div class="marquee-group" id="group1a">
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card featured"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card narrow"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card featured"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card narrow"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 1.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 2.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 3.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 4.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 5.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 6.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 7.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 8.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 9.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 10.webp" alt="Client"></div>
           </div>
         </div>
       </div>
 
-      <!-- Row 2 — right scroll (reverse) -->
+      <!-- Row 2 — right scroll (Assets 11–20) -->
       <div class="marquee-row reverse" id="row2">
         <div class="marquee-track">
           <div class="marquee-group" id="group2a">
-            <div class="client-card narrow"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card featured"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card narrow"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card featured"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 11.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 12.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 13.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 14.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 15.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 16.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 17.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 18.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 19.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 20.webp" alt="Client"></div>
           </div>
         </div>
       </div>
 
-      <!-- Row 3 — left scroll, slow -->
+      <!-- Row 3 — left scroll, slow (Assets 21–29) -->
       <div class="marquee-row slow" id="row3">
         <div class="marquee-track">
           <div class="marquee-group" id="group3a">
-            <div class="client-card featured"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card narrow"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card featured"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card narrow"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
-            <div class="client-card"><div class="client-placeholder"><div class="client-placeholder-bar"></div><div class="client-placeholder-bar"></div></div></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 21.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 22.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 23.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 24.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 25.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 26.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 27.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 28.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/Asset 29.webp" alt="Client"></div>
           </div>
         </div>
       </div>
