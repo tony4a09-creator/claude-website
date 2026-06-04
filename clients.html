@@ -256,19 +256,11 @@
       position: relative;
       overflow: hidden;
     }
-    .client-card::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: var(--black);
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
     .client-card:hover {
       border-color: rgba(0,0,0,0.2);
       box-shadow: 0 4px 20px rgba(0,0,0,0.08);
       transform: translateY(-2px);
     }
-    .client-card:hover::before { opacity: 0.03; }
 
     .client-card img {
       max-width: 75%;
