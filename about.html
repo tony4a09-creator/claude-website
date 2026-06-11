@@ -120,12 +120,14 @@
       height: clamp(360px, 58vw, 680px);
       overflow: hidden;
     }
+    .hero-img-wrap > video:first-child,
     .hero-img-wrap > img:first-child {
       position: absolute; inset: 0;
       width: 100%; height: 100%;
       object-fit: cover; object-position: center;
       transition: transform 1s var(--ease);
     }
+    .hero-img-wrap:hover > video:first-child,
     .hero-img-wrap:hover > img:first-child { transform: scale(1.02); }
 
     .hero-cta-wrap {
@@ -148,7 +150,8 @@
     /* ══ LOGO STRIP ═══════════════════════════════════════════ */
     .logo-strip {
       padding: 2.5rem 0 3rem;
-      background: var(--light);
+      background: var(--white);
+      border-top: 1px solid var(--border);
       overflow: hidden;
     }
     .logo-strip-label {
@@ -172,8 +175,9 @@
       padding-right: 5rem;
     }
     .strip-logo {
-      height: 18px; width: auto; display: block;
-      opacity: 0.75; transition: opacity 0.3s;
+      height: 36px; width: auto; max-width: 120px;
+      display: block; object-fit: contain;
+      opacity: 0.7; transition: opacity 0.3s;
     }
     .strip-logo:hover { opacity: 1; }
     @keyframes logo-scroll {
@@ -551,16 +555,8 @@
     </div>
 
     <div class="hero-img-wrap">
-      <img src="assets/images:/Head_image_01.png" alt="Bighead Productions studio">
+      <video src="assets/images:/HeroVideo:/Website-hero-01.webm" autoplay muted loop playsinline></video>
 
-      <div class="hero-cta-wrap">
-        <a href="#structure" class="hero-cta">
-          Our Team
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-            <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-      </div>
     </div>
   </section>
 
@@ -570,12 +566,37 @@
     <div class="logo-track-wrap">
       <div class="logo-track">
         <div class="logo-track-group">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
+          <img src="assets/images:/Client_logo/Asset 1.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 2.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 3.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 4.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 5.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 6.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 7.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 8.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 9.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 10.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 11.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 12.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 13.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 14.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 15.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 16.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 17.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 18.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 19.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 20.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 21.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 22.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 23.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 24.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 25.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 26.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 27.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 28.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 29.webp" class="strip-logo" alt="Client">
         </div>
+        <!-- JS 自動複製 group，不需手動維護第二組 -->
       </div>
     </div>
   </div>
