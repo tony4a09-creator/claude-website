@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(node -c /Users/bighead/Desktop/BH-Website2026/Skils/claude-website/projects.js)",
-      "Bash(python3)"
+      "Bash(python3)",
+      "Bash(command -v magick)",
+      "Bash(command -v convert)",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Bash(command -v brew)",
+      "Bash(python3 -c \"from PIL import Image; print\\('PIL ok'\\)\")"
     ]
   }
 }
