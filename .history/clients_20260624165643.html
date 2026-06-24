@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us — Bighead Productions Ltd</title>
+  <title>Our Clients — Bighead Productions Ltd</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
@@ -97,234 +97,295 @@
     }
     .nav-btn:hover { background: var(--black); color: var(--white) !important; border-color: var(--black); }
 
-    /* ══ PAGE HERO ═══════════════════════════════════════════ */
-    #hero {
-      padding-top: 80px;
-    }
-
-    .hero-img-wrap {
-      position: relative;
-      width: 100%;
-      height: clamp(360px, 58vw, 680px);
-      overflow: hidden;
-    }
-    .hero-img-wrap > video:first-child,
-    .hero-img-wrap > img:first-child {
-      position: absolute; inset: 0;
-      width: 100%; height: 100%;
-      object-fit: cover; object-position: center;
-      transition: transform 1s var(--ease);
-    }
-    .hero-img-wrap:hover > video:first-child,
-    .hero-img-wrap:hover > img:first-child { transform: scale(1.02); }
-
-    .hero-cta-wrap {
-      position: absolute;
-      bottom: 2rem; left: 0; right: 0;
-      display: flex; justify-content: center;
-      z-index: 3;
-    }
-    .hero-cta {
-      display: inline-flex; align-items: center; gap: 0.6rem;
-      padding: 0.75rem 1.8rem;
-      background: var(--black); color: var(--white);
-      border-radius: 100px; font-size: var(--fs-sm); font-weight: 400;
-      text-decoration: none; letter-spacing: 0.03em;
-      transition: background 0.3s, gap 0.3s;
-    }
-    .hero-cta:hover { background: var(--mid); gap: 1rem; }
-    .hero-cta svg { flex-shrink: 0; }
-
-    /* ══ LOGO STRIP ═══════════════════════════════════════════ */
-    .logo-strip {
-      padding: 2.5rem 0 3rem;
-      background: var(--white);
-      border-top: 1px solid var(--border);
-      overflow: hidden;
-    }
-    .logo-strip-label {
+    /* ══ PAGE HERO ════════════════════════════════════════════ */
+    .page-hero {
+      padding-top: 120px;
+      padding-bottom: 5rem;
+      background: var(--light);
       text-align: center;
-      font-size: 0.85rem; font-weight: 400;
-      color: var(--mid);
-      margin-bottom: 2rem;
-      letter-spacing: 0.01em;
-    }
-    .logo-track-wrap { overflow: hidden; width: 100%; }
-    .logo-track {
-      display: flex;
-      width: max-content;
-      animation: logo-scroll 30s linear infinite;
-    }
-    .logo-track-wrap:hover .logo-track { animation-play-state: paused; }
-    .logo-track-group {
-      display: flex;
-      align-items: center;
-      gap: 5rem;
-      padding-right: 5rem;
-    }
-    .strip-logo {
-      height: 36px; width: auto; max-width: 120px;
-      display: block; object-fit: contain;
-      opacity: 0.7; transition: opacity 0.3s;
-    }
-    .strip-logo:hover { opacity: 1; }
-    @keyframes logo-scroll {
-      from { transform: translateX(0); }
-      to   { transform: translateX(-50%); }
+      border-bottom: 1px solid var(--border);
     }
 
-    /* ══ SECTION COMMON ═══════════════════════════════════════ */
-    .section-pill {
+    .page-pill {
       display: inline-flex; align-items: center; gap: 0.55rem;
       padding: 0.45rem 1.15rem;
       border: 1px solid rgba(0,0,0,0.18);
       border-radius: 100px;
       font-size: 0.82rem; letter-spacing: 0.03em;
       color: var(--mid);
-      margin-bottom: 2rem;
+      margin-bottom: 1.75rem;
     }
-    .pill-icon {
+    .page-pill-icon {
       width: 9px; height: 9px;
       background: var(--mid);
-      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      border-radius: 50%;
       flex-shrink: 0;
     }
 
-    /* ══ COMPANY STRUCTURE ════════════════════════════════════ */
-    #structure {
-      padding: 0;
-      background: var(--light);
-      border-top: 1px solid var(--border);
-      overflow: hidden;
-    }
-    .structure-header {
-      padding: 3.5rem 3rem 2.5rem;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .cs-img-wrap {
-      position: relative;
-      padding: 3rem 3rem 4.5rem;
-      display: flex; flex-direction: column; align-items: center;
-      background: var(--light);
-    }
-    .cs-img-wrap::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 42%;
-      background: var(--dark);
-    }
-    .cs-full-img {
-      max-width: 900px;
-      width: 100%; height: auto; display: block;
-      position: relative; z-index: 1;
+    .page-hero-heading {
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      color: var(--black);
+      margin-bottom: 1.5rem;
     }
 
-    /* ══ OUR VISION ═══════════════════════════════════════════ */
-    #vision {
-      padding: 6rem 3rem;
-      background: var(--white);
-      border-top: 1px solid var(--border);
-      text-align: center;
-    }
-    .vision-heading {
-      font-size: clamp(2rem, 4.5vw, 3.5rem);
-      font-weight: 700; letter-spacing: -0.03em; line-height: 1.05;
-      margin-bottom: 0.55rem; color: var(--black);
-    }
-    .vision-heading-sub {
-      font-size: clamp(1rem, 1.8vw, 1.25rem); font-weight: 300;
-      font-style: italic; color: var(--mid);
-      margin-bottom: 2.75rem;
-    }
-    .vision-sub {
-      font-size: clamp(0.875rem, 1.3vw, 0.975rem); font-weight: 300;
-      line-height: 1.9; color: var(--muted);
-      max-width: 680px; margin: 0 auto 1.1rem;
-    }
-    .vision-values {
-      display: grid; grid-template-columns: repeat(6, 1fr);
-      gap: 1.25rem; text-align: left;
-      margin-top: 4rem;
-    }
-    .value-card {
-      background: var(--light);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 2rem 1.75rem;
-    }
-    .value-card:nth-child(1) { grid-column: 1 / 3; }
-    .value-card:nth-child(2) { grid-column: 3 / 5; }
-    .value-card:nth-child(3) { grid-column: 5 / 7; }
-    .value-card:nth-child(4) { grid-column: 2 / 4; }
-    .value-card:nth-child(5) { grid-column: 4 / 6; }
-    .value-num {
-      font-size: 0.72rem; letter-spacing: 0.05em;
-      color: var(--muted); margin-bottom: 0.65rem;
-    }
-    .value-title {
-      font-size: 1.1rem; font-weight: 600; letter-spacing: -0.015em;
-      color: var(--black); margin-bottom: 0.7rem;
-    }
-    .value-desc {
-      font-size: var(--fs-sm); font-weight: 300;
-      line-height: 1.8; color: var(--muted);
-      padding-left: 0.85em;
-      text-indent: -0.85em;
-    }
-    .value-desc::before {
-      content: '• ';
-    }
-    .value-desc strong { color: var(--black); font-weight: 600; }
-
-    /* ══ TEAM ═════════════════════════════════════════════════ */
-    #team {
-      padding: 6rem 3rem;
-      background: var(--light);
-      border-top: 1px solid var(--border);
-    }
-    .team-header {
-      text-align: center;
-      margin-bottom: 4rem;
-    }
-    .team-heading {
-      font-size: clamp(2rem, 4vw, 3.25rem);
-      font-weight: 400; letter-spacing: -0.025em; line-height: 1.1;
-      margin-bottom: 0.75rem;
-    }
-    .team-sub {
-      font-size: var(--fs-sm); font-weight: 300; color: var(--muted);
-    }
-    .team-grid {
-      display: grid; grid-template-columns: repeat(4, 1fr);
-      gap: 1.25rem;
-    }
-    .team-card {
-      background: var(--white);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      overflow: hidden;
-    }
-    .team-card-img {
-      width: 100%; aspect-ratio: 4/5;
-      background: var(--border);
-      display: flex; align-items: center; justify-content: center;
-      position: relative; overflow: hidden;
-    }
-    .team-card-img-placeholder {
-      width: 100%; height: 100%;
-      background: linear-gradient(135deg, var(--border) 0%, var(--accent) 100%);
-    }
-    .team-card-info {
-      padding: 1.25rem 1.5rem;
-    }
-    .team-card-name {
-      font-size: var(--fs-base); font-weight: 600;
-      color: var(--black); margin-bottom: 0.2rem;
-    }
-    .team-card-role {
-      font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase;
+    .page-hero-sub {
+      font-size: var(--fs-sm);
+      font-weight: 300;
+      line-height: 1.85;
       color: var(--muted);
+      max-width: 540px;
+      margin: 0 auto;
+    }
+
+    /* ══ STATS STRIP ══════════════════════════════════════════ */
+    .stats-strip {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 3rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+    }
+    .stat-item {
+      text-align: center;
+      padding: 0 2rem;
+      border-right: 1px solid var(--border);
+    }
+    .stat-item:last-child { border-right: none; }
+    .stat-num {
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--black);
+      line-height: 1;
+      margin-bottom: 0.35rem;
+    }
+    .stat-label {
+      font-size: var(--fs-xs);
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* ══ CLIENTS SECTION ══════════════════════════════════════ */
+    .clients-section {
+      padding: 5rem 0 6rem;
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    .clients-header {
+      text-align: center;
+      padding: 0 3rem;
+      margin-bottom: 3.5rem;
+    }
+    .clients-heading {
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      color: var(--black);
+      margin-bottom: 0.9rem;
+    }
+    .clients-sub {
+      font-size: var(--fs-sm);
+      font-weight: 300;
+      line-height: 1.85;
+      color: var(--muted);
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* ── Marquee rows ── */
+    .marquee-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .marquee-row {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      gap: 1rem;
+      animation: marquee-left 40s linear infinite;
+    }
+    .marquee-row.reverse .marquee-track {
+      animation: marquee-right 45s linear infinite;
+    }
+    .marquee-row.slow .marquee-track {
+      animation-duration: 55s;
+    }
+    .marquee-row:hover .marquee-track { animation-play-state: paused; }
+
+    @keyframes marquee-left {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+    @keyframes marquee-right {
+      from { transform: translateX(-50%); }
+      to   { transform: translateX(0); }
+    }
+
+    .marquee-group {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    /* ── Client Logo Card ── */
+    .client-card {
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 10px;
+      width: 190px;
+      height: 80px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s var(--ease);
+      position: relative;
+      overflow: hidden;
+    }
+    .client-card:hover {
+      border-color: rgba(0,0,0,0.2);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+
+    .client-card img {
+      max-width: 75%;
+      max-height: 46px;
+      object-fit: contain;
+      display: block;
+      opacity: 0.7;
+      transition: opacity 0.3s;
+      position: relative;
+      z-index: 1;
+    }
+    .client-card:hover img {
+      opacity: 1;
+    }
+
+    /* ── Featured client card (larger) ── */
+    .client-card.featured {
+      width: 200px;
+      height: 80px;
+    }
+    .client-card.narrow {
+      width: 160px;
+    }
+
+    /* ══ INDUSTRY TAGS ════════════════════════════════════════ */
+    .industry-section {
+      padding: 5rem 3rem;
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+    .industry-label {
+      font-size: var(--fs-xs);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+    }
+    .industry-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      justify-content: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .industry-tag {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.55rem 1.25rem;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 100px;
+      font-size: var(--fs-sm);
+      font-weight: 300;
+      color: var(--mid);
+      background: var(--light);
+      cursor: default;
+      transition: border-color 0.25s, background 0.25s, color 0.25s;
+    }
+    .industry-tag:hover {
+      border-color: var(--black);
+      background: var(--black);
+      color: var(--white);
+    }
+    .industry-tag-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+      flex-shrink: 0;
+      opacity: 0.5;
+    }
+
+    /* ══ CTA ROW ══════════════════════════════════════════════ */
+    .clients-cta-row {
+      padding: 1rem 3rem 5rem;
+      background: var(--light);
+      display: flex;
+      justify-content: center;
+    }
+    .clients-cta-btn {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      padding: 0.85rem 2rem;
+      background: var(--dark);
+      border-radius: 100px;
+      color: var(--white); font-size: var(--fs-sm);
+      text-decoration: none;
+      font-weight: 400;
+      letter-spacing: 0.02em;
+      transition: gap 0.3s, background 0.3s;
+    }
+    .clients-cta-btn:hover { background: var(--black); gap: 0.9rem; }
+
+    /* ══ TESTIMONIAL BAND ═════════════════════════════════════ */
+    .testimonial-band {
+      padding: 6rem 3rem;
+      background: var(--dark);
+      text-align: center;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+    .testimonial-eyebrow {
+      font-size: var(--fs-xs);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 2rem;
+    }
+    .testimonial-quote {
+      font-size: clamp(1.25rem, 2.5vw, 1.85rem);
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.55;
+      color: rgba(255,255,255,0.85);
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      letter-spacing: -0.01em;
+    }
+    .testimonial-quote strong {
+      font-style: normal;
+      font-weight: 600;
+      color: var(--white);
+    }
+    .testimonial-attr {
+      font-size: var(--fs-xs);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.35);
     }
 
     /* ══ CTA BAND ═════════════════════════════════════════════ */
@@ -350,7 +411,6 @@
       max-width: 460px; margin: 0 auto 3rem; line-height: 1.75;
     }
     .cta-actions { display: flex; align-items: center; justify-content: center; gap: 1.25rem; flex-wrap: wrap; }
-
     .btn-white {
       display: inline-flex; align-items: center; gap: 0.5rem;
       padding: 0.9rem 2.25rem;
@@ -360,7 +420,6 @@
       transition: background 0.3s, gap 0.3s;
     }
     .btn-white:hover { background: var(--accent); gap: 0.8rem; }
-
     .btn-ghost-light {
       display: inline-flex; align-items: center; gap: 0.5rem;
       color: rgba(255,255,255,0.45); font-size: var(--fs-sm);
@@ -405,7 +464,6 @@
     }
     .footer-social-list .soc-label { flex: 1; }
     .footer-social-list .soc-arrow { font-size: 0.75rem; opacity: 0.4; }
-
     .footer-bottom {
       display: flex; align-items: center; justify-content: space-between;
       padding: 1.5rem 0;
@@ -469,22 +527,25 @@
       nav { padding: 1.2rem 1.5rem; }
       .nav-links { display: none; }
       .nav-hamburger { display: flex; }
-      .hero-img-wrap { height: clamp(280px, 55vw, 480px); }
-      .structure-header { padding: 2.5rem 1.5rem 1.5rem; }
-      .cs-img-wrap { padding: 2rem 1.5rem 3rem; }
-      #vision { padding: 4rem 1.5rem; }
-      .vision-values { grid-template-columns: 1fr 1fr; }
-      .value-card:nth-child(n) { grid-column: auto; }
-      #team { padding: 4rem 1.5rem; }
-      .team-grid { grid-template-columns: repeat(2, 1fr); }
+      .stats-strip { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; padding: 2rem 1.5rem; }
+      .stat-item { border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; }
+      .stat-item:nth-child(odd) { border-right: 1px solid var(--border); }
+      .stat-item:last-child, .stat-item:nth-last-child(2) { border-bottom: none; }
+      .clients-section { padding: 4rem 0 5rem; }
+      .clients-header { padding: 0 1.5rem; }
+      .industry-section { padding: 4rem 1.5rem; }
+      .clients-cta-row { padding: 1rem 1.5rem 4rem; }
+      .testimonial-band { padding: 4rem 1.5rem; }
       #cta { padding: 6rem 1.5rem; }
       footer { padding: 3rem 1.5rem 0; }
       .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+      .page-hero { padding: 100px 1.5rem 4rem; }
     }
     @media (max-width: 580px) {
-      .vision-values { grid-template-columns: 1fr; }
-      .team-grid { grid-template-columns: 1fr 1fr; }
+      .stats-strip { grid-template-columns: 1fr; }
+      .stat-item { border-right: none !important; }
       .footer-top { grid-template-columns: 1fr; }
+      .footer-social-list { border-top: none; }
       .cta-actions { flex-direction: column; }
     }
   </style>
@@ -499,11 +560,11 @@
 
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" class="active">About Us</a></li>
+      <li><a href="about.html">About Us</a></li>
       <li><a href="index.html#services">Services</a></li>
       <li><a href="index.html#projects">Works</a></li>
-      <li><a href="clients.html">Clients</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="clients.html" class="active">Clients</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
 
     <div class="nav-right">
@@ -529,104 +590,145 @@
     <a href="contact.html" onclick="closeMobileMenu()">Contact</a>
   </div>
 
-  <!-- ══ HERO ══════════════════════════════════════════════════ -->
-  <section id="hero">
-    <div class="hero-img-wrap">
-      <video src="assets/images:/HeroVideo:/Website-hero-01.webm" autoplay muted loop playsinline></video>
-
+  <!-- ══ PAGE HERO ═════════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="page-pill reveal">
+      <span class="page-pill-icon"></span>
+      Our Clients
     </div>
+    <h1 class="page-hero-heading reveal d1">Who We Have Served</h1>
+    <p class="page-hero-sub reveal d2">
+      We have established an agile team structure and work with our experienced
+      production crew to deliver the best works and services for our clients.
+    </p>
   </section>
 
-  <!-- ══ LOGO STRIP ════════════════════════════════════════════ -->
-  <div class="logo-strip" aria-label="Client logos" role="presentation">
-    <p class="logo-strip-label">Trusted by 400+ Businesses around the globe</p>
-    <div class="logo-track-wrap">
-      <div class="logo-track">
-        <div class="logo-track-group">
-          <img src="assets/images:/Client_logo/Asset 1.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 2.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 3.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 4.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 5.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 6.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 7.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 8.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 9.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 10.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 11.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 12.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 13.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 14.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 15.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 16.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 17.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 18.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 19.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 20.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 21.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 22.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 23.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 24.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 25.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 26.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 27.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 28.webp" class="strip-logo" alt="Client">
-          <img src="assets/images:/Client_logo/Asset 29.webp" class="strip-logo" alt="Client">
-        </div>
-        <!-- JS 自動複製 group，不需手動維護第二組 -->
-      </div>
+  <!-- ══ STATS STRIP ════════════════════════════════════════════ -->
+  <div class="stats-strip" role="presentation">
+    <div class="stat-item reveal">
+      <div class="stat-num">400+</div>
+      <div class="stat-label">Businesses Served</div>
+    </div>
+    <div class="stat-item reveal d1">
+      <div class="stat-num">18+</div>
+      <div class="stat-label">Countries</div>
+    </div>
+    <div class="stat-item reveal d2">
+      <div class="stat-num">12</div>
+      <div class="stat-label">Years Experience</div>
+    </div>
+    <div class="stat-item reveal d3">
+      <div class="stat-num">98%</div>
+      <div class="stat-label">Client Retention</div>
     </div>
   </div>
 
-  <!-- ══ COMPANY STRUCTURE ═════════════════════════════════════ -->
-  <section id="structure">
+  <!-- ══ CLIENTS MARQUEE ════════════════════════════════════════ -->
+  <section class="clients-section" aria-label="Our clients">
+    <div class="marquee-rows" id="marquee-rows">
 
-    <div class="structure-header">
-      <div class="section-pill reveal">
-        <span class="pill-icon"></span>
-        Company Structure
+      <!-- Row 1 — left scroll (Assets 1–10) -->
+      <div class="marquee-row" id="row1">
+        <div class="marquee-track">
+          <div class="marquee-group" id="group1a">
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 30.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 31.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 32.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 33.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 34.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 35.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 36.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 37.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 38.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 39.webp" alt="Client"></div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="cs-img-wrap reveal d1">
-      <img src="assets/images:/Company_structrue/Company_structrue-01.webp"
-           alt="Company Structure — Bighead Productions"
-           class="cs-full-img">
-    </div>
+      <!-- Row 2 — right scroll (Assets 11–20) -->
+      <div class="marquee-row reverse" id="row2">
+        <div class="marquee-track">
+          <div class="marquee-group" id="group2a">
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 40.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 41.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 42.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 43.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 44.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 45.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 46.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 47.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 48.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 49.webp" alt="Client"></div>
+          </div>
+        </div>
+      </div>
 
+      <!-- Row 3 — left scroll, slow (Assets 21–29) -->
+      <div class="marquee-row slow" id="row3">
+        <div class="marquee-track">
+          <div class="marquee-group" id="group3a">
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 50.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 51.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 52.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 53.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 54.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 55.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 56.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 57.webp" alt="Client"></div>
+            <div class="client-card"><img src="assets/images:/Client_logo/V2/Asset 58.webp" alt="Client"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </section>
 
-  <!-- ══ OUR VISION ════════════════════════════════════════════ -->
-  <section id="vision">
-    <div class="section-pill reveal">
-      <span class="pill-icon"></span>
-      About Us
+  <!-- ══ CTA ROW ════════════════════════════════════════════════ -->
+  <div class="clients-cta-row reveal">
+    <a href="index.html#projects" class="clients-cta-btn">
+      All project
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+
+  <!-- ══ INDUSTRY TAGS ══════════════════════════════════════════ -->
+  <section class="industry-section">
+    <p class="industry-label reveal">Industries we serve</p>
+    <div class="industry-tags reveal d1">
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Corporate &amp; Finance</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Fashion &amp; Lifestyle</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Technology</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>F&amp;B &amp; Hospitality</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Government &amp; NGO</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Entertainment</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Real Estate</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Education</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Healthcare</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Sports &amp; Events</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Retail &amp; E-commerce</span>
+      <span class="industry-tag"><span class="industry-tag-dot"></span>Non-profit</span>
     </div>
+  </section>
 
-    <h2 class="vision-heading reveal d1">BIGHEAD was founded in 2001</h2>
-    <p class="vision-heading-sub reveal d2">as a creative production house in Hong Kong.</p>
-
-    <p class="vision-sub reveal d3">
-      We specialise in video production, design, event media and digital content. With over two decades of production experience, we now combine traditional media production with new AI&#8209;generative workflows to create more flexible, efficient and imaginative content.
-    </p>
-
-    <p class="vision-sub reveal d4">
-      From concept development and filming to post&#8209;production, motion graphics, AI&#8209;assisted visualisation and final delivery, we help clients turn ideas into professional and impactful media.
-    </p>
-
-    <p class="vision-sub reveal d4">
-      At BIGHEAD, we believe creativity should keep moving forward. By blending human experience with emerging technology, we continue to explore new possibilities in visual storytelling.
-    </p>
-
+  <!-- ══ TESTIMONIAL BAND ════════════════════════════════════════ -->
+  <section class="testimonial-band">
+    <p class="testimonial-eyebrow reveal">What our clients say</p>
+    <blockquote class="testimonial-quote reveal d1">
+      "Bighead doesn't just deliver — they <strong>elevate</strong>. Every frame carries intent,
+      every edit tells a story. Working with them is like having a creative partner
+      who cares as much as you do."
+    </blockquote>
+    <p class="testimonial-attr reveal d2">— Creative Director, Global Brand Partner</p>
   </section>
 
   <!-- ══ CTA ════════════════════════════════════════════════════ -->
   <section id="cta">
     <p class="cta-eyebrow reveal">Ready to create?</p>
     <h2 class="cta-heading reveal d1">
-      Think BIG.<br/><strong><em>Think Further.</em></strong>
+      Do u need a<br/><strong><em>BIG</em></strong> idea?
     </h2>
     <p class="cta-sub reveal d2">
+      Whether you're a director with a vision or a brand with a brief — let's make something worth watching.
     </p>
     <div class="cta-actions reveal d3">
       <a href="mailto:bigheadproductions.uk@gmail.com" class="btn-white">
@@ -654,7 +756,7 @@
           <li><a href="index.html#services">Services</a></li>
           <li><a href="index.html#projects">Works</a></li>
           <li><a href="clients.html">Clients</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
 
@@ -697,14 +799,16 @@
 
   <!-- ══ JS ════════════════════════════════════════════════════ -->
   <script>
-    // Logo marquee — auto-duplicate group for seamless infinite scroll
+    // Duplicate marquee groups for seamless infinite scroll
     (function () {
-      const track = document.querySelector('.logo-track');
-      const group = document.querySelector('.logo-track-group');
-      if (!track || !group) return;
-      const clone = group.cloneNode(true);
-      clone.setAttribute('aria-hidden', 'true');
-      track.appendChild(clone);
+      ['row1', 'row2', 'row3'].forEach(rowId => {
+        const track = document.querySelector('#' + rowId + ' .marquee-track');
+        const group = track && track.querySelector('.marquee-group');
+        if (!track || !group) return;
+        const clone = group.cloneNode(true);
+        clone.setAttribute('aria-hidden', 'true');
+        track.appendChild(clone);
+      });
     })();
 
     // Hamburger menu
@@ -749,9 +853,9 @@
     }, { threshold: 0.1, rootMargin: '0px 0px -36px 0px' });
     revealEls.forEach(el => io.observe(el));
 
-    // Hero reveals immediately on load
+    // Page hero reveals immediately
     window.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('#hero .reveal').forEach((el, i) => {
+      document.querySelectorAll('.page-hero .reveal').forEach((el, i) => {
         setTimeout(() => el.classList.add('visible'), 150 + i * 120);
       });
     });

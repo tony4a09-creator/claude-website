@@ -461,13 +461,8 @@
       padding: 4rem 3rem 0;
     }
     .footer-top {
-      display: grid; grid-template-columns: 2fr 1fr 1fr;
+      display: grid; grid-template-columns: 1fr 1fr;
       gap: 3rem; margin-bottom: 3.5rem;
-    }
-    .footer-logo { height: 14px; display: block; margin-bottom: 1.25rem; }
-    .footer-brand p {
-      font-size: var(--fs-sm); font-weight: 300; color: rgba(0,0,0,0.4);
-      line-height: 1.75; max-width: 240px;
     }
     .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
     .footer-col ul a {
@@ -475,8 +470,6 @@
       text-decoration: none; transition: color 0.25s;
     }
     .footer-col ul a:hover { color: var(--black); }
-
-    /* Social list links */
     .footer-social-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
     .footer-social-list li { border-bottom: 1px solid rgba(0,0,0,0.08); }
     .footer-social-list li:first-child { border-top: 1px solid rgba(0,0,0,0.08); }
@@ -497,9 +490,7 @@
       filter: brightness(0);
     }
     .footer-social-list .soc-label { flex: 1; }
-    .footer-social-list .soc-arrow {
-      font-size: 0.75rem; opacity: 0.4;
-    }
+    .footer-social-list .soc-arrow { font-size: 0.75rem; opacity: 0.4; }
 
     .footer-bottom {
       display: flex; align-items: center; justify-content: space-between;
@@ -576,12 +567,11 @@
       .proj-cards-row { flex-direction: column; }
       #cta { padding: 6rem 1.5rem; }
       footer { padding: 3rem 1.5rem 0; }
-      .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+      .footer-top { gap: 2rem; }
     }
     @media (max-width: 580px) {
       .services-grid { grid-template-columns: 1fr; }
       .footer-top { grid-template-columns: 1fr; }
-      .footer-social-list { border-top: none; }
       .cta-actions { flex-direction: column; }
     }
   </style>
@@ -876,11 +866,6 @@
   <!-- ══ FOOTER ═════════════════════════════════════════════════ -->
   <footer>
     <div class="footer-top">
-      <div class="footer-brand">
-        <img src="Brand_assets/bighead-logo.svg" alt="Bighead Productions" class="footer-logo">
-        <p>A Hong kong-based creative production community making work that captures the imagination.</p>
-      </div>
-
       <div class="footer-col">
         <ul>
           <li><a href="index.html">Home</a></li>
