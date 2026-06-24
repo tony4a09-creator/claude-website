@@ -104,6 +104,14 @@
       background: var(--light);
     }
 
+    .proj-title {
+      font-size: clamp(1.2rem, 2.8vw, 1.75rem);
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: var(--black);
+    }
+
     .showcase-layout {
       display: grid;
       grid-template-columns: 1.15fr 1fr;
@@ -427,6 +435,9 @@
       <!-- Right: project info -->
       <div class="showcase-info reveal d1">
 
+        <!-- Title -->
+        <h1 class="proj-title" data-field="title"></h1>
+
         <!-- Meta: Client / Nature / Duration -->
         <div class="proj-meta">
           <div class="meta-row">
@@ -540,17 +551,18 @@
       document.title = project.title + ' — Bighead Productions Ltd';
 
       // Text fields
-      ['client', 'nature', 'duration'].forEach(function (key) {
+      ['title', 'client', 'nature', 'duration'].forEach(function (key) {
         var el = document.querySelector('[data-field="' + key + '"]');
         if (el) el.textContent = project[key] || '';
       });
 
       // Cover / video
       var coverEl = document.querySelector('[data-field="cover"]');
+      var hasVideo = project.videoUrl && project.videoUrl.startsWith('http');
       if (coverEl) {
-        if (project.videoUrl) {
+        if (hasVideo) {
           coverEl.innerHTML =
-            '<a href="' + project.videoUrl + '" target="_blank" rel="noopener noreferrer" class="yt-poster" aria-label="在 YouTube 觀看影片">' +
+            '<a href="' + project.videoUrl + '" target="_blank" rel="noopener noreferrer" class="yt-poster" aria-label="Watch video">' +
               '<img src="' + project.cover + '" alt="' + project.title + '" loading="eager">' +
               '<span class="yt-play-btn" aria-hidden="true">' +
                 '<svg width="68" height="48" viewBox="0 0 68 48" fill="none" xmlns="http://www.w3.org/2000/svg">' +
