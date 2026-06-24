@@ -102,30 +102,20 @@
       padding-top: 80px;
     }
 
-    .hero-intro {
-      text-align: center;
-      padding: 3rem 2rem 2rem;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .hero-tagline {
-      font-size: clamp(1rem, 1.6vw, 1.2rem); font-weight: 300;
-      line-height: 1.7; color: var(--mid);
-    }
-    .hero-tagline strong { font-weight: 600; color: var(--black); }
-
     .hero-img-wrap {
       position: relative;
       width: 100%;
       height: clamp(360px, 58vw, 680px);
       overflow: hidden;
     }
+    .hero-img-wrap > video:first-child,
     .hero-img-wrap > img:first-child {
       position: absolute; inset: 0;
       width: 100%; height: 100%;
       object-fit: cover; object-position: center;
       transition: transform 1s var(--ease);
     }
+    .hero-img-wrap:hover > video:first-child,
     .hero-img-wrap:hover > img:first-child { transform: scale(1.02); }
 
     .hero-cta-wrap {
@@ -148,7 +138,8 @@
     /* ══ LOGO STRIP ═══════════════════════════════════════════ */
     .logo-strip {
       padding: 2.5rem 0 3rem;
-      background: var(--light);
+      background: var(--white);
+      border-top: 1px solid var(--border);
       overflow: hidden;
     }
     .logo-strip-label {
@@ -172,8 +163,9 @@
       padding-right: 5rem;
     }
     .strip-logo {
-      height: 18px; width: auto; display: block;
-      opacity: 0.75; transition: opacity 0.3s;
+      height: 36px; width: auto; max-width: 120px;
+      display: block; object-fit: contain;
+      opacity: 0.7; transition: opacity 0.3s;
     }
     .strip-logo:hover { opacity: 1; }
     @keyframes logo-scroll {
@@ -212,7 +204,7 @@
     .cs-img-wrap {
       position: relative;
       padding: 3rem 3rem 4.5rem;
-      display: flex; justify-content: center;
+      display: flex; flex-direction: column; align-items: center;
       background: var(--light);
     }
     .cs-img-wrap::before {
@@ -435,10 +427,53 @@
     .footer-up:hover { opacity: 0.7; }
     .footer-up svg { display: block; }
 
+    /* ══ HAMBURGER ════════════════════════════════════════════ */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column; justify-content: center; align-items: center;
+      gap: 5px;
+      width: 34px; height: 34px;
+      background: none; border: none; cursor: pointer;
+      padding: 0; margin-left: auto;
+    }
+    .nav-hamburger span {
+      display: block; width: 20px; height: 1.5px;
+      background: var(--black);
+      transition: transform 0.3s var(--ease), opacity 0.3s;
+      transform-origin: center;
+    }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+    /* Mobile nav drawer */
+    .mobile-menu {
+      display: none;
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--white);
+      z-index: 800;
+      flex-direction: column; justify-content: center; align-items: center;
+      gap: 0;
+      opacity: 0;
+      transition: opacity 0.3s var(--ease);
+    }
+    .mobile-menu.open { opacity: 1; }
+    .mobile-menu a {
+      display: block; width: 100%;
+      padding: 1.25rem 2.5rem;
+      font-size: 1.5rem; font-weight: 300; letter-spacing: -0.01em;
+      color: var(--black); text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: color 0.2s;
+    }
+    .mobile-menu a:first-child { border-top: 1px solid var(--border); }
+    .mobile-menu a:hover { color: var(--muted); }
+
     /* ══ RESPONSIVE ═══════════════════════════════════════════ */
     @media (max-width: 960px) {
       nav { padding: 1.2rem 1.5rem; }
-      .nav-links li:not(:last-child):not(:nth-last-child(2)) { display: none; }
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
       .hero-img-wrap { height: clamp(280px, 55vw, 480px); }
       .structure-header { padding: 2.5rem 1.5rem 1.5rem; }
       .cs-img-wrap { padding: 2rem 1.5rem 3rem; }
@@ -483,28 +518,27 @@
           <path d="M10.5 10.5 14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
         </svg>
       </button>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
+  <!-- ══ MOBILE MENU ══════════════════════════════════════════ -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="index.html" onclick="closeMobileMenu()">Home</a>
+    <a href="about.html" onclick="closeMobileMenu()">About Us</a>
+    <a href="services.html" onclick="closeMobileMenu()">Services</a>
+    <a href="works.html" onclick="closeMobileMenu()">Works</a>
+    <a href="clients.html" onclick="closeMobileMenu()">Clients</a>
+    <a href="contact.html" onclick="closeMobileMenu()">Contact</a>
+  </div>
+
   <!-- ══ HERO ══════════════════════════════════════════════════ -->
   <section id="hero">
-    <div class="hero-intro">
-      <p class="hero-tagline reveal">
-        <strong>BIGHEAD</strong> aspires to produce <strong>VIDEO, INTERACTIVE &amp; DESIGN</strong> work that captures the imagination.
-      </p>
-    </div>
-
     <div class="hero-img-wrap">
-      <img src="assets/images:/Head_image_01.png" alt="Bighead Productions studio">
+      <video src="assets/images:/HeroVideo:/Website-hero-01.webm" autoplay muted loop playsinline></video>
 
-      <div class="hero-cta-wrap">
-        <a href="#structure" class="hero-cta">
-          Our Team
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-            <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-      </div>
     </div>
   </section>
 
@@ -514,12 +548,37 @@
     <div class="logo-track-wrap">
       <div class="logo-track">
         <div class="logo-track-group">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
-          <img src="assets/icon:/bighead-logo.svg" class="strip-logo" alt="Bighead Productions" height="18">
+          <img src="assets/images:/Client_logo/Asset 1.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 2.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 3.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 4.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 5.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 6.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 7.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 8.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 9.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 10.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 11.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 12.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 13.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 14.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 15.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 16.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 17.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 18.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 19.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 20.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 21.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 22.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 23.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 24.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 25.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 26.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 27.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 28.webp" class="strip-logo" alt="Client">
+          <img src="assets/images:/Client_logo/Asset 29.webp" class="strip-logo" alt="Client">
         </div>
+        <!-- JS 自動複製 group，不需手動維護第二組 -->
       </div>
     </div>
   </div>
@@ -564,33 +623,6 @@
       At BIGHEAD, we believe creativity should keep moving forward. By blending human experience with emerging technology, we continue to explore new possibilities in visual storytelling.
     </p>
 
-    <div class="vision-values">
-      <div class="value-card reveal d1">
-        <div class="value-num">01.</div>
-        <div class="value-title">Company Background</div>
-        <div class="value-desc">BIGHEAD was founded in <strong>2001</strong> as a Hong Kong&#8209;based creative production house.</div>
-      </div>
-      <div class="value-card reveal d2">
-        <div class="value-num">02.</div>
-        <div class="value-title">Diverse Content</div>
-        <div class="value-desc">We produce <strong>video, design, event and digital media</strong> content for brands, organisations and institutions.</div>
-      </div>
-      <div class="value-card reveal d3">
-        <div class="value-num">03.</div>
-        <div class="value-title">AI Integration</div>
-        <div class="value-desc">We combine traditional production experience with <strong>new AI&#8209;generative</strong> media workflows.</div>
-      </div>
-      <div class="value-card reveal d4">
-        <div class="value-num">04.</div>
-        <div class="value-title">End&#8209;to&#8209;End Service</div>
-        <div class="value-desc">Full&#8209;cycle production: <strong>concept, filming, editing, motion graphics, design and AI&#8209;assisted visualisation</strong>.</div>
-      </div>
-      <div class="value-card reveal d4">
-        <div class="value-num">05.</div>
-        <div class="value-title">Creative Solutions</div>
-        <div class="value-desc">We help clients develop creative, efficient and future&#8209;ready <strong>media solutions</strong> from idea to final delivery.</div>
-      </div>
-    </div>
   </section>
 
   <!-- ══ CTA ════════════════════════════════════════════════════ -->
@@ -623,7 +655,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <img src="Brand_assets/bighead-logo.svg" alt="Bighead Productions" class="footer-logo">
-        <p>A London&#8209;based creative production community making work that captures the imagination.</p>
+        <p>A Hong kong&#8209;based creative production community making work that captures the imagination.</p>
       </div>
 
       <div class="footer-col">
@@ -685,6 +717,33 @@
       clone.setAttribute('aria-hidden', 'true');
       track.appendChild(clone);
     })();
+
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    function closeMobileMenu() {
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      mobileMenu.classList.remove('open');
+      mobileMenu.setAttribute('aria-hidden', 'true');
+      setTimeout(() => { mobileMenu.style.display = ''; }, 300);
+      document.body.style.overflow = '';
+    }
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = hamburger.classList.contains('open');
+      if (isOpen) {
+        closeMobileMenu();
+      } else {
+        hamburger.classList.add('open');
+        hamburger.setAttribute('aria-expanded', 'true');
+        mobileMenu.style.display = 'flex';
+        requestAnimationFrame(() => mobileMenu.classList.add('open'));
+        mobileMenu.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+      }
+    });
 
     // Nav compact on scroll
     const nav = document.getElementById('nav');
