@@ -258,6 +258,16 @@ const PROJECTS = [
     nature: 'Roadshow',
     duration: 'XXXX',
     cover: 'assets/images:/Showcase:/Event:/Project-E01/DBB_01.webp',
+    images: [
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_01.webp',
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_02.webp',
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_03.webp',
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_04.webp',
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_05.webp',
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_06.webp',
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_07.webp',
+      'assets/images:/Showcase:/Event:/Project-E01/DBB_08.webp',
+    ],
     videoUrl: 'XXXX',
     services: [
       'Event management & productions',
@@ -273,6 +283,12 @@ const PROJECTS = [
     nature: 'XXXX',
     duration: 'XXXX',
     cover: 'assets/images:/Showcase:/Event:/Project-E02/OSOP_01.webp',
+    images: [
+      'assets/images:/Showcase:/Event:/Project-E02/OSOP_01.webp',
+      'assets/images:/Showcase:/Event:/Project-E02/OSOP_02.webp',
+      'assets/images:/Showcase:/Event:/Project-E02/OSOP_03.webp',
+      'assets/images:/Showcase:/Event:/Project-E02/OSOP_04.webp',
+    ],
     videoUrl: 'XXXX',
     services: [
       'Overall Event Producing',
@@ -289,6 +305,12 @@ const PROJECTS = [
     nature: 'Inauguration Ceremony & Gala Dinner',
     duration: 'XXXX',
     cover: 'assets/images:/Showcase:/Event:/Project-E03/TCOA_01.webp',
+    images: [
+      'assets/images:/Showcase:/Event:/Project-E03/TCOA_01.webp',
+      'assets/images:/Showcase:/Event:/Project-E03/TCOA_02.webp',
+      'assets/images:/Showcase:/Event:/Project-E03/TCOA_03.webp',
+      'assets/images:/Showcase:/Event:/Project-E03/TCOA_04.webp',
+    ],
     videoUrl: 'XXXX',
     services: [
       'Overall Event Producing',
