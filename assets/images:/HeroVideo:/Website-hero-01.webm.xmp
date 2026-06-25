@@ -1,5 +1,5 @@
 <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c003 79.9690a87, 2025/03/06-19:12:03        " rdfhash="6E60167B09EF641AD27AC4FF593D134D" merged="0">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.1-c003 79.9690a87, 2025/03/06-19:12:03        " rdfhash="0303EFC83AB127841CEBA6E29F621A2F" merged="0">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about=""
     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
@@ -17,16 +17,16 @@
     xmlns:pdfx="http://ns.adobe.com/pdfx/1.3/"
     xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
     xmlns:aiThumbnail="http://ns.adobe/meta/ai/thumbnail"
-    xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
     xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+    xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
     xmlns:stMfs="http://ns.adobe.com/xap/1.0/sType/ManifestItem#"
-   xmpMM:InstanceID="xmp.iid:ac70bd53-bd7c-43b2-b12d-8daf14b3ddf1"
-   xmpMM:DocumentID="5e688934-dd71-8a51-5faf-2d1400000053"
-   xmpMM:OriginalDocumentID="xmp.did:db18872a-90ca-4fac-addf-74389d9e05eb"
-   xmp:MetadataDate="2026-05-26T12:18:37+08:00"
-   xmp:ModifyDate="2026-05-26T12:18:37+08:00"
+   xmpMM:InstanceID="xmp.iid:e1d7fdbc-75b5-497e-be35-0c91d1481987"
+   xmpMM:DocumentID="989ae249-dcad-5fbc-b555-556900000053"
+   xmpMM:OriginalDocumentID="xmp.did:5ffff3e4-666b-4230-89a1-34975f5f1c42"
+   xmp:MetadataDate="2026-06-25T12:11:55+08:00"
+   xmp:ModifyDate="2026-06-25T12:11:55+08:00"
    xmp:CreatorTool="Adobe After Effects 2025 (Macintosh)"
-   xmp:CreateDate="2026-05-26T12:16:14+08:00"
+   xmp:CreateDate="2026-06-25T12:07:44+08:00"
    dc:format="WebM"
    xmpDM:videoFrameRate="25.000000"
    xmpDM:videoFieldOrder="Progressive"
@@ -40,8 +40,8 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="43eea74d-c552-ba4c-a23f-5e1800000080"
-      stEvt:when="2026-05-26T12:18:37+08:00"
+      stEvt:instanceID="fd1e3902-94d0-85f6-ceaa-5a8600000080"
+      stEvt:when="2026-06-25T12:11:55+08:00"
       stEvt:softwareAgent="Adobe Adobe Media Encoder 2025.0 (Macintosh)"
       stEvt:changed="/"/>
      <rdf:li
@@ -96,38 +96,56 @@
       stEvt:changed="/content"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:dc87a9e0-ff18-4862-af08-b5958f83e00c"
-      stEvt:when="2026-05-26T12:08:47+08:00"
+      stEvt:instanceID="xmp.iid:cf084fc5-ff9a-49b2-8a84-f6bffa94ab79"
+      stEvt:when="2026-05-26T13:03:48+08:00"
       stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
       stEvt:changed="/content"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:2f8ee41c-fe86-4021-bb4e-45eb8fe6a132"
-      stEvt:when="2026-05-26T12:08:47+08:00"
+      stEvt:instanceID="xmp.iid:c5056c62-d999-4f33-90f3-21324037618f"
+      stEvt:when="2026-06-24T18:45:28+08:00"
       stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
       stEvt:changed="/"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:a6227128-9f25-4d53-a480-191415215c60"
-      stEvt:when="2026-05-26T12:18:37+08:00"
+      stEvt:instanceID="xmp.iid:422e3b7d-8969-49e4-93a6-b5ded125ba30"
+      stEvt:when="2026-06-25T11:33:25+08:00"
+      stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
+      stEvt:changed="/content"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:07e9b9b9-dffa-4f3b-af96-3ac605811087"
+      stEvt:when="2026-06-25T12:06:06+08:00"
+      stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
+      stEvt:changed="/content"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:e2f5aaad-5192-4e71-91c3-9868c7ad4d63"
+      stEvt:when="2026-06-25T12:06:06+08:00"
+      stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
+      stEvt:changed="/"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:47d0930e-c6ec-474f-9f2c-488e96e96a38"
+      stEvt:when="2026-06-25T12:11:55+08:00"
       stEvt:softwareAgent="Adobe Adobe Media Encoder 2025.0 (Macintosh)"
       stEvt:changed="/"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:ac70bd53-bd7c-43b2-b12d-8daf14b3ddf1"
-      stEvt:when="2026-05-26T12:18:37+08:00"
+      stEvt:instanceID="xmp.iid:e1d7fdbc-75b5-497e-be35-0c91d1481987"
+      stEvt:when="2026-06-25T12:11:55+08:00"
       stEvt:softwareAgent="Adobe Adobe Media Encoder 2025.0 (Macintosh)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
    </xmpMM:History>
    <xmpMM:DerivedFrom
-    stRef:instanceID="xmp.iid:af9f7008-8710-4e7a-9e91-f4693554827a"
-    stRef:documentID="xmp.did:af9f7008-8710-4e7a-9e91-f4693554827a"
+    stRef:instanceID="xmp.iid:6b3be0f4-5061-4d3e-abc7-8141d3b2b2cd"
+    stRef:documentID="xmp.did:6b3be0f4-5061-4d3e-abc7-8141d3b2b2cd"
     stRef:originalDocumentID="xmp.did:c03cd5bf-e7e9-46ba-9e13-1ca289621e07"/>
    <xmpMM:Ingredients>
     <rdf:Bag>
      <rdf:li
-      stRef:instanceID="xmp.iid:99a734e3-61f9-488f-a39b-22e1b509ac5a"
+      stRef:instanceID="xmp.iid:6ad34c56-1881-4cf5-8005-eec7d9529283"
       stRef:fromPart="time:0d512000f25600"
       stRef:toPart="time:0d512000f25600"
       stRef:maskMarkers="None"/>
@@ -138,21 +156,21 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        tiff:Orientation="1"
-       xmpMM:InstanceID="08138a86-03af-42f2-92c6-8739000000f4"
-       xmpMM:DocumentID="91f4c4c8-346a-56b4-973d-eb89000000c7"
-       xmpMM:OriginalDocumentID="xmp.did:a6a7ba44-8215-4c23-9c26-972218200ecd">
+       xmpMM:InstanceID="05dd2e22-405a-8552-0431-50440000007c"
+       xmpMM:DocumentID="4ab3ead3-01ef-a030-d8f2-bdf60000004f"
+       xmpMM:OriginalDocumentID="xmp.did:2eb504b7-f1b2-4328-9e55-1c64b97fe1eb">
       <xmpDM:duration
-       xmpDM:value="6320"
+       xmpDM:value="40215"
        xmpDM:scale="1/1000"/>
       <xmpMM:History>
        <rdf:Seq>
         <rdf:li
          stEvt:action="saved"
-         stEvt:instanceID="08138a86-03af-42f2-92c6-8739000000f4"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:instanceID="05dd2e22-405a-8552-0431-50440000007c"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -162,14 +180,38 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
+       tiff:Orientation="1"
+       xmpMM:InstanceID="08138a86-03af-42f2-92c6-8739000000f4"
+       xmpMM:DocumentID="91f4c4c8-346a-56b4-973d-eb89000000c7"
+       xmpMM:OriginalDocumentID="xmp.did:c7f17fd0-7b90-4bde-8de5-9ceb0405220c">
+      <xmpDM:duration
+       xmpDM:value="6320"
+       xmpDM:scale="1/1000"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="08138a86-03af-42f2-92c6-8739000000f4"
+         stEvt:when="2026-06-25T12:07:43+08:00"
+         stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       xmp:CreateDate="1904-01-01T00:00:00Z"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        xmpDM:startTimeScale="12800"
        xmpDM:startTimeSampleSize="512"
        tiff:Orientation="1"
        xmpMM:InstanceID="434a168d-5193-831d-6bc5-116b000000cc"
        xmpMM:DocumentID="1b00ef12-5ae9-6e96-6331-efde0000009f"
-       xmpMM:OriginalDocumentID="xmp.did:4b2a46c1-cf67-4e4b-893a-a3862d153057">
+       xmpMM:OriginalDocumentID="xmp.did:cc0186b1-323b-4765-b689-f4c00cdf5750">
       <xmpDM:duration
        xmpDM:value="12040"
        xmpDM:scale="1/1000"/>
@@ -181,7 +223,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="434a168d-5193-831d-6bc5-116b000000cc"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -191,14 +233,14 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        xmpDM:startTimeScale="12800"
        xmpDM:startTimeSampleSize="512"
        tiff:Orientation="1"
        xmpMM:InstanceID="4cc8a39e-33e0-a536-1ed4-47df000000f4"
        xmpMM:DocumentID="57b518e4-eb6a-e7ca-7699-c0b4000000c7"
-       xmpMM:OriginalDocumentID="xmp.did:f221ae97-988b-40f7-ba4e-2cfe5cfb5587">
+       xmpMM:OriginalDocumentID="xmp.did:29fd4dbc-9692-438b-8332-e8e01f3988f0">
       <xmpDM:duration
        xmpDM:value="14480"
        xmpDM:scale="1/1000"/>
@@ -210,7 +252,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="4cc8a39e-33e0-a536-1ed4-47df000000f4"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -220,14 +262,14 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        xmpDM:startTimeScale="12800"
        xmpDM:startTimeSampleSize="512"
        tiff:Orientation="1"
        xmpMM:InstanceID="6964ef5f-b143-de45-f0b2-5195000000ea"
        xmpMM:DocumentID="330f242e-6b43-34c4-57d9-52e2000000bd"
-       xmpMM:OriginalDocumentID="xmp.did:d3a1bd39-33da-4a4a-940a-9e50bd11f6b0">
+       xmpMM:OriginalDocumentID="xmp.did:aca6665e-ca66-4734-9e26-63e5d62591a4">
       <xmpDM:duration
        xmpDM:value="10800"
        xmpDM:scale="1/1000"/>
@@ -239,7 +281,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="6964ef5f-b143-de45-f0b2-5195000000ea"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -249,14 +291,14 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        xmpDM:startTimeScale="12800"
        xmpDM:startTimeSampleSize="256"
        tiff:Orientation="1"
        xmpMM:InstanceID="6de27bb2-3151-1bd0-7989-4be4000000c2"
        xmpMM:DocumentID="ab04aef8-d495-1809-bd10-7b9e00000095"
-       xmpMM:OriginalDocumentID="xmp.did:813b62eb-c7e8-4d8f-ab8e-8f5b17d3cc74">
+       xmpMM:OriginalDocumentID="xmp.did:9bf2284f-05d7-4e9d-a194-860877ab673e">
       <xmpDM:duration
        xmpDM:value="5900"
        xmpDM:scale="1/1000"/>
@@ -268,7 +310,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="6de27bb2-3151-1bd0-7989-4be4000000c2"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -278,8 +320,8 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="2020-07-17T14:29:19Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        xmp:CreatorTool="Adobe Adobe Media Encoder CC 2017.0 (Windows)"
        xmpDM:videoFrameRate="23.976024"
        xmpDM:videoFieldOrder="Progressive"
@@ -340,7 +382,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="7dff746a-2504-f431-7001-6fe3000000d2"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -361,12 +403,12 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        tiff:Orientation="1"
        xmpMM:InstanceID="867196f2-41e6-d566-d106-7888000000e4"
        xmpMM:DocumentID="effbbdb9-a204-e312-6b49-52a2000000b7"
-       xmpMM:OriginalDocumentID="xmp.did:04765286-b363-4702-b8ab-92bfbefbd1cd">
+       xmpMM:OriginalDocumentID="xmp.did:875bba72-9105-4c8e-a0fb-c8d11bb842e6">
       <xmpDM:duration
        xmpDM:value="7996"
        xmpDM:scale="1/1000"/>
@@ -375,7 +417,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="867196f2-41e6-d566-d106-7888000000e4"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -385,14 +427,14 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        xmpDM:startTimeScale="12800"
        xmpDM:startTimeSampleSize="512"
        tiff:Orientation="1"
        xmpMM:InstanceID="86826ef8-cd57-476d-7e5f-87f4000000cc"
        xmpMM:DocumentID="d9209924-67da-a034-5852-5e0f0000009f"
-       xmpMM:OriginalDocumentID="xmp.did:87788f10-1ea9-4644-8a87-877dc9763197">
+       xmpMM:OriginalDocumentID="xmp.did:a5600b57-81dc-45c2-ae3e-d9b5c17ae098">
       <xmpDM:duration
        xmpDM:value="6720"
        xmpDM:scale="1/1000"/>
@@ -404,7 +446,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="86826ef8-cd57-476d-7e5f-87f4000000cc"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -414,12 +456,12 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        tiff:Orientation="1"
        xmpMM:InstanceID="a8ca0e04-091f-7fd5-fb8c-0167000000f4"
        xmpMM:DocumentID="2ff26fdb-9953-0274-dd1e-09b6000000c7"
-       xmpMM:OriginalDocumentID="xmp.did:b7f7d885-caed-4b5a-bea0-94e81d31cc93">
+       xmpMM:OriginalDocumentID="xmp.did:5743620a-f923-4ce9-8cbe-74e10f7848df">
       <xmpDM:duration
        xmpDM:value="31382"
        xmpDM:scale="1/1000"/>
@@ -428,7 +470,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="a8ca0e04-091f-7fd5-fb8c-0167000000f4"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -438,43 +480,14 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
-       xmpDM:startTimeScale="12800"
-       xmpDM:startTimeSampleSize="512"
-       tiff:Orientation="1"
-       xmpMM:InstanceID="d95bebb0-9d11-f222-35d9-ba31000000c4"
-       xmpMM:DocumentID="a894b840-4fd9-210e-0534-2ecd00000097"
-       xmpMM:OriginalDocumentID="xmp.did:92bc1895-a913-4613-b2e8-0ed28d8313a3">
-      <xmpDM:duration
-       xmpDM:value="28040"
-       xmpDM:scale="1/1000"/>
-      <xmpDM:altTimecode
-       xmpDM:timeValue="16:29:27:05"
-       xmpDM:timeFormat="25Timecode"/>
-      <xmpMM:History>
-       <rdf:Seq>
-        <rdf:li
-         stEvt:action="saved"
-         stEvt:instanceID="d95bebb0-9d11-f222-35d9-ba31000000c4"
-         stEvt:when="2026-05-26T12:15:55+08:00"
-         stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
-         stEvt:changed="/"/>
-       </rdf:Seq>
-      </xmpMM:History>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       xmp:CreateDate="1904-01-01T00:00:00Z"
-       xmp:ModifyDate="2026-05-26T12:15:55+08:00"
-       xmp:MetadataDate="2026-05-26T12:15:55+08:00"
+       xmp:ModifyDate="2026-06-25T12:07:43+08:00"
+       xmp:MetadataDate="2026-06-25T12:07:43+08:00"
        xmpDM:startTimeScale="15360"
        xmpDM:startTimeSampleSize="512"
        tiff:Orientation="1"
        xmpMM:InstanceID="fed30512-bab3-e9ce-1ab8-875c000000f4"
        xmpMM:DocumentID="8e9eb2ad-7cb2-4c62-c449-f418000000c7"
-       xmpMM:OriginalDocumentID="xmp.did:66fb2749-9178-4fc5-af1d-a0bd469a6b24">
+       xmpMM:OriginalDocumentID="xmp.did:fb0f9449-3406-4308-83af-243473941912">
       <xmpDM:duration
        xmpDM:value="10034"
        xmpDM:scale="1/1000"/>
@@ -486,11 +499,136 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="fed30512-bab3-e9ce-1ab8-875c000000f4"
-         stEvt:when="2026-05-26T12:15:55+08:00"
+         stEvt:when="2026-06-25T12:07:43+08:00"
          stEvt:softwareAgent="Adobe After Effects 2025 (Macintosh)"
          stEvt:changed="/"/>
        </rdf:Seq>
       </xmpMM:History>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/pdf"
+       xmp:CreatorTool="Adobe Illustrator 30.6 (Macintosh)"
+       xmp:CreateDate="2026-06-25T11:20:00+08:00"
+       xmp:ModifyDate="2026-06-25T11:20:00+08:00"
+       xmp:MetadataDate="2026-06-25T11:20:00+08:00"
+       xmpMM:RenditionClass="proof:pdf"
+       xmpMM:OriginalDocumentID="uuid:65E6390686CF11DBA6E2D887CEACB407"
+       xmpMM:DocumentID="xmp.did:1638e2db-7e62-4e9e-8889-c01cb7e2edda"
+       xmpMM:InstanceID="uuid:89e870fc-d7c2-5041-b5e5-b83031b314c1"
+       illustrator:StartupProfile="Web"
+       illustrator:Type="Document"
+       illustrator:CreatorSubTool="AIRobin"
+       illustrator:IsFileSavedViaInstantSave="True"
+       xmpTPg:NPages="1"
+       xmpTPg:HasVisibleTransparency="False"
+       xmpTPg:HasVisibleOverprint="False"
+       pdf:Producer="Adobe PDF library 18.00"
+       pdfx:CreatorVersion="21.0.0">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Website-Hero-video-Endfilp-Mask-01-09</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmp:Thumbnails>
+       <rdf:Alt>
+        <rdf:li rdf:parseType="Resource">
+         <rdf:value rdf:parseType="Resource">
+          <xmpGImg:width>220</xmpGImg:width>
+          <xmpGImg:height>256</xmpGImg:height>
+          <xmpGImg:format>JPEG</xmpGImg:format>
+          <xmpGImg:image>/9j/4AAQSkZJRgABAgEAAAAAAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAAAAAAAAEA&#xA;AQAAAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgBAADcAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8Anv8A0MRef9WSP/pIb/qn&#xA;irv+hiLz/qyR/wDSQ3/VPFXf9DEXn/Vkj/6SG/6p4qlfmv8ANvzLqen6ff6dI+kVmuYJYYZOYf01&#xA;hdWJKj/fpGKs4/JPzDrWtaXqUuq3kl5JDOixtIQSoKVIFMVekYqkPn1HfyVrioCzfUpzQeyEnFXy&#xA;rDPNBKk0EjRTRnkkiEqykdwRuMVfUv5daxfaz5L0vUb88ruVHWV6ULGKVowx92CVOKsjxV2KuxV8&#xA;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&#xA;b0kEUIs7cEH/AIxLiqZYq//Z</xmpGImg:image>
+         </rdf:value>
+         <aiThumbnail:dummy>0</aiThumbnail:dummy>
+        </rdf:li>
+       </rdf:Alt>
+      </xmp:Thumbnails>
+      <xmpMM:DerivedFrom
+       stRef:instanceID="uuid:c621b42b-f66e-534f-a04b-cc90d9da43ab"
+       stRef:documentID="xmp.did:b7482cb2-0bf8-4c53-822e-1abe31abd613"
+       stRef:originalDocumentID="uuid:65E6390686CF11DBA6E2D887CEACB407"
+       stRef:renditionClass="default"/>
+      <xmpMM:History>
+       <rdf:Seq>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:82d13b7d-d616-4247-a93c-6ceb996ce67c"
+         stEvt:when="2026-05-13T18:14:40+08:00"
+         stEvt:softwareAgent="Adobe Illustrator 30.4 (Macintosh)"
+         stEvt:changed="/"/>
+        <rdf:li
+         stEvt:action="saved"
+         stEvt:instanceID="xmp.iid:1638e2db-7e62-4e9e-8889-c01cb7e2edda"
+         stEvt:when="2026-06-25T11:18:45+08:00"
+         stEvt:softwareAgent="Adobe Illustrator 30.6 (Macintosh)"
+         stEvt:changed="/"/>
+       </rdf:Seq>
+      </xmpMM:History>
+      <xmpTPg:MaxPageSize
+       stDim:w="1920.000000"
+       stDim:h="1080.000000"
+       stDim:unit="Pixels"/>
+      <xmpTPg:PlateNames>
+       <rdf:Seq>
+        <rdf:li>Cyan</rdf:li>
+        <rdf:li>Magenta</rdf:li>
+        <rdf:li>Yellow</rdf:li>
+        <rdf:li>Black</rdf:li>
+       </rdf:Seq>
+      </xmpTPg:PlateNames>
+      <xmpTPg:SwatchGroups>
+       <rdf:Seq>
+        <rdf:li>
+         <rdf:Description
+          xmpG:groupName="Default Swatch Group"
+          xmpG:groupType="0">
+         <xmpG:Colorants>
+          <rdf:Seq>
+           <rdf:li
+            xmpG:swatchName="White"
+            xmpG:mode="RGB"
+            xmpG:type="PROCESS"
+            xmpG:red="255"
+            xmpG:green="255"
+            xmpG:blue="255"/>
+           <rdf:li
+            xmpG:swatchName="Black"
+            xmpG:mode="RGB"
+            xmpG:type="PROCESS"
+            xmpG:red="0"
+            xmpG:green="0"
+            xmpG:blue="0"/>
+          </rdf:Seq>
+         </xmpG:Colorants>
+         </rdf:Description>
+        </rdf:li>
+        <rdf:li>
+         <rdf:Description
+          xmpG:groupName="Swatch Group 1"
+          xmpG:groupType="1">
+         <xmpG:Colorants>
+          <rdf:Seq>
+           <rdf:li
+            xmpG:swatchName="R=238 G=235 B=229"
+            xmpG:mode="RGB"
+            xmpG:type="PROCESS"
+            xmpG:red="238"
+            xmpG:green="235"
+            xmpG:blue="229"/>
+           <rdf:li
+            xmpG:swatchName="R=60 G=60 B=60"
+            xmpG:mode="RGB"
+            xmpG:type="PROCESS"
+            xmpG:red="60"
+            xmpG:green="60"
+            xmpG:blue="60"/>
+          </rdf:Seq>
+         </xmpG:Colorants>
+         </rdf:Description>
+        </rdf:li>
+       </rdf:Seq>
+      </xmpTPg:SwatchGroups>
       </rdf:Description>
      </rdf:li>
      <rdf:li>
@@ -2049,20 +2187,19 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:006d112b-4ae4-4115-acf6-ce0d92b8c431">
+       xmpMM:InstanceID="xmp.iid:0261f4c7-54a7-46fa-a530-843edee23857">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">R2-1</rdf:li>
+        <rdf:li xml:lang="x-default">video-editing-software-color-wheels-being-adjusted-2025-12-17-15-24-47-utc.mov</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
-         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d107520f25600"
-         stRef:toPart="time:0d107520f25600"
+         stRef:instanceID="a8ca0e04-091f-7fd5-fb8c-0167000000f4"
+         stRef:documentID="2ff26fdb-9953-0274-dd1e-09b6000000c7"
+         stRef:fromPart="time:0d7168f25600"
+         stRef:toPart="time:0d7168f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -2071,21 +2208,19 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:06e46e67-2e38-4441-8503-6a5cea935da5">
+       xmpMM:InstanceID="xmp.iid:0450805f-21de-43ab-9b6e-9b6c4d0fd001">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">Slogan-01.ai</rdf:li>
+        <rdf:li xml:lang="x-default">EDITING TX_01</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="uuid:eb907432-05de-d44e-8446-7e769dcade11"
-         stRef:documentID="xmp.did:57346eed-565c-4793-b48f-484751bea544"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:26624f25600d152576f25600"
-         stRef:toPart="time:26624f25600d152576f25600"
-         stRef:maskMarkers="All"/>
+         stRef:instanceID="xmp.iid:dac0c3ab-aed7-4e75-a81e-af5cd41f6ad0"
+         stRef:fromPart="time:0d21504f25600"
+         stRef:toPart="time:0d21504f25600"
+         stRef:maskMarkers="None"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
       </rdf:Description>
@@ -2093,7 +2228,58 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:07114dda-0b65-4acc-a84c-a6011c572dcb">
+       xmpMM:InstanceID="xmp.iid:061f2cf9-a4c1-4e0a-85ea-c296fc453e57">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:8555ea7f-7525-4dbd-a742-6896a6437fcf"
+         stRef:fromPart="time:16384f25600d7168f25600"
+         stRef:toPart="time:16384f25600d7168f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:0873697d-06ca-4f64-84ab-21376a7b0630">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Black_N_White</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:0a2e9057-b779-4413-b4b3-aad230bb9bfe">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Company-logo-01-08</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:916eb728-5d84-41fc-9551-81d6d1aede7b"
+         stRef:fromPart="time:0d157696f25600"
+         stRef:toPart="time:0d157696f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:0a84ef3b-6997-42c4-8913-184de1376d65">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Black_N_White</rdf:li>
@@ -2105,7 +2291,7 @@
       <rdf:Description
        xmp:CreateDate="1904-01-01T00:00:00Z"
        xmp:ModifyDate="2026-05-19T03:40:00Z"
-       xmp:MetadataDate="2026-05-26T12:18:37+08:00"
+       xmp:MetadataDate="2026-06-25T12:11:55+08:00"
        tiff:Orientation="1"
        xmpMM:InstanceID="xmp.iid:0cf5ebde-3dd1-433a-9dde-2d75281bb5ac"
        xmpMM:DocumentID="d3d12fba-269e-1689-7065-a0ed00000075"
@@ -2138,8 +2324,8 @@
          stEvt:changed="/metadata"/>
         <rdf:li
          stEvt:action="saved"
-         stEvt:instanceID="xmp.iid:386e991d-5e28-446d-8546-06db0d8d7c54"
-         stEvt:when="2026-05-26T12:18:37+08:00"
+         stEvt:instanceID="xmp.iid:de9f1857-9b79-4633-8353-652e23026a91"
+         stEvt:when="2026-06-25T12:11:55+08:00"
          stEvt:softwareAgent="Adobe Adobe Media Encoder 2025.0 (Macintosh)"
          stEvt:changed="/metadata"/>
        </rdf:Seq>
@@ -2160,29 +2346,72 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:0d9e21aa-5906-4053-b8ff-dace0d75205f">
+       xmpMM:InstanceID="xmp.iid:10075ff2-de87-4f66-98f8-bb1070b71a1a">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">Black_N_White</rdf:li>
+        <rdf:li xml:lang="x-default">dynamic-abstract-fluid-liquid-wavy-motion-backgrou-2026-01-28-03-20-49-utc.mov</rdf:li>
        </rdf:Alt>
       </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="fed30512-bab3-e9ce-1ab8-875c000000f4"
+         stRef:documentID="8e9eb2ad-7cb2-4c62-c449-f418000000c7"
+         stRef:fromPart="time:0d2048f25600"
+         stRef:toPart="time:0d2048f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
       </rdf:Description>
      </rdf:li>
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:11d56d55-c797-45c2-923a-ed9b2acb2983">
+       xmpMM:InstanceID="xmp.iid:13c61952-b33c-4933-b18e-1784597d9f0d">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">THINK 2 Outlines</rdf:li>
+        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
        </rdf:Alt>
       </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
+         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:0d104448f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
       </rdf:Description>
      </rdf:li>
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:12dd19ef-1da9-4e9e-942f-17dcd396fcc8">
+       xmpMM:InstanceID="xmp.iid:1a4e7d9f-4625-40eb-9524-865b88d3f252">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R3-2</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
+         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d113664f25600"
+         stRef:toPart="time:0d113664f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:26089e5c-02f3-406c-b107-a82944db9d24">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">colorful-stage-lighting-moving-in-the-dark-2025-12-17-23-34-46-utc.mov</rdf:li>
@@ -2203,174 +2432,7 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:13adb0e7-c61a-478f-8a96-4dd97e0ee56f">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">aerial-hong-kong-skyline-hongkong-2025-12-17-08-16-43-utc.mp4</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="7dff746a-2504-f431-7001-6fe3000000d2"
-         stRef:documentID="73efdbb6-76ea-9303-cc6a-ba02000000a5"
-         stRef:fromPart="time:0d84992f25600"
-         stRef:toPart="time:0d84992f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:15ae40ee-58ba-4935-87f4-dedf29d17ff4">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Split-screen-shape-01-02</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:893a3440-6e81-40fa-9fcc-01348310728e"
-         stRef:fromPart="time:0d128000f25600"
-         stRef:toPart="time:0d128000f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:1792f50b-bf61-49e3-858b-e926a809341d">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:3f4249e5-a64a-4b48-8799-8abe116fb4fa"
-         stRef:fromPart="time:16384f25600d7168f25600"
-         stRef:toPart="time:16384f25600d7168f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:1e664faa-bee7-4606-95c0-f1acfce4f0d6">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">THINK</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:1fb3093e-3003-4d4c-8e71-ee9d97a2bc59">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Sc-01</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:24522f7e-a1fa-4a50-9cc0-e0968cb67f57"
-         stRef:fromPart="time:0d179200f25600"
-         stRef:toPart="time:0d179200f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:20bf3ee2-bea2-4fb5-868f-90aee7d196d9">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_01</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:d00a9462-99ab-48ad-b2cf-9a8cc6c0f03b"
-         stRef:fromPart="time:0d21504f25600"
-         stRef:toPart="time:0d21504f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:21127176-5ad5-403e-b13f-dbd2ba4dbe18">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_14</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:977797c0-78fe-420c-9d8a-370aabc663e9"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:24522f7e-a1fa-4a50-9cc0-e0968cb67f57">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Sc-01</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:06e46e67-2e38-4441-8503-6a5cea935da5"
-         stRef:fromPart="time:26624f25600d152576f25600"
-         stRef:toPart="time:26624f25600d152576f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:15ae40ee-58ba-4935-87f4-dedf29d17ff4"
-         stRef:fromPart="time:0d128000f25600"
-         stRef:toPart="time:51200f25600d128000f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:7a91f5e8-ab9f-41f2-9b8b-0e999c984bfd"
-         stRef:fromPart="time:0d179200f25600"
-         stRef:toPart="time:0d179200f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:d182ae79-2ed9-47f9-b839-f24aa6066fb6"
-         stRef:fromPart="time:0d179200f25600"
-         stRef:toPart="time:0d179200f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:2c70afbe-6dec-411a-b334-d6e6e2024256">
+       xmpMM:InstanceID="xmp.iid:2787e24e-e057-4984-ace2-0a7403660cbf">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Black Solid 1</rdf:li>
@@ -2381,19 +2443,20 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:2d64ba35-b051-4a40-a9e9-d20045a85bf8">
+       xmpMM:InstanceID="xmp.iid:288e9237-9163-4d62-85f0-bbe081319dc5">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">camera-films-family-in-modern-kitchen-setting-2026-01-21-05-19-41-utc.mp4</rdf:li>
+        <rdf:li xml:lang="x-default">Website-Hero-video-Endfilp-Mask-01-09.ai</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="6964ef5f-b143-de45-f0b2-5195000000ea"
-         stRef:documentID="330f242e-6b43-34c4-57d9-52e2000000bd"
-         stRef:fromPart="time:0d96256f25600"
-         stRef:toPart="time:0d96256f25600"
+         stRef:instanceID="uuid:89e870fc-d7c2-5041-b5e5-b83031b314c1"
+         stRef:documentID="xmp.did:1638e2db-7e62-4e9e-8889-c01cb7e2edda"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d152576f25600"
+         stRef:toPart="time:0d152576f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -2402,39 +2465,18 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:31b9b96d-0655-4e19-83c1-fa0135bd9d8c">
+       xmpMM:InstanceID="xmp.iid:2d9fef7f-5bf7-4b05-b353-98ec157b235f">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">timelaspe-of-hong-kong-skyline-2026-01-21-05-28-44-utc.mp4</rdf:li>
+        <rdf:li xml:lang="x-default">Split-screen-shape-01-02</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="86826ef8-cd57-476d-7e5f-87f4000000cc"
-         stRef:documentID="d9209924-67da-a034-5852-5e0f0000009f"
-         stRef:fromPart="time:0d105472f25600"
-         stRef:toPart="time:0d105472f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:32d74876-2474-44a9-947d-94ccbee9190a">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">COMP TEMP</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:a27bfe5e-0ca7-4ede-ab4f-9ee9343ca8d4"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
+         stRef:instanceID="xmp.iid:d7784970-59b8-4455-a751-81aacb17ee4e"
+         stRef:fromPart="time:0d128000f25600"
+         stRef:toPart="time:0d128000f25600"
          stRef:maskMarkers="None"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -2443,10 +2485,21 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:35a8272d-eb4c-46b1-9eaf-4a98aa2a5991">
+       xmpMM:InstanceID="xmp.iid:31023875-67a8-4270-ac86-61f513174536">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">R4-2</rdf:li>
+        <rdf:li xml:lang="x-default">LETS THINK BIG</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:3521c9bf-f55d-49eb-9555-2bc93502501f">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R4-1</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
@@ -2455,48 +2508,6 @@
          stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
          stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
          stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d122880f25600"
-         stRef:toPart="time:0d122880f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:36f64123-128e-4674-893b-56bb1591d0cb">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">timelaspe-of-hong-kong-skyline-2026-01-21-02-58-40-utc.mp4</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="434a168d-5193-831d-6bc5-116b000000cc"
-         stRef:documentID="1b00ef12-5ae9-6e96-6331-efde0000009f"
-         stRef:fromPart="time:0d90112f25600"
-         stRef:toPart="time:0d90112f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:3813e7ad-bab5-457f-9ba8-81e954bd0cf2">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">video-editing-software-color-wheels-being-adjusted-2025-12-17-15-24-47-utc.mov</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="a8ca0e04-091f-7fd5-fb8c-0167000000f4"
-         stRef:documentID="2ff26fdb-9953-0274-dd1e-09b6000000c7"
          stRef:fromPart="time:0d101376f25600"
          stRef:toPart="time:0d101376f25600"
          stRef:maskMarkers="All"/>
@@ -2507,39 +2518,18 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:3f1d2291-7978-40cb-90d8-aeef06c5a61d">
+       xmpMM:InstanceID="xmp.iid:43f3e0d7-d5de-4526-b7a0-fe7f205ada23">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">colorful-stage-lighting-moving-in-the-dark-2025-12-17-23-34-46-utc.mov</rdf:li>
+        <rdf:li xml:lang="x-default">COMP TEMP</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="867196f2-41e6-d566-d106-7888000000e4"
-         stRef:documentID="effbbdb9-a204-e312-6b49-52a2000000b7"
-         stRef:fromPart="time:0d19456f25600"
-         stRef:toPart="time:0d19456f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:3f4249e5-a64a-4b48-8799-8abe116fb4fa">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:954f0b5f-b879-4565-8e0b-42a3f491144f"
-         stRef:fromPart="time:0d23552f25600"
-         stRef:toPart="time:0d23552f25600"
+         stRef:instanceID="xmp.iid:ca0547e5-4392-4bd5-91af-a1741c50e227"
+         stRef:fromPart="time:0d57344f25600"
+         stRef:toPart="time:0d57344f25600"
          stRef:maskMarkers="None"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -2548,10 +2538,10 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:41bab892-a3b2-4f60-baec-00b95d0cad44">
+       xmpMM:InstanceID="xmp.iid:467b7602-3c00-410e-83f4-015d802a60b1">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">R1-3</rdf:li>
+        <rdf:li xml:lang="x-default">R2-2</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
@@ -2560,8 +2550,8 @@
          stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
          stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
          stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d95232f25600"
-         stRef:toPart="time:0d95232f25600"
+         stRef:fromPart="time:0d108544f25600"
+         stRef:toPart="time:0d108544f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -2655,138 +2645,7 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:4a0a9743-9601-4afb-8e7a-b25d7674fad1">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Nested Sequence 06.mp4</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:f3523e44-a12b-481e-80f5-acf2d05de493"
-         stRef:documentID="2afd4659-12a3-ea95-a93c-4c7b00000057"
-         stRef:fromPart="time:0d21504f25600"
-         stRef:toPart="time:0d21504f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:4dd845b8-0c5b-410a-8e89-eece3e41b43c">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">R2-2</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
-         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d108544f25600"
-         stRef:toPart="time:0d108544f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:52c80603-d0ed-4fbe-847e-4e5d6227aaca">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">R1-2</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
-         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d90112f25600"
-         stRef:toPart="time:0d90112f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:55bac5e3-0a2e-4674-be13-e325c8f4acd7">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
-         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d104448f25600"
-         stRef:toPart="time:0d104448f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:57c9f603-5cce-41bd-8e7d-d9094049fadd">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">R5-1</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
-         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d96256f25600"
-         stRef:toPart="time:0d96256f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:58cffb6b-9d41-4767-9951-2c95773d22aa">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
-         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d128000f25600"
-         stRef:toPart="time:0d128000f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:59609e2e-9d59-4132-bf12-6416abb7f658">
+       xmpMM:InstanceID="xmp.iid:49b02fa9-12b1-4c22-bd39-5a14088225d8">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
@@ -2808,18 +2667,206 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:5f877728-a7c0-48f8-8e73-778d4013fa76">
+       xmpMM:InstanceID="xmp.iid:4a68653f-85cb-43cb-b68a-f34cb28272b7">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">R3-1</rdf:li>
+        <rdf:li xml:lang="x-default">abstract-silver-liquid-flowing-waves-animation-bac-2026-01-28-02-45-57-utc.mov</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
-         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
+         stRef:instanceID="4cc8a39e-33e0-a536-1ed4-47df000000f4"
+         stRef:documentID="57b518e4-eb6a-e7ca-7699-c0b4000000c7"
+         stRef:fromPart="time:0d95232f25600"
+         stRef:toPart="time:0d95232f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:4b04d12a-489f-4d11-b584-f5836fd38200">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Sc-01</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:ebfecf80-f7aa-4d68-a9f4-32403aca448d"
+         stRef:fromPart="time:0d179200f25600"
+         stRef:toPart="time:0d179200f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:4cd70657-b1e6-45fc-b076-5b9891f128a3">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Pale Orange Solid 1</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:5513bdb9-01d3-4b7c-8700-f2ea71c16ba5">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">aerial-hong-kong-skyline-hongkong-2025-12-17-08-16-43-utc.mp4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="7dff746a-2504-f431-7001-6fe3000000d2"
+         stRef:documentID="73efdbb6-76ea-9303-cc6a-ba02000000a5"
+         stRef:fromPart="time:0d84992f25600"
+         stRef:toPart="time:0d84992f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:551aef34-378d-4358-b5f5-0f9109196357">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">THINK 2</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:59464a23-b5c6-4dee-969b-6f24073c4f5e">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
+         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
          stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d179200f25600"
+         stRef:toPart="time:0d179200f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:5dd429c5-62c5-4713-b4bc-dcdbdef0953d">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Website-Hero-video-Endfilp-Mask-01-09.ai</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:89e870fc-d7c2-5041-b5e5-b83031b314c1"
+         stRef:documentID="xmp.did:1638e2db-7e62-4e9e-8889-c01cb7e2edda"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d8192f25600"
+         stRef:toPart="time:0d8192f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:5eea89fb-900c-4774-938a-f08842107ad6">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_02</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:6bdce59b-2d78-4b11-bceb-5eaff034397f"
+         stRef:fromPart="time:0d19456f25600"
+         stRef:toPart="time:0d19456f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:5f16a07e-a59c-4911-ba30-ca2e195e9cf9">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_14</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:6cdd2821-46b7-43d6-ba96-bb99c53e3e29"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:62110860-fb63-4b04-85b6-625ee93c2060">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">timelaspe-of-hong-kong-skyline-2026-01-21-05-28-44-utc.mp4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="86826ef8-cd57-476d-7e5f-87f4000000cc"
+         stRef:documentID="d9209924-67da-a034-5852-5e0f0000009f"
+         stRef:fromPart="time:0d113664f25600"
+         stRef:toPart="time:0d113664f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:64aa4778-08d0-4ed8-a9ed-2a0eb381754d">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">timelaspe-of-hong-kong-skyline-2026-01-21-05-28-44-utc.mp4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="86826ef8-cd57-476d-7e5f-87f4000000cc"
+         stRef:documentID="d9209924-67da-a034-5852-5e0f0000009f"
          stRef:fromPart="time:0d105472f25600"
          stRef:toPart="time:0d105472f25600"
          stRef:maskMarkers="All"/>
@@ -2830,18 +2877,84 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:635785e4-c114-40cb-b7b6-781c1ec810a1">
+       xmpMM:InstanceID="xmp.iid:65db4c00-75fc-4629-84a5-8dcbb85ad78a">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
+        <rdf:li xml:lang="x-default">THINK</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:6ad34c56-1881-4cf5-8005-eec7d9529283">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Website-hero-01</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="xmp.iid:3f4249e5-a64a-4b48-8799-8abe116fb4fa"
-         stRef:fromPart="time:3072f25600d7168f25600"
-         stRef:toPart="time:3072f25600d7168f25600"
+         stRef:instanceID="xmp.iid:0a2e9057-b779-4413-b4b3-aad230bb9bfe"
+         stRef:fromPart="time:0d157696f25600"
+         stRef:toPart="time:354304f25600d157696f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:43f3e0d7-d5de-4526-b7a0-fe7f205ada23"
+         stRef:fromPart="time:0d57344f25600"
+         stRef:toPart="time:178176f25600d57344f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:49b02fa9-12b1-4c22-bd39-5a14088225d8"
+         stRef:fromPart="time:0d512000f25600"
+         stRef:toPart="time:0d512000f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:4b04d12a-489f-4d11-b584-f5836fd38200"
+         stRef:fromPart="time:0d179200f25600"
+         stRef:toPart="time:0d179200f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:551aef34-378d-4358-b5f5-0f9109196357"
+         stRef:fromPart="time:0d57344f25600"
+         stRef:toPart="time:178176f25600d57344f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:5dd429c5-62c5-4713-b4bc-dcdbdef0953d"
+         stRef:fromPart="time:0d8192f25600"
+         stRef:toPart="time:234496f25600d8192f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:65db4c00-75fc-4629-84a5-8dcbb85ad78a"
+         stRef:fromPart="time:0d57344f25600"
+         stRef:toPart="time:178176f25600d57344f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:9e844b1e-37d7-4779-9d32-879b9bbde967"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:241664f25600d104448f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:bb968d62-567b-43a5-8306-d122476f297c"
+         stRef:fromPart="time:0d333824f25600"
+         stRef:toPart="time:178176f25600d333824f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:c5db40b0-01e2-4df0-b388-2d886abd40de"
+         stRef:fromPart="time:0d57344f25600"
+         stRef:toPart="time:178176f25600d57344f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:eadf1c62-3700-46f3-980c-182ba6e62f40"
+         stRef:fromPart="time:0d57344f25600"
+         stRef:toPart="time:178176f25600d57344f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:ee984e6e-f70c-4a8b-9f2a-8114824afa96"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:178176f25600d64512f25600"
          stRef:maskMarkers="None"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -2850,7 +2963,7 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:64ca122e-827c-4988-bcc3-53d5ecb16f0d">
+       xmpMM:InstanceID="xmp.iid:6b4d3196-bef4-4aea-84ed-b61610b9d17c">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Slogan</rdf:li>
@@ -2872,7 +2985,187 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:687b73ef-961f-4004-858c-fe61b28f2501">
+       xmpMM:InstanceID="xmp.iid:6bdce59b-2d78-4b11-bceb-5eaff034397f">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">LETS THINK BIG</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:6cdd2821-46b7-43d6-ba96-bb99c53e3e29">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_14</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:eba9c3c2-00c3-48ae-a432-443bbd54befa"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:6ce55398-2514-40bd-a598-6ba58b23aa79">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">colorful-stage-lighting-moving-in-the-dark-2025-12-17-23-34-46-utc.mov</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="867196f2-41e6-d566-d106-7888000000e4"
+         stRef:documentID="effbbdb9-a204-e312-6b49-52a2000000b7"
+         stRef:fromPart="time:0d19456f25600"
+         stRef:toPart="time:0d19456f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:71167cd2-3e83-45b7-99c1-fd299efdb355">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:8555ea7f-7525-4dbd-a742-6896a6437fcf"
+         stRef:fromPart="time:3072f25600d7168f25600"
+         stRef:toPart="time:3072f25600d7168f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:767bcfe8-3cd4-44c7-8ac6-07163557042e">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R3-1</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
+         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d105472f25600"
+         stRef:toPart="time:0d105472f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:78a0333b-b6d4-4697-b0b5-3433ebb84f1e">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
+         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:7c40bc55-6299-4016-81ac-3ccd44d08558">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Slogan-01.ai</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:eb907432-05de-d44e-8446-7e769dcade11"
+         stRef:documentID="xmp.did:57346eed-565c-4793-b48f-484751bea544"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:26624f25600d152576f25600"
+         stRef:toPart="time:26624f25600d152576f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:8555ea7f-7525-4dbd-a742-6896a6437fcf">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:31023875-67a8-4270-ac86-61f513174536"
+         stRef:fromPart="time:0d23552f25600"
+         stRef:toPart="time:0d23552f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:8ccaa83b-78a4-4a94-8b61-5acc412b98dc">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R1-1</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
+         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d84992f25600"
+         stRef:toPart="time:0d84992f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:916eb728-5d84-41fc-9551-81d6d1aede7b">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Company-logo-01-08</rdf:li>
@@ -2881,7 +3174,7 @@
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="xmp.iid:a6c051ff-e047-45b6-bbae-caa68dc1818b"
+         stRef:instanceID="xmp.iid:9783dfcb-17b6-4a0b-8332-188689a7f510"
          stRef:fromPart="time:0d157696f25600"
          stRef:toPart="time:0d157696f25600"
          stRef:maskMarkers="None"/>
@@ -2892,19 +3185,19 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:722c5993-f725-4ca0-85d6-a7fe22f6e078">
+       xmpMM:InstanceID="xmp.iid:945e9b44-8486-4d29-b12f-d14ba826f246">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">Nested Sequence 04.mp4</rdf:li>
+        <rdf:li xml:lang="x-default">video-editing-software-timeline-on-computer-monito-2025-12-17-21-53-21-utc.mov</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="xmp.iid:4911d71d-cc00-401b-8fe9-581500290bf5"
-         stRef:documentID="09ee0b48-57fb-0ae1-4f1e-4d9800000057"
-         stRef:fromPart="time:27286875000f254016000000d0"
-         stRef:toPart="time:0d327462912000f254016000000"
+         stRef:instanceID="08138a86-03af-42f2-92c6-8739000000f4"
+         stRef:documentID="91f4c4c8-346a-56b4-973d-eb89000000c7"
+         stRef:fromPart="time:0d108544f25600"
+         stRef:toPart="time:0d108544f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -2913,18 +3206,7 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:7a91f5e8-ab9f-41f2-9b8b-0e999c984bfd">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Pale Orange Solid 1</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:7cdb07df-e0d6-496c-b482-f55fa14c8d53">
+       xmpMM:InstanceID="xmp.iid:9783dfcb-17b6-4a0b-8332-188689a7f510">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Layer 2</rdf:li>
@@ -2946,359 +3228,10 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:853d2b4b-88fa-4385-b01b-26a17908bf28">
+       xmpMM:InstanceID="xmp.iid:99a74245-cb83-4e7b-a815-87dba2ae744c">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">Black_N_White</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:87b66e1e-a318-4c88-b808-155c8530b290">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">shooting-process-in-studio-2026-01-22-02-39-43-utc.mp4</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="d95bebb0-9d11-f222-35d9-ba31000000c4"
-         stRef:documentID="a894b840-4fd9-210e-0534-2ecd00000097"
-         stRef:fromPart="time:0d107520f25600"
-         stRef:toPart="time:0d107520f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:893a3440-6e81-40fa-9fcc-01348310728e">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Split-screen-shape-01-02</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:006d112b-4ae4-4115-acf6-ce0d92b8c431"
-         stRef:fromPart="time:0d107520f25600"
-         stRef:toPart="time:20480f25600d107520f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:0d9e21aa-5906-4053-b8ff-dace0d75205f"
-         stRef:fromPart="time:0d128000f25600"
-         stRef:toPart="time:0d128000f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:12dd19ef-1da9-4e9e-942f-17dcd396fcc8"
-         stRef:fromPart="time:0d117760f25600"
-         stRef:toPart="time:10240f25600d117760f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:13adb0e7-c61a-478f-8a96-4dd97e0ee56f"
-         stRef:fromPart="time:0d84992f25600"
-         stRef:toPart="time:43008f25600d84992f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:2d64ba35-b051-4a40-a9e9-d20045a85bf8"
-         stRef:fromPart="time:0d96256f25600"
-         stRef:toPart="time:31744f25600d96256f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:31b9b96d-0655-4e19-83c1-fa0135bd9d8c"
-         stRef:fromPart="time:0d105472f25600"
-         stRef:toPart="time:22528f25600d105472f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:35a8272d-eb4c-46b1-9eaf-4a98aa2a5991"
-         stRef:fromPart="time:0d122880f25600"
-         stRef:toPart="time:5120f25600d122880f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:36f64123-128e-4674-893b-56bb1591d0cb"
-         stRef:fromPart="time:0d90112f25600"
-         stRef:toPart="time:37888f25600d90112f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:3813e7ad-bab5-457f-9ba8-81e954bd0cf2"
-         stRef:fromPart="time:0d101376f25600"
-         stRef:toPart="time:26624f25600d101376f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:41bab892-a3b2-4f60-baec-00b95d0cad44"
-         stRef:fromPart="time:0d95232f25600"
-         stRef:toPart="time:32768f25600d95232f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:4dd845b8-0c5b-410a-8e89-eece3e41b43c"
-         stRef:fromPart="time:0d108544f25600"
-         stRef:toPart="time:19456f25600d108544f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:52c80603-d0ed-4fbe-847e-4e5d6227aaca"
-         stRef:fromPart="time:0d90112f25600"
-         stRef:toPart="time:37888f25600d90112f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:57c9f603-5cce-41bd-8e7d-d9094049fadd"
-         stRef:fromPart="time:0d96256f25600"
-         stRef:toPart="time:31744f25600d96256f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:58cffb6b-9d41-4767-9951-2c95773d22aa"
-         stRef:fromPart="time:0d128000f25600"
-         stRef:toPart="time:0d128000f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:5f877728-a7c0-48f8-8e73-778d4013fa76"
-         stRef:fromPart="time:0d105472f25600"
-         stRef:toPart="time:22528f25600d105472f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:64ca122e-827c-4988-bcc3-53d5ecb16f0d"
-         stRef:fromPart="time:0d128000f25600"
-         stRef:toPart="time:0d128000f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:722c5993-f725-4ca0-85d6-a7fe22f6e078"
-         stRef:fromPart="time:0d327462912000f254016000000"
-         stRef:toPart="time:5120f25600d122880f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:87b66e1e-a318-4c88-b808-155c8530b290"
-         stRef:fromPart="time:0d107520f25600"
-         stRef:toPart="time:20480f25600d107520f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:a0dc26fb-477f-4e10-9d92-39b5d676d966"
-         stRef:fromPart="time:0d108544f25600"
-         stRef:toPart="time:19456f25600d108544f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:a16723d7-be97-497b-bd50-a1bd48282356"
-         stRef:fromPart="time:0d113664f25600"
-         stRef:toPart="time:14336f25600d113664f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:a3d83a2b-5aae-4676-b317-254a564ea93e"
-         stRef:fromPart="time:0d113664f25600"
-         stRef:toPart="time:14336f25600d113664f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:b2fc10ca-ab8a-41c4-959e-552f2e73c563"
-         stRef:fromPart="time:0d91136f25600"
-         stRef:toPart="time:36864f25600d91136f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:b7ded06e-0c6f-43ba-8f64-4bbe41046162"
-         stRef:fromPart="time:0d101376f25600"
-         stRef:toPart="time:26624f25600d101376f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:c1b1ba5b-3d95-4607-a0fa-730a48f7eda0"
-         stRef:fromPart="time:0d91136f25600"
-         stRef:toPart="time:36864f25600d91136f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:cc13eb32-ff75-4ce4-a353-2ceb18e8de78"
-         stRef:fromPart="time:0d95232f25600"
-         stRef:toPart="time:32768f25600d95232f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:e45faeda-e1d5-4812-a1e8-f520f58f39cb"
-         stRef:fromPart="time:0d117760f25600"
-         stRef:toPart="time:10240f25600d117760f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:ea681414-2d52-4a9c-91e9-dd232739db50"
-         stRef:fromPart="time:0d84992f25600"
-         stRef:toPart="time:43008f25600d84992f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:918c825f-ef27-49dd-8ac6-91fa08ec58b1">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:3f4249e5-a64a-4b48-8799-8abe116fb4fa"
-         stRef:fromPart="time:10240f25600d6144f25600"
-         stRef:toPart="time:10240f25600d6144f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:954f0b5f-b879-4565-8e0b-42a3f491144f">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">LETS THINK BIG</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:977797c0-78fe-420c-9d8a-370aabc663e9">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_14</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:ac5e6af3-5a58-42a3-b8c4-6ef1862909f9"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:991e9c25-a96f-48a0-a0ba-6a02731ecba1">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:3f4249e5-a64a-4b48-8799-8abe116fb4fa"
-         stRef:fromPart="time:0d3072f25600"
-         stRef:toPart="time:0d3072f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:99a734e3-61f9-488f-a39b-22e1b509ac5a">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Website-hero-01</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:11d56d55-c797-45c2-923a-ed9b2acb2983"
-         stRef:fromPart="time:0d57344f25600"
-         stRef:toPart="time:178176f25600d57344f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:1fb3093e-3003-4d4c-8e71-ee9d97a2bc59"
-         stRef:fromPart="time:0d179200f25600"
-         stRef:toPart="time:0d179200f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:32d74876-2474-44a9-947d-94ccbee9190a"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:178176f25600d64512f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:59609e2e-9d59-4132-bf12-6416abb7f658"
-         stRef:fromPart="time:0d512000f25600"
-         stRef:toPart="time:0d512000f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:687b73ef-961f-4004-858c-fe61b28f2501"
-         stRef:fromPart="time:0d157696f25600"
-         stRef:toPart="time:354304f25600d157696f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:af4dc7e9-fa33-4ce6-9372-66823c40cae4"
-         stRef:fromPart="time:0d57344f25600"
-         stRef:toPart="time:178176f25600d57344f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:cab0d5f5-9a03-4ba1-b2a8-a6c643c6ae05"
-         stRef:fromPart="time:0d8192f25600"
-         stRef:toPart="time:234496f25600d8192f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:cbd0955d-2be4-4de8-8907-f3c4d66f82b9"
-         stRef:fromPart="time:0d57344f25600"
-         stRef:toPart="time:178176f25600d57344f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:d0a37ea4-abbd-4774-b1f3-eae3ac9e2ee8"
-         stRef:fromPart="time:0d104448f25600"
-         stRef:toPart="time:241664f25600d104448f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:d1f69e9a-a631-4904-b3bb-13890e99f2c0"
-         stRef:fromPart="time:0d57344f25600"
-         stRef:toPart="time:178176f25600d57344f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:d639440c-c6a9-4419-aa0c-afcd79a12b5f"
-         stRef:fromPart="time:0d57344f25600"
-         stRef:toPart="time:178176f25600d57344f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:dd1398f0-8276-45fc-a8c7-ce7bcceae5ee"
-         stRef:fromPart="time:0d333824f25600"
-         stRef:toPart="time:178176f25600d333824f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:a0dc26fb-477f-4e10-9d92-39b5d676d966">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">video-editing-software-timeline-on-computer-monito-2025-12-17-21-53-21-utc.mov</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="08138a86-03af-42f2-92c6-8739000000f4"
-         stRef:documentID="91f4c4c8-346a-56b4-973d-eb89000000c7"
-         stRef:fromPart="time:0d108544f25600"
-         stRef:toPart="time:0d108544f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:a16723d7-be97-497b-bd50-a1bd48282356">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">R3-2</rdf:li>
+        <rdf:li xml:lang="x-default">R1-2</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
@@ -3307,8 +3240,8 @@
          stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
          stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
          stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d113664f25600"
-         stRef:toPart="time:0d113664f25600"
+         stRef:fromPart="time:0d90112f25600"
+         stRef:toPart="time:0d90112f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -3316,115 +3249,20 @@
      </rdf:li>
      <rdf:li>
       <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:a27bfe5e-0ca7-4ede-ab4f-9ee9343ca8d4">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">COMP TEMP</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:07114dda-0b65-4acc-a84c-a6011c572dcb"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:1792f50b-bf61-49e3-858b-e926a809341d"
-         stRef:fromPart="time:16384f25600d7168f25600"
-         stRef:toPart="time:57344f25600d7168f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:20bf3ee2-bea2-4fb5-868f-90aee7d196d9"
-         stRef:fromPart="time:0d21504f25600"
-         stRef:toPart="time:0d21504f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:21127176-5ad5-403e-b13f-dbd2ba4dbe18"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:2c70afbe-6dec-411a-b334-d6e6e2024256"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:3f1d2291-7978-40cb-90d8-aeef06c5a61d"
-         stRef:fromPart="time:0d19456f25600"
-         stRef:toPart="time:21504f25600d19456f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:4a0a9743-9601-4afb-8e7a-b25d7674fad1"
-         stRef:fromPart="time:0d21504f25600"
-         stRef:toPart="time:0d21504f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:635785e4-c114-40cb-b7b6-781c1ec810a1"
-         stRef:fromPart="time:3072f25600d7168f25600"
-         stRef:toPart="time:44032f25600d7168f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:918c825f-ef27-49dd-8ac6-91fa08ec58b1"
-         stRef:fromPart="time:10240f25600d6144f25600"
-         stRef:toPart="time:51200f25600d6144f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:991e9c25-a96f-48a0-a0ba-6a02731ecba1"
-         stRef:fromPart="time:0d3072f25600"
-         stRef:toPart="time:40960f25600d3072f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:a8de3103-1a52-4500-b1b4-6ac75c940f35"
-         stRef:fromPart="time:0d19456f25600"
-         stRef:toPart="time:21504f25600d19456f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:bb61b278-1da0-4c1b-838d-f688abc5903b"
-         stRef:fromPart="time:0d10240f25600"
-         stRef:toPart="time:54272f25600d10240f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:be73fd70-acdc-47d9-b2be-ff47969b2085"
-         stRef:fromPart="time:0d2048f25600"
-         stRef:toPart="time:62464f25600d2048f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:d840bec3-8f1b-4893-bac9-92a74cfbe7c8"
-         stRef:fromPart="time:0d17408f25600"
-         stRef:toPart="time:40960f25600d17408f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:e8a1e73c-a549-4240-b752-a8105d96716d"
-         stRef:fromPart="time:0d7168f25600"
-         stRef:toPart="time:47104f25600d7168f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:f47ef76c-14b3-4a1d-918b-9bbdc139b10b"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:a3d83a2b-5aae-4676-b317-254a564ea93e">
+       xmpMM:InstanceID="xmp.iid:9ad0d837-9fc3-455e-98d4-7176f7c087a2">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">timelaspe-of-hong-kong-skyline-2026-01-21-05-28-44-utc.mp4</rdf:li>
+        <rdf:li xml:lang="x-default">Nested Sequence 04.mp4</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="86826ef8-cd57-476d-7e5f-87f4000000cc"
-         stRef:documentID="d9209924-67da-a034-5852-5e0f0000009f"
-         stRef:fromPart="time:0d113664f25600"
-         stRef:toPart="time:0d113664f25600"
+         stRef:instanceID="xmp.iid:4911d71d-cc00-401b-8fe9-581500290bf5"
+         stRef:documentID="09ee0b48-57fb-0ae1-4f1e-4d9800000057"
+         stRef:fromPart="time:27286875000f254016000000d0"
+         stRef:toPart="time:0d327462912000f254016000000"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -3432,79 +3270,8 @@
      </rdf:li>
      <rdf:li>
       <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:a6c051ff-e047-45b6-bbae-caa68dc1818b">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Company-logo-01-08</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:7cdb07df-e0d6-496c-b482-f55fa14c8d53"
-         stRef:fromPart="time:0d157696f25600"
-         stRef:toPart="time:0d157696f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:a8de3103-1a52-4500-b1b4-6ac75c940f35">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_02</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:ee6da335-2996-4b9e-b748-cf84bba20aeb"
-         stRef:fromPart="time:0d19456f25600"
-         stRef:toPart="time:0d19456f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:ac5e6af3-5a58-42a3-b8c4-6ef1862909f9">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">abstract typo opener</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:af4dc7e9-fa33-4ce6-9372-66823c40cae4">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">COMP TEMP</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:a27bfe5e-0ca7-4ede-ab4f-9ee9343ca8d4"
-         stRef:fromPart="time:0d57344f25600"
-         stRef:toPart="time:0d57344f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:b0898114-6fc6-4a62-91bc-a2860a8caac2">
+       xmpMM:InstanceID="xmp.iid:9e844b1e-37d7-4779-9d32-879b9bbde967">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Sc-02</rdf:li>
@@ -3513,212 +3280,10 @@
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="xmp.iid:55bac5e3-0a2e-4674-be13-e325c8f4acd7"
+         stRef:instanceID="xmp.iid:9ec7f7aa-c282-4381-ba00-f7deae5eaf05"
          stRef:fromPart="time:0d104448f25600"
          stRef:toPart="time:0d104448f25600"
          stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:853d2b4b-88fa-4385-b01b-26a17908bf28"
-         stRef:fromPart="time:0d104448f25600"
-         stRef:toPart="time:0d104448f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:cc64e235-d27f-49e9-b3bb-a4d25e790d0c"
-         stRef:fromPart="time:0d104448f25600"
-         stRef:toPart="time:0d104448f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:d67a8dba-2a2e-48f7-bf42-f3f827eed449"
-         stRef:fromPart="time:0d104448f25600"
-         stRef:toPart="time:0d104448f25600"
-         stRef:maskMarkers="None"/>
-        <rdf:li
-         stRef:instanceID="xmp.iid:eb34f484-9147-480b-bbe1-d9fc08284793"
-         stRef:fromPart="time:0d104448f25600"
-         stRef:toPart="time:0d104448f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:b1c0344c-97b5-4724-8298-6145d1ff8af6">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">LETS THINK BIG</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:b2fc10ca-ab8a-41c4-959e-552f2e73c563">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">R5-2</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
-         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d91136f25600"
-         stRef:toPart="time:0d91136f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:b7ded06e-0c6f-43ba-8f64-4bbe41046162">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">R4-1</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
-         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d101376f25600"
-         stRef:toPart="time:0d101376f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:bb61b278-1da0-4c1b-838d-f688abc5903b">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">video-editing-software-timeline-on-computer-monito-2025-12-17-21-53-21-utc.mov</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="08138a86-03af-42f2-92c6-8739000000f4"
-         stRef:documentID="91f4c4c8-346a-56b4-973d-eb89000000c7"
-         stRef:fromPart="time:0d10240f25600"
-         stRef:toPart="time:0d10240f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:be73fd70-acdc-47d9-b2be-ff47969b2085">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">dynamic-abstract-fluid-liquid-wavy-motion-backgrou-2026-01-28-03-20-49-utc.mov</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="fed30512-bab3-e9ce-1ab8-875c000000f4"
-         stRef:documentID="8e9eb2ad-7cb2-4c62-c449-f418000000c7"
-         stRef:fromPart="time:0d2048f25600"
-         stRef:toPart="time:0d2048f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:c1b1ba5b-3d95-4607-a0fa-730a48f7eda0">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">lighting-console-close-up-2025-12-17-17-11-10-utc.mov</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="6de27bb2-3151-1bd0-7989-4be4000000c2"
-         stRef:documentID="ab04aef8-d495-1809-bd10-7b9e00000095"
-         stRef:fromPart="time:0d91136f25600"
-         stRef:toPart="time:0d91136f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:cab0d5f5-9a03-4ba1-b2a8-a6c643c6ae05">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">End-FIlp-Mask-01-06 Outlines</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:cbd0955d-2be4-4de8-8907-f3c4d66f82b9">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">THINK </rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:cc13eb32-ff75-4ce4-a353-2ceb18e8de78">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">abstract-silver-liquid-flowing-waves-animation-bac-2026-01-28-02-45-57-utc.mov</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="4cc8a39e-33e0-a536-1ed4-47df000000f4"
-         stRef:documentID="57b518e4-eb6a-e7ca-7699-c0b4000000c7"
-         stRef:fromPart="time:0d95232f25600"
-         stRef:toPart="time:0d95232f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:cc64e235-d27f-49e9-b3bb-a4d25e790d0c">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">dynamic-abstract-fluid-liquid-wavy-motion-backgrou-2026-01-28-03-20-49-utc.mov</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="fed30512-bab3-e9ce-1ab8-875c000000f4"
-         stRef:documentID="8e9eb2ad-7cb2-4c62-c449-f418000000c7"
-         stRef:fromPart="time:0d104448f25600"
-         stRef:toPart="time:0d104448f25600"
-         stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
       </rdf:Description>
@@ -3726,27 +3291,7 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:d00a9462-99ab-48ad-b2cf-9a8cc6c0f03b">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_01</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="xmp.iid:1e664faa-bee7-4606-95c0-f1acfce4f0d6"
-         stRef:fromPart="time:0d21504f25600"
-         stRef:toPart="time:0d21504f25600"
-         stRef:maskMarkers="None"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:d0a37ea4-abbd-4774-b1f3-eae3ac9e2ee8">
+       xmpMM:InstanceID="xmp.iid:9ec7f7aa-c282-4381-ba00-f7deae5eaf05">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Sc-02</rdf:li>
@@ -3755,7 +3300,27 @@
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="xmp.iid:b0898114-6fc6-4a62-91bc-a2860a8caac2"
+         stRef:instanceID="xmp.iid:0873697d-06ca-4f64-84ab-21376a7b0630"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:0d104448f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:13c61952-b33c-4933-b18e-1784597d9f0d"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:0d104448f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:c568f1e0-d012-4027-91c6-7a76fc5f8ca7"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:0d104448f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:d859f878-69ae-4ee6-9948-688ff8396f7d"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:0d104448f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:d8899c4d-5c61-46e7-ad2c-2f41658f324c"
          stRef:fromPart="time:0d104448f25600"
          stRef:toPart="time:0d104448f25600"
          stRef:maskMarkers="None"/>
@@ -3766,29 +3331,7 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:d182ae79-2ed9-47f9-b839-f24aa6066fb6">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      <xmpMM:Ingredients>
-       <rdf:Bag>
-        <rdf:li
-         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
-         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
-         stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d179200f25600"
-         stRef:toPart="time:0d179200f25600"
-         stRef:maskMarkers="All"/>
-       </rdf:Bag>
-      </xmpMM:Ingredients>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:d1f69e9a-a631-4904-b3bb-13890e99f2c0">
+       xmpMM:InstanceID="xmp.iid:a3bf5d0d-1967-42f2-8775-89be19ba8aef">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">THINK</rdf:li>
@@ -3799,41 +3342,19 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:d639440c-c6a9-4419-aa0c-afcd79a12b5f">
+       xmpMM:InstanceID="xmp.iid:a4289a56-4193-498b-af3a-8d892a67dcc0">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">THINK 2</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:d67a8dba-2a2e-48f7-bf42-f3f827eed449">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">End-FIlp-Mask-01-06 Outlines</rdf:li>
-       </rdf:Alt>
-      </dc:title>
-      </rdf:Description>
-     </rdf:li>
-     <rdf:li>
-      <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:d840bec3-8f1b-4893-bac9-92a74cfbe7c8">
-      <dc:title>
-       <rdf:Alt>
-        <rdf:li xml:lang="x-default">Nested Sequence 01.mp4</rdf:li>
+        <rdf:li xml:lang="x-default">video-editing-software-color-wheels-being-adjusted-2025-12-17-15-24-47-utc.mov</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="xmp.iid:eb7ee6cf-4310-40b3-9007-8765734f95c1"
-         stRef:documentID="0ca2acd7-ae97-9991-de64-96ff00000057"
-         stRef:fromPart="time:0d17408f25600"
-         stRef:toPart="time:0d17408f25600"
+         stRef:instanceID="a8ca0e04-091f-7fd5-fb8c-0167000000f4"
+         stRef:documentID="2ff26fdb-9953-0274-dd1e-09b6000000c7"
+         stRef:fromPart="time:0d101376f25600"
+         stRef:toPart="time:0d101376f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -3842,7 +3363,81 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:dd1398f0-8276-45fc-a8c7-ce7bcceae5ee">
+       xmpMM:InstanceID="xmp.iid:a640e908-b5ff-4e36-bf06-df095d03bd31">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Black_N_White</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:ab7e80c0-067a-4994-a795-d17adf25f38f">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R5-1</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
+         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d96256f25600"
+         stRef:toPart="time:0d96256f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:aff690be-5950-4ea9-b31c-f78bcbafcbd3">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:8555ea7f-7525-4dbd-a742-6896a6437fcf"
+         stRef:fromPart="time:0d3072f25600"
+         stRef:toPart="time:0d3072f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:b00e63bb-57cc-4bf2-8f3f-a6e5cda5b12d">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">timelaspe-of-hong-kong-skyline-2026-01-21-02-58-40-utc.mp4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="434a168d-5193-831d-6bc5-116b000000cc"
+         stRef:documentID="1b00ef12-5ae9-6e96-6331-efde0000009f"
+         stRef:fromPart="time:0d90112f25600"
+         stRef:toPart="time:0d90112f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:bb968d62-567b-43a5-8306-d122476f297c">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Pale Orange Solid 1</rdf:li>
@@ -3853,7 +3448,7 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:e45faeda-e1d5-4812-a1e8-f520f58f39cb">
+       xmpMM:InstanceID="xmp.iid:bee60613-141b-47d0-94e6-711cbc390673">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">R4-3</rdf:li>
@@ -3875,19 +3470,19 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:e8a1e73c-a549-4240-b752-a8105d96716d">
+       xmpMM:InstanceID="xmp.iid:c01ac84f-7bf2-4e5b-bcc2-af98329c6ebd">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">video-editing-software-color-wheels-being-adjusted-2025-12-17-15-24-47-utc.mov</rdf:li>
+        <rdf:li xml:lang="x-default">camera-films-family-in-modern-kitchen-setting-2026-01-21-05-19-41-utc.mp4</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="a8ca0e04-091f-7fd5-fb8c-0167000000f4"
-         stRef:documentID="2ff26fdb-9953-0274-dd1e-09b6000000c7"
-         stRef:fromPart="time:0d7168f25600"
-         stRef:toPart="time:0d7168f25600"
+         stRef:instanceID="6964ef5f-b143-de45-f0b2-5195000000ea"
+         stRef:documentID="330f242e-6b43-34c4-57d9-52e2000000bd"
+         stRef:fromPart="time:0d96256f25600"
+         stRef:toPart="time:0d96256f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -3896,10 +3491,84 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:ea681414-2d52-4a9c-91e9-dd232739db50">
+       xmpMM:InstanceID="xmp.iid:c0bc0869-7639-4ac2-9675-a9b6c1493085">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">R1-1</rdf:li>
+        <rdf:li xml:lang="x-default">Nested Sequence 06.mp4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:f3523e44-a12b-481e-80f5-acf2d05de493"
+         stRef:documentID="2afd4659-12a3-ea95-a93c-4c7b00000057"
+         stRef:fromPart="time:0d21504f25600"
+         stRef:toPart="time:0d21504f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:c40923f7-6402-4e8e-acb2-e730bafe4c90">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_02</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:5eea89fb-900c-4774-938a-f08842107ad6"
+         stRef:fromPart="time:0d19456f25600"
+         stRef:toPart="time:0d19456f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:c568f1e0-d012-4027-91c6-7a76fc5f8ca7">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Website-Hero-video-Endfilp-Mask-01-09.ai</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:89e870fc-d7c2-5041-b5e5-b83031b314c1"
+         stRef:documentID="xmp.did:1638e2db-7e62-4e9e-8889-c01cb7e2edda"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:0d104448f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:c5db40b0-01e2-4df0-b388-2d886abd40de">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">THINK </rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:c6cabae7-c5ad-4644-82bc-4dfb9f83bcf6">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R5-2</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
@@ -3908,8 +3577,8 @@
          stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
          stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
          stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d84992f25600"
-         stRef:toPart="time:0d84992f25600"
+         stRef:fromPart="time:0d91136f25600"
+         stRef:toPart="time:0d91136f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
@@ -3918,10 +3587,349 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:eb34f484-9147-480b-bbe1-d9fc08284793">
+       xmpMM:InstanceID="xmp.iid:c7ed7792-2312-4db9-a33c-81e73312fd48">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_03</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:8555ea7f-7525-4dbd-a742-6896a6437fcf"
+         stRef:fromPart="time:10240f25600d6144f25600"
+         stRef:toPart="time:10240f25600d6144f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:ca0547e5-4392-4bd5-91af-a1741c50e227">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">COMP TEMP</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:0261f4c7-54a7-46fa-a530-843edee23857"
+         stRef:fromPart="time:0d7168f25600"
+         stRef:toPart="time:47104f25600d7168f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:0450805f-21de-43ab-9b6e-9b6c4d0fd001"
+         stRef:fromPart="time:0d21504f25600"
+         stRef:toPart="time:0d21504f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:061f2cf9-a4c1-4e0a-85ea-c296fc453e57"
+         stRef:fromPart="time:16384f25600d7168f25600"
+         stRef:toPart="time:57344f25600d7168f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:0a84ef3b-6997-42c4-8913-184de1376d65"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:10075ff2-de87-4f66-98f8-bb1070b71a1a"
+         stRef:fromPart="time:0d2048f25600"
+         stRef:toPart="time:62464f25600d2048f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:2787e24e-e057-4984-ace2-0a7403660cbf"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:5f16a07e-a59c-4911-ba30-ca2e195e9cf9"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:6ce55398-2514-40bd-a598-6ba58b23aa79"
+         stRef:fromPart="time:0d19456f25600"
+         stRef:toPart="time:21504f25600d19456f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:71167cd2-3e83-45b7-99c1-fd299efdb355"
+         stRef:fromPart="time:3072f25600d7168f25600"
+         stRef:toPart="time:44032f25600d7168f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:78a0333b-b6d4-4697-b0b5-3433ebb84f1e"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:aff690be-5950-4ea9-b31c-f78bcbafcbd3"
+         stRef:fromPart="time:0d3072f25600"
+         stRef:toPart="time:40960f25600d3072f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:c0bc0869-7639-4ac2-9675-a9b6c1493085"
+         stRef:fromPart="time:0d21504f25600"
+         stRef:toPart="time:0d21504f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:c40923f7-6402-4e8e-acb2-e730bafe4c90"
+         stRef:fromPart="time:0d19456f25600"
+         stRef:toPart="time:21504f25600d19456f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:c7ed7792-2312-4db9-a33c-81e73312fd48"
+         stRef:fromPart="time:10240f25600d6144f25600"
+         stRef:toPart="time:51200f25600d6144f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:efe43acc-e53c-49d3-a92f-88e615170d41"
+         stRef:fromPart="time:0d17408f25600"
+         stRef:toPart="time:40960f25600d17408f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:f77abbff-1152-44a8-b08b-ade64268c8f9"
+         stRef:fromPart="time:0d10240f25600"
+         stRef:toPart="time:54272f25600d10240f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:d7784970-59b8-4455-a751-81aacb17ee4e">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Split-screen-shape-01-02</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:1a4e7d9f-4625-40eb-9524-865b88d3f252"
+         stRef:fromPart="time:0d113664f25600"
+         stRef:toPart="time:14336f25600d113664f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:26089e5c-02f3-406c-b107-a82944db9d24"
+         stRef:fromPart="time:0d117760f25600"
+         stRef:toPart="time:10240f25600d117760f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:3521c9bf-f55d-49eb-9555-2bc93502501f"
+         stRef:fromPart="time:0d101376f25600"
+         stRef:toPart="time:26624f25600d101376f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:467b7602-3c00-410e-83f4-015d802a60b1"
+         stRef:fromPart="time:0d108544f25600"
+         stRef:toPart="time:19456f25600d108544f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:4a68653f-85cb-43cb-b68a-f34cb28272b7"
+         stRef:fromPart="time:0d95232f25600"
+         stRef:toPart="time:32768f25600d95232f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:5513bdb9-01d3-4b7c-8700-f2ea71c16ba5"
+         stRef:fromPart="time:0d84992f25600"
+         stRef:toPart="time:43008f25600d84992f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:62110860-fb63-4b04-85b6-625ee93c2060"
+         stRef:fromPart="time:0d113664f25600"
+         stRef:toPart="time:14336f25600d113664f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:64aa4778-08d0-4ed8-a9ed-2a0eb381754d"
+         stRef:fromPart="time:0d105472f25600"
+         stRef:toPart="time:22528f25600d105472f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:6b4d3196-bef4-4aea-84ed-b61610b9d17c"
+         stRef:fromPart="time:0d128000f25600"
+         stRef:toPart="time:0d128000f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:767bcfe8-3cd4-44c7-8ac6-07163557042e"
+         stRef:fromPart="time:0d105472f25600"
+         stRef:toPart="time:22528f25600d105472f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:8ccaa83b-78a4-4a94-8b61-5acc412b98dc"
+         stRef:fromPart="time:0d84992f25600"
+         stRef:toPart="time:43008f25600d84992f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:945e9b44-8486-4d29-b12f-d14ba826f246"
+         stRef:fromPart="time:0d108544f25600"
+         stRef:toPart="time:19456f25600d108544f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:99a74245-cb83-4e7b-a815-87dba2ae744c"
+         stRef:fromPart="time:0d90112f25600"
+         stRef:toPart="time:37888f25600d90112f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:9ad0d837-9fc3-455e-98d4-7176f7c087a2"
+         stRef:fromPart="time:0d327462912000f254016000000"
+         stRef:toPart="time:5120f25600d122880f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:a4289a56-4193-498b-af3a-8d892a67dcc0"
+         stRef:fromPart="time:0d101376f25600"
+         stRef:toPart="time:26624f25600d101376f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:a640e908-b5ff-4e36-bf06-df095d03bd31"
+         stRef:fromPart="time:0d128000f25600"
+         stRef:toPart="time:0d128000f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:ab7e80c0-067a-4994-a795-d17adf25f38f"
+         stRef:fromPart="time:0d96256f25600"
+         stRef:toPart="time:31744f25600d96256f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:b00e63bb-57cc-4bf2-8f3f-a6e5cda5b12d"
+         stRef:fromPart="time:0d90112f25600"
+         stRef:toPart="time:37888f25600d90112f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:bee60613-141b-47d0-94e6-711cbc390673"
+         stRef:fromPart="time:0d117760f25600"
+         stRef:toPart="time:10240f25600d117760f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:c01ac84f-7bf2-4e5b-bcc2-af98329c6ebd"
+         stRef:fromPart="time:0d96256f25600"
+         stRef:toPart="time:31744f25600d96256f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:c6cabae7-c5ad-4644-82bc-4dfb9f83bcf6"
+         stRef:fromPart="time:0d91136f25600"
+         stRef:toPart="time:36864f25600d91136f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:e8805dfa-b100-4145-87ee-40ef3ec09e2b"
+         stRef:fromPart="time:0d95232f25600"
+         stRef:toPart="time:32768f25600d95232f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:ec4d5eb3-168a-4cb2-9dea-6ea53c6f01aa"
+         stRef:fromPart="time:0d122880f25600"
+         stRef:toPart="time:5120f25600d122880f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:f1fc95f5-e7ea-4fa2-8a2e-2b630e2e030f"
+         stRef:fromPart="time:0d128000f25600"
+         stRef:toPart="time:0d128000f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:f6971a83-30a3-433c-9945-c96604e2e2d6"
+         stRef:fromPart="time:0d107520f25600"
+         stRef:toPart="time:20480f25600d107520f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:ff68f361-fd0b-4c7f-b448-e148ffd65cc3"
+         stRef:fromPart="time:0d91136f25600"
+         stRef:toPart="time:36864f25600d91136f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:ffc69c01-581e-4be7-a325-bb6422687834"
+         stRef:fromPart="time:866304f25600d107520f25600"
+         stRef:toPart="time:20480f25600d107520f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:d859f878-69ae-4ee6-9948-688ff8396f7d">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">dynamic-abstract-fluid-liquid-wavy-motion-backgrou-2026-01-28-03-20-49-utc.mov</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="fed30512-bab3-e9ce-1ab8-875c000000f4"
+         stRef:documentID="8e9eb2ad-7cb2-4c62-c449-f418000000c7"
+         stRef:fromPart="time:0d104448f25600"
+         stRef:toPart="time:0d104448f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:d8899c4d-5c61-46e7-ad2c-2f41658f324c">
       <dc:title>
        <rdf:Alt>
         <rdf:li xml:lang="x-default">Pale Orange Solid 1</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:dac0c3ab-aed7-4e75-a81e-af5cd41f6ad0">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">EDITING TX_01</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:a3bf5d0d-1967-42f2-8775-89be19ba8aef"
+         stRef:fromPart="time:0d21504f25600"
+         stRef:toPart="time:0d21504f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:e8805dfa-b100-4145-87ee-40ef3ec09e2b">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R1-3</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
+         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d95232f25600"
+         stRef:toPart="time:0d95232f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:eadf1c62-3700-46f3-980c-182ba6e62f40">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">THINK 2 Outlines</rdf:li>
        </rdf:Alt>
       </dc:title>
       </rdf:Description>
@@ -4013,20 +4021,136 @@
      </rdf:li>
      <rdf:li>
       <rdf:Description
-       dc:format="application/vnd.adobe.aftereffects.comp"
-       xmpMM:InstanceID="xmp.iid:ee6da335-2996-4b9e-b748-cf84bba20aeb">
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:eba9c3c2-00c3-48ae-a432-443bbd54befa">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">EDITING TX_02</rdf:li>
+        <rdf:li xml:lang="x-default">abstract typo opener</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.comp"
+       xmpMM:InstanceID="xmp.iid:ebfecf80-f7aa-4d68-a9f4-32403aca448d">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Sc-01</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="xmp.iid:b1c0344c-97b5-4724-8298-6145d1ff8af6"
-         stRef:fromPart="time:0d19456f25600"
-         stRef:toPart="time:0d19456f25600"
+         stRef:instanceID="xmp.iid:288e9237-9163-4d62-85f0-bbe081319dc5"
+         stRef:fromPart="time:0d152576f25600"
+         stRef:toPart="time:26624f25600d152576f25600"
          stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:2d9fef7f-5bf7-4b05-b353-98ec157b235f"
+         stRef:fromPart="time:0d128000f25600"
+         stRef:toPart="time:51200f25600d128000f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:4cd70657-b1e6-45fc-b076-5b9891f128a3"
+         stRef:fromPart="time:0d179200f25600"
+         stRef:toPart="time:0d179200f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:59464a23-b5c6-4dee-969b-6f24073c4f5e"
+         stRef:fromPart="time:0d179200f25600"
+         stRef:toPart="time:0d179200f25600"
+         stRef:maskMarkers="None"/>
+        <rdf:li
+         stRef:instanceID="xmp.iid:7c40bc55-6299-4016-81ac-3ccd44d08558"
+         stRef:fromPart="time:26624f25600d152576f25600"
+         stRef:toPart="time:26624f25600d152576f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:ec4d5eb3-168a-4cb2-9dea-6ea53c6f01aa">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">R4-2</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
+         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d122880f25600"
+         stRef:toPart="time:0d122880f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:ee984e6e-f70c-4a8b-9f2a-8114824afa96">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">COMP TEMP</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:ca0547e5-4392-4bd5-91af-a1741c50e227"
+         stRef:fromPart="time:0d64512f25600"
+         stRef:toPart="time:0d64512f25600"
+         stRef:maskMarkers="None"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:efe43acc-e53c-49d3-a92f-88e615170d41">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Nested Sequence 01.mp4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="xmp.iid:eb7ee6cf-4310-40b3-9007-8765734f95c1"
+         stRef:documentID="0ca2acd7-ae97-9991-de64-96ff00000057"
+         stRef:fromPart="time:0d17408f25600"
+         stRef:toPart="time:0d17408f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:f1fc95f5-e7ea-4fa2-8a2e-2b630e2e030f">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
+         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
+         stRef:renditionClass="proof:pdf"
+         stRef:fromPart="time:0d128000f25600"
+         stRef:toPart="time:0d128000f25600"
+         stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>
       </rdf:Description>
@@ -4119,20 +4243,83 @@
      <rdf:li>
       <rdf:Description
        dc:format="application/vnd.adobe.aftereffects.layer"
-       xmpMM:InstanceID="xmp.iid:f47ef76c-14b3-4a1d-918b-9bbdc139b10b">
+       xmpMM:InstanceID="xmp.iid:f6971a83-30a3-433c-9945-c96604e2e2d6">
       <dc:title>
        <rdf:Alt>
-        <rdf:li xml:lang="x-default">Black-Bar-01.ai</rdf:li>
+        <rdf:li xml:lang="x-default">R2-1</rdf:li>
        </rdf:Alt>
       </dc:title>
       <xmpMM:Ingredients>
        <rdf:Bag>
         <rdf:li
-         stRef:instanceID="uuid:b37068d5-9578-974c-b48a-6ee41afb5e11"
-         stRef:documentID="xmp.did:b9b2ec1b-3a72-4285-a2e4-dc0809e7783b"
+         stRef:instanceID="uuid:99586e68-5912-e041-8dec-73e096c49b22"
+         stRef:documentID="xmp.did:12609cfd-d9af-4677-be44-603a50e04e9b"
          stRef:renditionClass="proof:pdf"
-         stRef:fromPart="time:0d64512f25600"
-         stRef:toPart="time:0d64512f25600"
+         stRef:fromPart="time:0d107520f25600"
+         stRef:toPart="time:0d107520f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:f77abbff-1152-44a8-b08b-ade64268c8f9">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">video-editing-software-timeline-on-computer-monito-2025-12-17-21-53-21-utc.mov</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="08138a86-03af-42f2-92c6-8739000000f4"
+         stRef:documentID="91f4c4c8-346a-56b4-973d-eb89000000c7"
+         stRef:fromPart="time:0d10240f25600"
+         stRef:toPart="time:0d10240f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:ff68f361-fd0b-4c7f-b448-e148ffd65cc3">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">lighting-console-close-up-2025-12-17-17-11-10-utc.mov</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="6de27bb2-3151-1bd0-7989-4be4000000c2"
+         stRef:documentID="ab04aef8-d495-1809-bd10-7b9e00000095"
+         stRef:fromPart="time:0d91136f25600"
+         stRef:toPart="time:0d91136f25600"
+         stRef:maskMarkers="All"/>
+       </rdf:Bag>
+      </xmpMM:Ingredients>
+      </rdf:Description>
+     </rdf:li>
+     <rdf:li>
+      <rdf:Description
+       dc:format="application/vnd.adobe.aftereffects.layer"
+       xmpMM:InstanceID="xmp.iid:ffc69c01-581e-4be7-a325-bb6422687834">
+      <dc:title>
+       <rdf:Alt>
+        <rdf:li xml:lang="x-default">BH-Makingof-01.mp4</rdf:li>
+       </rdf:Alt>
+      </dc:title>
+      <xmpMM:Ingredients>
+       <rdf:Bag>
+        <rdf:li
+         stRef:instanceID="05dd2e22-405a-8552-0431-50440000007c"
+         stRef:documentID="4ab3ead3-01ef-a030-d8f2-bdf60000004f"
+         stRef:fromPart="time:866304f25600d107520f25600"
+         stRef:toPart="time:866304f25600d107520f25600"
          stRef:maskMarkers="All"/>
        </rdf:Bag>
       </xmpMM:Ingredients>

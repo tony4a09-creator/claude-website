@@ -195,8 +195,8 @@
     }
 
     .tags-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      display: flex;
+      flex-wrap: wrap;
       gap: 0.5rem;
     }
 
@@ -209,8 +209,6 @@
       color: var(--mid);
       background: var(--white);
       letter-spacing: 0.005em;
-      white-space: nowrap;
-      overflow: hidden;
       transition: border-color 0.25s, color 0.25s;
     }
     .svc-tag:hover { border-color: var(--mid); color: var(--black); }
@@ -419,12 +417,10 @@
       .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
     }
     @media (max-width: 680px) {
-      .tags-grid { grid-template-columns: repeat(2, 1fr); }
       .meta-row { flex-direction: column; gap: 0.4rem; }
     }
     @media (max-width: 580px) {
       .footer-top { grid-template-columns: 1fr; }
-      .tags-grid { grid-template-columns: 1fr 1fr; }
     }
   </style>
   <script src="projects.js"></script>
@@ -596,6 +592,12 @@
         var el = document.querySelector('[data-field="' + key + '"]');
         if (el) el.textContent = project[key] || '';
       });
+
+      // Hide Duration row if project has no duration
+      if (!project.duration) {
+        var durEl = document.querySelector('[data-field="duration"]');
+        if (durEl) durEl.closest('.meta-item').style.display = 'none';
+      }
 
       // Cover / video / photo slider
       var coverEl = document.querySelector('[data-field="cover"]');
