@@ -694,6 +694,7 @@
         <!-- Right: form -->
         <div>
           <form class="contact-form reveal d1" id="contactForm" novalidate>
+            <input type="hidden" name="access_key" value="b6a127b0-da67-427b-9f8a-dbe5499961ec">
 
             <div class="form-row">
               <div class="form-field">
@@ -898,12 +899,28 @@
     // Form submit
     const form = document.getElementById('contactForm');
     const success = document.getElementById('formSuccess');
-    form.addEventListener('submit', e => {
+    form.addEventListener('submit', async e => {
       e.preventDefault();
       if (!form.checkValidity()) { form.reportValidity(); return; }
-      form.style.display = 'none';
-      success.classList.add('visible');
-      window.scrollTo({ top: success.offsetTop - 120, behavior: 'smooth' });
+
+      const btn = form.querySelector('.form-submit');
+      btn.disabled = true;
+
+      const data = Object.fromEntries(new FormData(form));
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify(data)
+      });
+
+      if (res.ok) {
+        form.style.display = 'none';
+        success.classList.add('visible');
+        window.scrollTo({ top: success.offsetTop - 120, behavior: 'smooth' });
+      } else {
+        btn.disabled = false;
+        alert('Something went wrong. Please try again or email us directly.');
+      }
     });
 
     // Search
