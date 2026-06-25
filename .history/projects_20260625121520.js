@@ -278,7 +278,7 @@ const PROJECTS = [
   {
     id: 'project-e02',
     title: 'One Step One Paw',
-    client: 'Paws Hero',
+    client: 'XXXX',
     cover: 'assets/images:/Showcase:/Event:/Project-E02/OSOP_01.webp',
     images: [
       'assets/images:/Showcase:/Event:/Project-E02/OSOP_01.webp',
