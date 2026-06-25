@@ -197,12 +197,12 @@ const PROJECTS = [
   },
   {
     id: 'project-v011',
-    title: 'Equity, Diversity and Inclusion in Research',
-    client: 'The Hong Kong Polytechnic University — Research and Innovation Office (PolyU RIO)',
-    nature: 'Promotional Video',
-    duration: '',
+    title: '多元成掌路',
+    client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
+    nature: 'Promotional Video / 2D Motion Graphic',
+    duration: '2 mins 25 secs',
     cover: 'assets/images:/Showcase:/Video:/Project-V011/Cover-V011.webp',
-    videoUrl: 'https://youtu.be/F1UxiTIUSpI?si=3nJPQqlczaHOjZq5',
+    videoUrl: 'https://youtu.be/MXw-H_RfDJw?si=1SAc9XDAWVA3SeRt',
     services: [
       'Concept & Idea',
       'Script',
@@ -213,6 +213,7 @@ const PROJECTS = [
       'Colour Grading',
       'Audio Mixing',
       '2D Motion Graphic',
+      'Graphic Design',
     ],
   },
   {
@@ -232,12 +233,12 @@ const PROJECTS = [
   },
   {
     id: 'project-v013',
-    title: '多元成掌路',
-    client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
-    nature: 'Promotional Video / 2D Motion Graphic',
-    duration: '2 mins 25 secs',
+    title: 'Equity, Diversity and Inclusion in Research',
+    client: 'The Hong Kong Polytechnic University — Research and Innovation Office (PolyU RIO)',
+    nature: 'Promotional Video',
+    duration: '',
     cover: 'assets/images:/Showcase:/Video:/Project-V013/Cover-V013.webp',
-    videoUrl: 'https://youtu.be/MXw-H_RfDJw?si=1SAc9XDAWVA3SeRt',
+    videoUrl: 'https://youtu.be/F1UxiTIUSpI?si=3nJPQqlczaHOjZq5',
     services: [
       'Concept & Idea',
       'Script',
@@ -248,7 +249,6 @@ const PROJECTS = [
       'Colour Grading',
       'Audio Mixing',
       '2D Motion Graphic',
-      'Graphic Design',
     ],
   },
   {
