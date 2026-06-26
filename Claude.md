@@ -25,7 +25,7 @@
 | `--muted` | `#888` |
 
 ### Logo
-- 檔案：`Brand_assets/bighead-logo.svg`
+- 檔案：`assets/BH/brand/bighead-logo.svg`
 - ViewBox：`175.27 × 35.96`，fill `#3c3c3c`
 - 深色背景時用 `filter: brightness(0) invert(1)` 轉白
 
@@ -35,14 +35,12 @@
 
 | 資源 | 路徑 |
 |---|---|
-| 品牌 Logo（深色用）| `Brand_assets/bighead-logo.svg` |
-| 品牌 Logo（淺色用）| `assets/icon:/Light_Logo.svg` |
-| Instagram icon | `assets/icon:/icon_IG.svg` |
-| Vimeo icon | `assets/icon:/icon_Viemo.svg` |
-| Facebook icon | `assets/icon:/icon_FB.svg` |
-| 品牌規範圖 | `Brand_assets/BH_Brand_Guidelines_01.png` |
-
-> **注意**：icon 資料夾名稱含冒號 `icon:`，路徑為 `assets/icon:/xxx.svg`，屬合法 HTML 相對路徑。
+| 品牌 Logo（深色用）| `assets/BH/brand/bighead-logo.svg` |
+| 品牌 Logo（淺色用）| `assets/BH/icons/Light_Logo.svg` |
+| Instagram icon | `assets/BH/icons/icon_IG.svg` |
+| Vimeo icon | `assets/BH/icons/icon_Viemo.svg` |
+| Facebook icon | `assets/BH/icons/icon_FB.svg` |
+| 品牌規範圖 | `assets/BH/brand/BH_Brand_Guidelines_01.png` |
 
 ---
 
@@ -67,7 +65,7 @@ Nav → Hero (Think BIG split) → Logo Strip → About → Services → Project
 ### 正確做法：使用 `<img>` 標籤
 ```html
 <a href="#" class="soc-btn" aria-label="Instagram">
-  <img src="assets/icon:/icon_IG.svg" alt="" width="20" height="20">
+  <img src="assets/BH/icons/icon_IG.svg" alt="" width="20" height="20">
 </a>
 ```
 
@@ -95,6 +93,34 @@ Nav → Hero (Think BIG split) → Logo Strip → About → Services → Project
 
 ---
 
+## 資產資料夾結構 Asset Folder Structure
+
+品牌優先（Brand-first）結構，每個品牌為頂層分類：
+
+```
+assets/
+├── BH/                  ← 主品牌 Bighead Productions
+│   ├── brand/           ← Logo SVG、品牌規範 PNG
+│   ├── icons/           ← 所有 UI icon SVG（含 Company_Structure/ 子資料夾）
+│   └── images/
+│       ├── Client_logo/ ← 客戶 logo（V1/V2/V3 等版本）
+│       ├── Company_structrue/
+│       ├── HeroVideo/   ← 首頁 hero 影片
+│       ├── Showcase/
+│       │   ├── Video/   ← 影片專案封面（Project-V01 … V013）
+│       │   └── Event/   ← 活動專案照片（Project-E01 … E03）
+│       └── thumbnails/
+└── Biglab/              ← 子品牌 Biglab（骨架備用）
+    ├── brand/
+    ├── icons/
+    └── images/
+        ├── HeroVideo/
+        ├── Showcase/
+        │   ├── Video/
+        │   └── Event/
+        └── thumbnails/
+```
+
 ## 已知技術決策 Technical Decisions
 
 | 決策 | 原因 |
@@ -103,6 +129,7 @@ Nav → Hero (Think BIG split) → Logo Strip → About → Services → Project
 | 圖片暫用 CSS gradient placeholder | placehold.co 替換尚未完成（使用者中途取消） |
 | `filter: brightness(0) invert(1)` | 控制深色 SVG 在深色背景顯示為白色 |
 | `100svh` 代替 `100vh` | 行動裝置瀏覽器工具列修正 |
+| 資料夾不用冒號命名 | 原 `icon:`、`images:` 等冒號名稱已於品牌重組時清除 |
 
 ---
 
