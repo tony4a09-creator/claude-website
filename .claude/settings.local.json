@@ -8,7 +8,18 @@
       "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
       "Bash(command -v brew)",
       "Bash(python3 -c \"from PIL import Image; print\\('PIL ok'\\)\")",
-      "Bash(wait)"
+      "Bash(wait)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(open \"/Users/bighead/Desktop/BH-Website2026/Skils/claude-website/biglab.html\")",
+      "Bash(screencapture -x /private/tmp/claude-501/-Users-bighead-Desktop-BH-Website2026-Skils-claude-website/1326ce92-b366-40c3-b371-538a2449d577/scratchpad/biglab-screenshot.png)",
+      "Bash(osascript -e 'tell application \"Safari\" to activate')",
+      "Bash(osascript -e 'tell application \"Google Chrome\" to activate')",
+      "Bash(osascript -e 'tell application \"Firefox\" to activate')",
+      "Bash(screencapture -x /private/tmp/claude-501/-Users-bighead-Desktop-BH-Website2026-Skils-claude-website/1326ce92-b366-40c3-b371-538a2449d577/scratchpad/biglab2.png)",
+      "Bash(osascript -e ' *)",
+      "Bash(screencapture -x /private/tmp/claude-501/-Users-bighead-Desktop-BH-Website2026-Skils-claude-website/1326ce92-b366-40c3-b371-538a2449d577/scratchpad/biglab3.png)",
+      "Bash(screencapture -x /private/tmp/claude-501/-Users-bighead-Desktop-BH-Website2026-Skils-claude-website/1326ce92-b366-40c3-b371-538a2449d577/scratchpad/biglab4.png)"
     ]
   }
 }
