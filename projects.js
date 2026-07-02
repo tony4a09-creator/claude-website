@@ -5,7 +5,7 @@ const PROJECTS = [
     client: 'Education Bureau (EDB)',
     nature: 'Promotional Video',
     duration: '5 mins',
-    cover: 'assets/images:/Showcase:/Video:/Project-V02/Cover-V02.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V02/Cover-V02.webp',
     videoUrl: 'https://emm.edcity.hk/media/MVPA60%40%E9%81%8B%E5%8B%95%E5%A5%BD%E7%BF%92%E6%85%A3+%E5%BE%9E%E5%B0%8F%E9%96%8B%E5%A7%8B+%28%E4%B8%AD%E3%80%81%E8%8B%B1%E6%96%87%E5%AD%97%E5%B9%95%E5%8F%AF%E4%BE%9B%E9%81%B8%E6%93%87%29/1_hj3wp4i5',
     services: [
       'Concept & Idea',
@@ -27,7 +27,7 @@ const PROJECTS = [
     client: 'TVB',
     nature: 'Siemens',
     duration: '30 Seconds Video',
-    cover: 'assets/images:/Showcase:/Video:/Project-V01/Cover-V01.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V01/Cover-V01.webp',
     videoUrl: 'https://www.youtube.com/watch?v=9UlSwBps8-g',
     services: [
       '2D Motion Graphic',
@@ -48,7 +48,7 @@ const PROJECTS = [
     client: 'Airport Authority Hong Kong / Hong Kong International Airport',
     nature: 'TVC',
     duration: '30 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V03/Cover-V03.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V03/Cover-V03.webp',
     videoUrl: 'https://youtu.be/_RTivqNG2mQ?si=9vUf-1ScfsS86KEu',
     services: [
       'Concept & Idea',
@@ -67,7 +67,7 @@ const PROJECTS = [
     client: 'The Hong Kong Polytechnic University (PolyU)',
     nature: 'Profile Video',
     duration: '2 mins 10 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V04/Cover-V04.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V04/Cover-V04.webp',
     videoUrl: 'https://youtu.be/wSeZHcAqsYw?si=BUmO7sQuPWrJ2zXD',
     services: [
       'Concept & Idea',
@@ -86,7 +86,7 @@ const PROJECTS = [
     client: 'City University of Hong Kong (CityUHK)',
     nature: 'Event Video',
     duration: '1 min 29 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V05/Cover-V05.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V05/Cover-V05.webp',
     videoUrl: 'https://youtu.be/doAeVqT5gro?si=9NxJ2cDav6R2d2Jd',
     services: [
       'Multicam Shooting (Live)',
@@ -102,7 +102,7 @@ const PROJECTS = [
     client: '日本大善 / 大善製藥 DAIZEN',
     nature: 'TVC',
     duration: '1 min 3 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V06/Cover-V06.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V06/Cover-V06.webp',
     videoUrl: 'https://youtu.be/bojWpoyABhY?si=IDqFBn7lI-bDOIZh',
     services: [
       'Concept & Idea',
@@ -121,7 +121,7 @@ const PROJECTS = [
     client: '日本大善 / 大善製藥 DAIZEN',
     nature: 'TVC',
     duration: '20 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V07/Cover-V07.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V07/Cover-V07.webp',
     videoUrl: 'https://youtu.be/qQPL6zweW6k?si=uAIjkH3Wd3FZxkex',
     services: [
       'Concept & Idea',
@@ -140,7 +140,7 @@ const PROJECTS = [
     client: 'Vita Green 維特健靈',
     nature: 'Corporate Video',
     duration: '1 min',
-    cover: 'assets/images:/Showcase:/Video:/Project-V08/Cover-V08.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V08/Cover-V08.webp',
     videoUrl: 'https://youtu.be/Vfm0Jr_1ae8?si=KvYeEJ3IF7v0XATo',
     services: [
       'Concept & Idea',
@@ -159,7 +159,7 @@ const PROJECTS = [
     client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
     nature: 'Promotional Video',
     duration: '6 mins',
-    cover: 'assets/images:/Showcase:/Video:/Project-V09/Cover-V09.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V09/Cover-V09.webp',
     videoUrl: 'https://youtu.be/VA4muotoxN8?si=PxIKyICZH8pHZWli',
     services: [
       'Concept & Idea',
@@ -180,7 +180,7 @@ const PROJECTS = [
     client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
     nature: 'Promotional Video',
     duration: '5 mins 35 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V010/Cover-V010.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V010/Cover-V010.webp',
     videoUrl: 'https://youtu.be/uHpuCxvLnwU?si=t6o4GS80B_f0aYm6',
     services: [
       'Concept & Idea',
@@ -201,7 +201,7 @@ const PROJECTS = [
     client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
     nature: 'Promotional Video / 2D Motion Graphic',
     duration: '2 mins 25 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V011/Cover-V011.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V011/Cover-V011.webp',
     videoUrl: 'https://youtu.be/MXw-H_RfDJw?si=1SAc9XDAWVA3SeRt',
     services: [
       'Concept & Idea',
@@ -222,7 +222,7 @@ const PROJECTS = [
     client: 'Hong Kong Institute of Information Technology (HKIIT)',
     nature: '3D Mapping Animation',
     duration: '1 min 8 secs',
-    cover: 'assets/images:/Showcase:/Video:/Project-V012/Cover-V012.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V012/Cover-V012.webp',
     videoUrl: 'https://vimeo.com/995657232?share=copy&fl=cl&fe=ci',
     services: [
       '3D Mapping Animation',
@@ -237,7 +237,7 @@ const PROJECTS = [
     client: 'The Hong Kong Polytechnic University — Research and Innovation Office (PolyU RIO)',
     nature: 'Promotional Video',
     duration: '',
-    cover: 'assets/images:/Showcase:/Video:/Project-V013/Cover-V013.webp',
+    cover: 'assets/BH/images/Showcase/Video/Project-V013/Cover-V013.webp',
     videoUrl: 'https://youtu.be/F1UxiTIUSpI?si=3nJPQqlczaHOjZq5',
     services: [
       'Concept & Idea',
@@ -256,16 +256,16 @@ const PROJECTS = [
     title: 'Deutsche Bank - Roadshow',
     client: 'Deutsche Bank',
     nature: 'Roadshow',
-    cover: 'assets/images:/Showcase:/Event:/Project-E01/DBB_01.webp',
+    cover: 'assets/BH/images/Showcase/Event/Project-E01/DBB_01.webp',
     images: [
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_01.webp',
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_02.webp',
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_03.webp',
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_04.webp',
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_05.webp',
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_06.webp',
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_07.webp',
-      'assets/images:/Showcase:/Event:/Project-E01/DBB_08.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_01.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_02.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_03.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_04.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_05.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_06.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_07.webp',
+      'assets/BH/images/Showcase/Event/Project-E01/DBB_08.webp',
     ],
     videoUrl: 'XXXX',
     services: [
@@ -279,12 +279,12 @@ const PROJECTS = [
     id: 'project-e02',
     title: 'One Step One Paw',
     client: 'Paws Hero',
-    cover: 'assets/images:/Showcase:/Event:/Project-E02/OSOP_01.webp',
+    cover: 'assets/BH/images/Showcase/Event/Project-E02/OSOP_01.webp',
     images: [
-      'assets/images:/Showcase:/Event:/Project-E02/OSOP_01.webp',
-      'assets/images:/Showcase:/Event:/Project-E02/OSOP_02.webp',
-      'assets/images:/Showcase:/Event:/Project-E02/OSOP_03.webp',
-      'assets/images:/Showcase:/Event:/Project-E02/OSOP_04.webp',
+      'assets/BH/images/Showcase/Event/Project-E02/OSOP_01.webp',
+      'assets/BH/images/Showcase/Event/Project-E02/OSOP_02.webp',
+      'assets/BH/images/Showcase/Event/Project-E02/OSOP_03.webp',
+      'assets/BH/images/Showcase/Event/Project-E02/OSOP_04.webp',
     ],
     videoUrl: 'XXXX',
     services: [
@@ -300,12 +300,12 @@ const PROJECTS = [
     title: 'The Chinese Occupational Association of Hong Kong — Inauguration Ceremony and Gala Dinner',
     client: 'The Chinese Occupational Association of Hong Kong',
     nature: 'Inauguration Ceremony & Gala Dinner',
-    cover: 'assets/images:/Showcase:/Event:/Project-E03/TCOA_01.webp',
+    cover: 'assets/BH/images/Showcase/Event/Project-E03/TCOA_01.webp',
     images: [
-      'assets/images:/Showcase:/Event:/Project-E03/TCOA_01.webp',
-      'assets/images:/Showcase:/Event:/Project-E03/TCOA_02.webp',
-      'assets/images:/Showcase:/Event:/Project-E03/TCOA_03.webp',
-      'assets/images:/Showcase:/Event:/Project-E03/TCOA_04.webp',
+      'assets/BH/images/Showcase/Event/Project-E03/TCOA_01.webp',
+      'assets/BH/images/Showcase/Event/Project-E03/TCOA_02.webp',
+      'assets/BH/images/Showcase/Event/Project-E03/TCOA_03.webp',
+      'assets/BH/images/Showcase/Event/Project-E03/TCOA_04.webp',
     ],
     videoUrl: 'XXXX',
     services: [
