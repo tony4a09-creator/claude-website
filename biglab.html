@@ -330,15 +330,12 @@
       padding: 7rem 4rem 7rem 4rem;
       background: var(--light);
       border-top: 1px solid var(--border);
-      overflow: hidden;
     }
-    .bl-about-grid {
-      display: grid;
-      grid-template-columns: 55fr 45fr;
-      gap: 4rem;
-      align-items: center;
+    .bl-about-inner {
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
     }
-    .bl-about-inner { max-width: 560px; }
     .bl-about-heading {
       font-size: clamp(2.25rem, 5vw, 4rem); font-weight: 300;
       letter-spacing: -0.03em; line-height: 1.05; color: var(--black);
@@ -348,16 +345,7 @@
     .bl-about-body {
       font-size: clamp(0.95rem, 1.4vw, 1.05rem); font-weight: 300;
       line-height: 1.9; color: var(--muted); max-width: 560px;
-    }
-    .bl-about-img {
-      margin-right: -4rem;
-    }
-    .bl-about-img img {
-      width: 100%;
-      height: clamp(320px, 40vw, 500px);
-      object-fit: cover;
-      border-radius: 16px 0 0 16px;
-      display: block;
+      margin: 0 auto;
     }
 
     /* ══ SERVICES: CREATIVE EDUCATION ════════════════════════ */
@@ -471,15 +459,6 @@
       display: grid; grid-template-columns: 1fr 1fr;
       gap: 6rem; align-items: start;
     }
-    .av-badge {
-      display: inline-block; margin-bottom: 1.25rem;
-      padding: 0.3rem 0.85rem;
-      background: rgba(245,200,0,0.12);
-      border: 1px solid rgba(245,200,0,0.28);
-      border-radius: 100px;
-      font-size: var(--fs-xs); letter-spacing: 0.08em; text-transform: uppercase;
-      color: var(--bl-yellow);
-    }
     .av-left .bl-svc-kicker { color: rgba(255,255,255,0.3); }
     .av-left .bl-svc-heading { color: var(--white); }
     .av-left .bl-svc-sub { color: rgba(255,255,255,0.45); margin-bottom: 0; }
@@ -534,13 +513,10 @@
     }
     .people-card:hover { border-color: var(--bl-yellow); }
 
-    .card-shape {
-      position: absolute; top: 1.75rem; right: 1.75rem;
-      width: 36px; height: 36px; opacity: 0.9;
+    .card-char {
+      position: absolute; top: 1.5rem; right: 1.75rem;
+      height: 84px; width: auto; display: block;
     }
-    .card-shape--sq   { border-radius: 5px; }
-    .card-shape--tri  { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); border-radius: 0; }
-    .card-shape--circ { border-radius: 50%; }
 
     .card-type {
       font-size: var(--fs-xs); letter-spacing: 0.1em; text-transform: uppercase;
@@ -755,8 +731,6 @@
       #cta         { padding-top: 5rem; padding-bottom: 5rem; }
       footer       { padding: 3rem 1.75rem 0; }
 
-      .bl-about-grid { grid-template-columns: 1fr; }
-      .bl-about-img  { display: none; }
       .edu-cards   { grid-template-columns: 1fr 1fr; }
       .av-inner    { grid-template-columns: 1fr; gap: 2.5rem; }
       .av-items    { padding-top: 0; }
@@ -874,22 +848,17 @@
 
   <!-- ══ ABOUT ══════════════════════════════════════════════════ -->
   <section id="bl-about">
-    <div class="bl-about-grid">
-      <div class="bl-about-inner">
-        <div class="section-pill reveal">
-          <span class="pill-icon"></span>
-          About BigLab
-        </div>
-        <h2 class="bl-about-heading reveal d1">
-          A dedicated <strong>creator hub</strong><br>for imagination &amp; innovation.
-        </h2>
-        <p class="bl-about-body reveal d2">
-          BigLab is a dedicated creator hub that strives to foster imagination, innovation, and exploration. We support this ambitious mission through our specialised services and creative workshops — empowering learners to break personal boundaries, embrace bold ideas, and grow through hands-on creative experiences.
-        </p>
+    <div class="bl-about-inner">
+      <div class="section-pill reveal">
+        <span class="pill-icon"></span>
+        About BigLab
       </div>
-      <div class="bl-about-img reveal d2">
-        <img src="https://placehold.co/760x480/1c1c1b/1c1c1b" alt="">
-      </div>
+      <h2 class="bl-about-heading reveal d1">
+        A dedicated <strong>creator hub</strong><br>for imagination &amp; innovation.
+      </h2>
+      <p class="bl-about-body reveal d2">
+        BigLab is a dedicated creator hub that strives to foster imagination, innovation, and exploration. We support this ambitious mission through our specialised services and creative workshops — empowering learners to break personal boundaries, embrace bold ideas, and grow through hands-on creative experiences.
+      </p>
     </div>
   </section>
 
@@ -952,16 +921,15 @@
     <div class="av-inner">
 
       <div class="av-left">
-        <span class="av-badge reveal">AV Architect</span>
         <p class="bl-svc-kicker reveal d1">Our Services</p>
         <h2 class="bl-svc-heading reveal d1">AV Solutions<br>for Education</h2>
         <p class="bl-svc-sub reveal d2">
           Enhancing creativity through cutting-edge technology. Seamless AV integration for unparalleled learning experiences — driving innovation in education with audio visual solutions.
         </p>
         <div class="av-photo-circles reveal d3">
-          <img src="https://placehold.co/140x140/ffffff/ffffff" class="av-circle-ph" alt="">
-          <img src="https://placehold.co/140x140/ffffff/ffffff" class="av-circle-ph" alt="">
-          <img src="https://placehold.co/140x140/ffffff/ffffff" class="av-circle-ph" alt="">
+          <img src="assets/Biglab/images/Showcase/AV Architect/BL-AVArchitect-01.webp" class="av-circle-ph" alt="AV Architect photo 1">
+          <img src="assets/Biglab/images/Showcase/AV Architect/BL-AVArchitect-02.webp" class="av-circle-ph" alt="AV Architect photo 2">
+          <img src="assets/Biglab/images/Showcase/AV Architect/BL-AVArchitect-03.webp" class="av-circle-ph" alt="AV Architect photo 3">
         </div>
       </div>
 
@@ -1005,21 +973,21 @@
 
     <div class="people-grid">
       <div class="people-card reveal d1">
-        <div class="card-shape card-shape--sq" style="background:var(--bl-pink);"></div>
+        <img class="card-char" src="assets/Biglab/brand/Character/Asset 12.webp" alt="">
         <p class="card-type">Field Expertise</p>
         <h3 class="card-title">On-Field<br>Professional</h3>
         <p class="card-desc">Active practitioners who bring real-world industry experience directly into the workshop environment.</p>
       </div>
 
       <div class="people-card reveal d2">
-        <div class="card-shape card-shape--tri" style="background:var(--bl-green);"></div>
+        <img class="card-char" src="assets/Biglab/brand/Character/Asset 15.webp" alt="">
         <p class="card-type">Education</p>
         <h3 class="card-title">Industrial<br>Instructors</h3>
         <p class="card-desc">Experienced educators who bridge the gap between industry knowledge and effective teaching methodology.</p>
       </div>
 
       <div class="people-card reveal d3">
-        <div class="card-shape card-shape--circ" style="background:var(--bl-blue);"></div>
+        <img class="card-char" src="assets/Biglab/brand/Character/Asset 11.webp" alt="">
         <p class="card-type">Multi-Disciplinary</p>
         <h3 class="card-title">Cross Functional<br>Instructors</h3>
         <p class="card-desc">Versatile specialists connecting diverse disciplines — from media and technology to design and communication.</p>
