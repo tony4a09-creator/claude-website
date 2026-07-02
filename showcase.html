@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <script src="search-data.js" defer></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -78,13 +79,48 @@
 
     .nav-right {
       display: flex; align-items: center; gap: 1.25rem; justify-content: flex-end;
+      position: relative;
     }
-    .nav-search {
-      width: 34px; height: 34px; display: flex; align-items: center; justify-content: center;
-      color: rgba(0,0,0,0.45); cursor: pointer; transition: color 0.25s;
-      background: none; border: none;
+    .nav-searchbar {
+      position: relative;
+      display: flex; align-items: center; gap: 7px;
+      background: rgba(0,0,0,0.055);
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 100px;
+      padding: 6px 13px;
+      transition: border-color 0.2s, background 0.2s;
     }
-    .nav-search:hover { color: var(--black); }
+    .nav-searchbar:focus-within {
+      background: rgba(0,0,0,0.04);
+      border-color: rgba(0,0,0,0.22);
+    }
+    .nav-searchbar-icon { flex-shrink: 0; color: rgba(0,0,0,0.38); pointer-events: none; }
+    .nav-searchbar-input {
+      border: none; outline: none; background: transparent;
+      font-family: inherit; font-size: var(--fs-sm);
+      color: var(--black); width: 140px;
+    }
+    .nav-searchbar-input::placeholder { color: var(--muted); }
+    .search-dropdown {
+      position: absolute; top: calc(100% + 8px); right: 0;
+      min-width: 300px; max-width: calc(100vw - 32px);
+      background: var(--dark); border-radius: 8px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25); z-index: 1000;
+      overflow: hidden;
+    }
+    .search-result-item {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 10px 16px; text-decoration: none;
+      color: var(--white); transition: background 0.15s;
+    }
+    .search-result-item:hover { background: rgba(255,255,255,0.08); }
+    .search-result-title { font-size: var(--fs-sm); font-weight: 500; }
+    .search-result-cat {
+      font-size: var(--fs-xs); color: var(--muted);
+      background: rgba(255,255,255,0.06); padding: 2px 8px;
+      border-radius: 100px; white-space: nowrap; margin-left: 8px;
+    }
+    .search-no-result { padding: 14px 16px; font-size: var(--fs-sm); color: var(--muted); text-align: center; }
     .nav-btn {
       display: inline-flex; align-items: center; gap: 0.35rem;
       padding: 0.6rem 2.2rem;
@@ -448,7 +484,6 @@
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
-      <li><a href="services.html">Services</a></li>
       <li><a href="works.html" class="active">Works</a></li>
       <li><a href="clients.html">Clients</a></li>
       <li><a href="biglab.html">BigLab</a></li>
@@ -456,12 +491,17 @@
     </ul>
 
     <div class="nav-right">
-      <button class="nav-search" aria-label="Search">
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <div class="nav-searchbar" id="navSearchbar">
+        <svg class="nav-searchbar-icon" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.3"/>
           <path d="M10.5 10.5 14 14" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
         </svg>
-      </button>
+        <input type="search" class="nav-searchbar-input" id="searchInput"
+               placeholder="Search..." autocomplete="off" spellcheck="false">
+      </div>
+      <div class="search-dropdown" id="searchDropdown" hidden>
+        <div class="search-results" id="searchResults"></div>
+      </div>
       <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -472,7 +512,6 @@
   <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
     <a href="index.html" onclick="closeMobileMenu()">Home</a>
     <a href="about.html" onclick="closeMobileMenu()">About Us</a>
-    <a href="services.html" onclick="closeMobileMenu()">Services</a>
     <a href="works.html" onclick="closeMobileMenu()">Works</a>
     <a href="clients.html" onclick="closeMobileMenu()">Clients</a>
     <a href="biglab.html" onclick="closeMobileMenu()">BigLab</a>
@@ -546,9 +585,9 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="biglab.html">BigLab</a></li>
           <li><a href="index.html#projects">Works</a></li>
           <li><a href="clients.html">Clients</a></li>
+          <li><a href="biglab.html">BigLab</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -762,6 +801,40 @@
         setTimeout(() => el.classList.add('visible'), 120 + i * 130);
       });
     });
+
+    // Search
+    (function () {
+      const bar  = document.getElementById('navSearchbar');
+      const inp  = document.getElementById('searchInput');
+      const drop = document.getElementById('searchDropdown');
+      const res  = document.getElementById('searchResults');
+      let timer;
+      inp.addEventListener('focus', () => {
+        if (inp.value.trim()) drop.hidden = false;
+      });
+      inp.addEventListener('input', () => {
+        clearTimeout(timer);
+        timer = setTimeout(render, 150);
+      });
+      document.addEventListener('click', e => {
+        if (!bar.contains(e.target) && !drop.contains(e.target)) drop.hidden = true;
+      });
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') { drop.hidden = true; inp.blur(); }
+      });
+      function render() {
+        const q = inp.value.trim().toLowerCase();
+        if (!q) { res.innerHTML = ''; drop.hidden = true; return; }
+        const hits = (window.SEARCH_DATA || [])
+          .filter(d => d.title.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q) || d.cat.toLowerCase().includes(q))
+          .slice(0, 6);
+        res.innerHTML = hits.length
+          ? hits.map(d => `<a class="search-result-item" href="${d.url}"><span class="search-result-title">${d.title}</span><span class="search-result-cat">${d.cat}</span></a>`).join('')
+          : '<div class="search-no-result">No results found</div>';
+        drop.hidden = false;
+      }
+    })();
+
   </script>
 </body>
 </html>
