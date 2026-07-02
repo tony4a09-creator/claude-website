@@ -2,18 +2,9 @@ window.SEARCH_DATA = [
   // Pages
   { title: 'Home',     cat: 'Page', desc: 'Bighead Productions home',                     url: 'index.html' },
   { title: 'About Us', cat: 'Page', desc: 'Our story, vision, and company values',         url: 'about.html' },
-  { title: 'Services', cat: 'Page', desc: 'Full list of production services we offer',     url: 'services.html' },
   { title: 'Works',    cat: 'Page', desc: 'Our project portfolio and past work',           url: 'works.html' },
   { title: 'Clients',  cat: 'Page', desc: 'Brands and businesses we have worked with',    url: 'clients.html' },
   { title: 'Contact',  cat: 'Page', desc: 'Get in touch with the Bighead team',           url: 'contact.html' },
-
-  // Services
-  { title: 'Photography & Visual Content', cat: 'Service', desc: 'Commercial and editorial photography, visual media production', url: 'services.html#photography' },
-  { title: 'Video Production',             cat: 'Service', desc: 'TVC, corporate video, documentary, and commercial film',       url: 'services.html#video-production' },
-  { title: 'Event & Hybrid Production',    cat: 'Service', desc: 'Live events, hybrid productions, and broadcast streaming',    url: 'services.html#event-production' },
-  { title: 'AI Generative Media',          cat: 'Service', desc: 'AI-powered content creation and generative visuals',          url: 'services.html#ai-media' },
-  { title: 'Motion, Design & Animation',   cat: 'Service', desc: '2D/3D motion graphics, animation, and title sequences',       url: 'services.html#motion-design' },
-  { title: 'Web / Interactive Media',      cat: 'Service', desc: 'Interactive web platforms and digital experiences',           url: 'services.html#web-interactive' },
 
   // Works
   { title: 'Siemens',                   cat: 'Work', desc: 'Commercial · 2026',           url: 'works.html' },
