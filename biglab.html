@@ -226,7 +226,7 @@
       position: relative;
       min-height: 100svh;
       padding-top: 64px;
-      background: #f5c701;
+      background: var(--light);
       overflow: hidden;
     }
 
@@ -360,7 +360,6 @@
     #bl-about {
       padding: 7rem 4rem 7rem 4rem;
       background: var(--light);
-      border-top: 1px solid var(--border);
     }
     .bl-about-inner {
       max-width: 700px;
@@ -414,6 +413,12 @@
       min-width: 0;
       height: clamp(140px, 16vw, 200px);
       object-fit: cover;
+      border-radius: 14px;
+    }
+    .edu-photo-row .photo-placeholder {
+      flex: 1;
+      min-width: 0;
+      aspect-ratio: 9 / 16;
       border-radius: 14px;
     }
     .edu-photo-carousel { position: relative; }
@@ -519,6 +524,26 @@
     .av-desc {
       font-size: var(--fs-sm); font-weight: 300;
       color: rgba(255,255,255,0.38); line-height: 1.65;
+    }
+
+    /* ══ SERVICES: 3D PRINTING ═══════════════════════════════ */
+    #bl-services-3dp {
+      padding: 6rem 4rem;
+      background: var(--white);
+      border-top: 1px solid var(--border);
+    }
+    .photo-placeholder {
+      border-radius: 14px;
+      background: linear-gradient(135deg, var(--border), var(--light));
+    }
+    #bl-services-3dp .edu-photo-row img,
+    #bl-services-3dp .edu-photo-row video {
+      flex: 1;
+      min-width: 0;
+      height: auto;
+      aspect-ratio: 9 / 16;
+      object-fit: cover;
+      border-radius: 14px;
     }
 
     /* ══ OUR PEOPLE ══════════════════════════════════════════ */
@@ -731,6 +756,21 @@
         aspect-ratio: 16 / 9;
         scroll-snap-align: start;
       }
+      .edu-photo-row .photo-placeholder {
+        flex: 0 0 auto;
+        width: clamp(200px, 60vw, 260px);
+        height: auto;
+        aspect-ratio: 9 / 16;
+        scroll-snap-align: start;
+      }
+      #bl-services-3dp .edu-photo-row img,
+      #bl-services-3dp .edu-photo-row video {
+        flex: 0 0 auto;
+        width: clamp(200px, 60vw, 260px);
+        height: auto;
+        aspect-ratio: 9 / 16;
+        scroll-snap-align: start;
+      }
       .edu-carousel-btn { display: flex; }
       .edu-carousel-dots { display: flex; }
       .edu-photo-carousel.no-overflow .edu-carousel-btn,
@@ -752,11 +792,12 @@
       .bl-deco--cross { width: clamp(80px, 20vw, 140px); }
       .bl-deco--lines { width: clamp(80px, 20vw, 140px); }
 
-      #bl-about, #bl-services-edu, #bl-services-av,
+      #bl-about, #bl-services-edu, #bl-services-av, #bl-services-3dp,
       #bl-people, #bl-clients, #cta { padding-left: 1.75rem; padding-right: 1.75rem; }
       #bl-about    { padding-top: 4rem; padding-bottom: 4rem; }
       #bl-services-edu { padding-top: 4rem; padding-bottom: 4rem; }
       #bl-services-av  { padding-top: 4rem; padding-bottom: 4rem; }
+      #bl-services-3dp { padding-top: 4rem; padding-bottom: 4rem; }
       #bl-people   { padding-top: 4rem; padding-bottom: 4rem; }
       #bl-clients  { padding-top: 4rem; padding-bottom: 4rem; }
       #cta         { padding-top: 5rem; padding-bottom: 5rem; }
@@ -913,14 +954,14 @@
         <p class="bl-svc-sub reveal d2">Tailored programmes that ignite creativity at every level — for children, educators, and institutions alike.</p>
       </div>
       <div class="edu-photo-carousel reveal d2">
-        <div class="edu-photo-row" id="eduPhotoRow">
+        <div class="edu-photo-row">
           <img src="assets/Biglab/images/Showcase/CEE/BL-CEE-01.webp" alt="Creative Education Experiences photo 1">
           <img src="assets/Biglab/images/Showcase/CEE/BL-CEE-02.webp" alt="Creative Education Experiences photo 2">
           <img src="assets/Biglab/images/Showcase/CEE/BL-CEE-03.webp" alt="Creative Education Experiences photo 3">
         </div>
         <button class="edu-carousel-btn edu-carousel-prev" aria-label="Previous photo">&#8592;</button>
         <button class="edu-carousel-btn edu-carousel-next" aria-label="Next photo">&#8594;</button>
-        <div class="edu-carousel-dots" id="eduCarouselDots">
+        <div class="edu-carousel-dots">
           <button class="edu-carousel-dot active" aria-label="Photo 1"></button>
           <button class="edu-carousel-dot" aria-label="Photo 2"></button>
           <button class="edu-carousel-dot" aria-label="Photo 3"></button>
@@ -999,6 +1040,31 @@
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- ══ SERVICES: 3D PRINTING ════════════════════════════════ -->
+  <section id="bl-services-3dp">
+    <div class="edu-header-row">
+      <div>
+        <p class="bl-svc-kicker reveal">Our Services</p>
+        <h2 class="bl-svc-heading reveal d1">Tailor-Made<br>3D Printing</h2>
+        <p class="bl-svc-sub reveal d2">Converting your digital concepts into the real world with uncompromising precision. We provide high-quality, fully bespoke 3D printing services tailored to the exact specifications of your project.</p>
+      </div>
+      <div class="edu-photo-carousel reveal d2">
+        <div class="edu-photo-row">
+          <img src="assets/Biglab/images/Showcase/3D-print/BL-3D-print-01.webp" alt="Tailor-Made 3D Printing photo 1">
+          <video src="assets/Biglab/images/Showcase/3D-print/BL-3D-print-02.webm" autoplay muted loop playsinline aria-label="Tailor-Made 3D Printing video 1"></video>
+          <video src="assets/Biglab/images/Showcase/3D-print/BL-3D-print-03.webm" autoplay muted loop playsinline aria-label="Tailor-Made 3D Printing video 2"></video>
+        </div>
+        <button class="edu-carousel-btn edu-carousel-prev" aria-label="Previous photo">&#8592;</button>
+        <button class="edu-carousel-btn edu-carousel-next" aria-label="Next photo">&#8594;</button>
+        <div class="edu-carousel-dots">
+          <button class="edu-carousel-dot active" aria-label="Photo 1"></button>
+          <button class="edu-carousel-dot" aria-label="Photo 2"></button>
+          <button class="edu-carousel-dot" aria-label="Photo 3"></button>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -1218,14 +1284,13 @@
       document.getElementById('mobileSearchDropdown'), document.getElementById('mobileSearchResults'), true
     );
 
-    (function () {
-      const carousel = document.querySelector('.edu-photo-carousel');
-      const row      = document.getElementById('eduPhotoRow');
-      if (!carousel || !row) return;
-      const imgs     = Array.from(row.querySelectorAll('img'));
-      const prevBtn  = carousel.querySelector('.edu-carousel-prev');
-      const nextBtn  = carousel.querySelector('.edu-carousel-next');
-      const dots     = Array.from(carousel.querySelectorAll('.edu-carousel-dot'));
+    function initPhotoCarousel(carousel) {
+      const row = carousel.querySelector('.edu-photo-row');
+      if (!row) return null;
+      const imgs    = Array.from(row.children);
+      const prevBtn = carousel.querySelector('.edu-carousel-prev');
+      const nextBtn = carousel.querySelector('.edu-carousel-next');
+      const dots    = Array.from(carousel.querySelectorAll('.edu-carousel-dot'));
 
       function currentIndex() {
         let closest = 0, minDist = Infinity;
@@ -1244,16 +1309,16 @@
       function updateUI() {
         const idx = currentIndex();
         dots.forEach((d, i) => d.classList.toggle('active', i === idx));
-        prevBtn.disabled = idx === 0;
-        nextBtn.disabled = idx === imgs.length - 1;
+        if (prevBtn) prevBtn.disabled = idx === 0;
+        if (nextBtn) nextBtn.disabled = idx === imgs.length - 1;
       }
 
       function checkOverflow() {
         carousel.classList.toggle('no-overflow', row.scrollWidth <= row.clientWidth + 2);
       }
 
-      prevBtn.addEventListener('click', () => scrollToIndex(currentIndex() - 1));
-      nextBtn.addEventListener('click', () => scrollToIndex(currentIndex() + 1));
+      if (prevBtn) prevBtn.addEventListener('click', () => scrollToIndex(currentIndex() - 1));
+      if (nextBtn) nextBtn.addEventListener('click', () => scrollToIndex(currentIndex() + 1));
       dots.forEach((d, i) => d.addEventListener('click', () => scrollToIndex(i)));
 
       let scrollTimer;
@@ -1262,15 +1327,22 @@
         scrollTimer = setTimeout(updateUI, 80);
       }, { passive: true });
 
-      let resizeTimer;
-      window.addEventListener('resize', () => {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(() => { checkOverflow(); updateUI(); }, 120);
-      }, { passive: true });
-
       checkOverflow();
       updateUI();
-    })();
+      return { checkOverflow, updateUI };
+    }
+
+    const photoCarousels = Array.from(document.querySelectorAll('.edu-photo-carousel'))
+      .map(initPhotoCarousel)
+      .filter(Boolean);
+
+    let carouselResizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(carouselResizeTimer);
+      carouselResizeTimer = setTimeout(() => {
+        photoCarousels.forEach(c => { c.checkOverflow(); c.updateUI(); });
+      }, 120);
+    }, { passive: true });
   </script>
 </body>
 </html>
