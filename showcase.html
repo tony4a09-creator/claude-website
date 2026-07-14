@@ -697,6 +697,12 @@
         if (durEl) durEl.closest('.meta-item').style.display = 'none';
       }
 
+      // Hide Nature row if project has no nature
+      if (!project.nature) {
+        var natEl = document.querySelector('[data-field="nature"]');
+        if (natEl) natEl.closest('.meta-item').style.display = 'none';
+      }
+
       // Cover / video / photo slider
       var coverEl = document.querySelector('[data-field="cover"]');
       var hasVideo = project.videoUrl && project.videoUrl.startsWith('http');

@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
   <script src="search-data.js" defer></script>
-  <script src="projects.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -326,13 +325,13 @@
       background: var(--white);
       border: 1px solid rgba(0,0,0,0.1);
       border-radius: 14px;
-      padding: 2rem;
-      display: flex; flex-direction: row;
-      align-items: center; justify-content: space-between;
-      gap: 1rem;
+      padding: 2rem 2rem 1.75rem;
+      display: flex; flex-direction: column;
+      min-height: 280px;
     }
     .svc-header {
       display: flex; align-items: flex-start; gap: 0.55rem;
+      margin-bottom: 0.75rem;
     }
     .svc-icon {
       width: 10px; height: 10px;
@@ -346,6 +345,11 @@
       letter-spacing: -0.015em; line-height: 1.3;
       color: var(--black);
     }
+    .svc-desc {
+      font-size: var(--fs-sm); font-weight: 300;
+      line-height: 1.8; color: var(--muted);
+      flex: 1;
+    }
     .svc-cta {
       display: inline-flex; align-items: center; gap: 0.5rem;
       padding: 0.6rem 1.4rem;
@@ -353,9 +357,9 @@
       border-radius: 100px;
       color: var(--white); font-size: var(--fs-sm);
       text-decoration: none;
-      white-space: nowrap;
-      flex-shrink: 0;
       transition: gap 0.3s, background 0.3s;
+      align-self: flex-end;
+      margin-top: auto;
     }
     .svc-cta:hover { background: var(--black); gap: 0.75rem; }
     .services-cta-btn {
@@ -652,9 +656,6 @@
       .footer-top { grid-template-columns: 1fr; }
       .cta-actions { flex-direction: column; }
     }
-    @media (max-width: 560px) {
-      .svc-card { flex-direction: column; align-items: flex-start; gap: 1rem; }
-    }
   </style>
 </head>
 <body>
@@ -814,6 +815,7 @@
           <span class="svc-icon"></span>
           <div class="svc-name">Photography<br>&amp; Visual Content</div>
         </div>
+        <div class="svc-desc"></div>
         <a href="works.html?filter=photo" class="svc-cta">
           Know more
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -825,6 +827,7 @@
           <span class="svc-icon"></span>
           <div class="svc-name">Video Production</div>
         </div>
+        <div class="svc-desc"></div>
         <a href="works.html?filter=video" class="svc-cta">
           Know more
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -836,6 +839,7 @@
           <span class="svc-icon"></span>
           <div class="svc-name">Event &amp; Hybrid<br>Production</div>
         </div>
+        <div class="svc-desc"></div>
         <a href="works.html?filter=event" class="svc-cta">
           Know more
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -847,6 +851,7 @@
           <span class="svc-icon"></span>
           <div class="svc-name">AI Generative Media</div>
         </div>
+        <div class="svc-desc"></div>
         <a href="works.html?filter=ai" class="svc-cta">
           Know more
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -858,6 +863,7 @@
           <span class="svc-icon"></span>
           <div class="svc-name">Motion, Design<br>&amp; Animation</div>
         </div>
+        <div class="svc-desc"></div>
         <a href="works.html?filter=motion" class="svc-cta">
           Know more
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -869,6 +875,7 @@
           <span class="svc-icon"></span>
           <div class="svc-name">Web / Interactive Media</div>
         </div>
+        <div class="svc-desc"></div>
         <a href="works.html?filter=web" class="svc-cta">
           Know more
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -895,7 +902,35 @@
       We set no limits for imagination; encouraging an attitude of thinking energetic, impactful,
       inspiring and thinking BIG to meet your needs.
     </p>
-    <div class="proj-cards-row reveal d1" id="featuredProjects"></div>
+    <div class="proj-cards-row reveal d1">
+      <div class="proj-slide-card">
+        <a href="showcase.html" class="proj-slide-inner">
+          <img src="assets/BH/images/Showcase/Video/Project-V02/Cover-V02.webp" class="proj-slide-img" alt="MVPA60">
+          <div class="proj-slide-overlay">
+            <div class="proj-title">MVPA60</div>
+            <div class="proj-tag">Feature Film &bull; 2025</div>
+          </div>
+        </a>
+      </div>
+      <div class="proj-slide-card">
+        <a href="showcase.html" class="proj-slide-inner">
+          <img src="assets/BH/images/Showcase/Video/Project-V01/Cover-V01.webp" class="proj-slide-img" alt="Siemens">
+          <div class="proj-slide-overlay">
+            <div class="proj-title">Siemens</div>
+            <div class="proj-tag">Commercial &bull; 2026</div>
+          </div>
+        </a>
+      </div>
+      <div class="proj-slide-card">
+        <a href="showcase.html" class="proj-slide-inner">
+          <img src="assets/BH/images/Showcase/Video/Project-V03/Cover-V03.webp" class="proj-slide-img" alt="Still Waters">
+          <div class="proj-slide-overlay">
+            <div class="proj-title">Still Waters</div>
+            <div class="proj-tag">Documentary &bull; 2024</div>
+          </div>
+        </a>
+      </div>
+    </div>
     <a href="works.html" class="projects-cta-btn reveal d4">
       All project
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -990,28 +1025,6 @@
       const clone = group.cloneNode(true);
       clone.setAttribute('aria-hidden', 'true');
       track.appendChild(clone);
-    })();
-
-    // Featured projects — reads PROJECTS from projects.js; toggle `featured: true` there to change what shows here
-    (function () {
-      var container = document.getElementById('featuredProjects');
-      if (!container || typeof PROJECTS === 'undefined') return;
-      var featured = PROJECTS.filter(function (p) { return p.featured; });
-      container.innerHTML = featured.map(function (p) {
-        var label = p.shortTitle || p.title;
-        var tag = p.nature + (p.year ? ' &bull; ' + p.year : '');
-        return (
-          '<div class="proj-slide-card">' +
-            '<a href="showcase.html?id=' + p.id + '" class="proj-slide-inner">' +
-              '<img src="' + p.cover + '" class="proj-slide-img" alt="' + label + '">' +
-              '<div class="proj-slide-overlay">' +
-                '<div class="proj-title">' + label + '</div>' +
-                '<div class="proj-tag">' + tag + '</div>' +
-              '</div>' +
-            '</a>' +
-          '</div>'
-        );
-      }).join('');
     })();
 
     // Hamburger menu

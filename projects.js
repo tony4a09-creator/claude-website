@@ -1,6 +1,10 @@
+// Show a project on the home "Our Works" row: add featured: true, year, shortTitle
 const PROJECTS = [
   {
     id: 'MVPA60',
+    featured: true,
+    year: '2025',
+    shortTitle: 'MVPA60',
     title: 'EDB_MVPA60@運動好習慣 從小開始',
     client: 'Education Bureau (EDB)',
     nature: 'Promotional Video',
@@ -13,7 +17,7 @@ const PROJECTS = [
       'Directing',
       'Art Direction',
       '2D Motion Graphic',
-      'Graphic and Network',
+      'Graphic Design',
       'Photo Editing',
       'Online Editing',
       'Colour Grading',
@@ -23,15 +27,18 @@ const PROJECTS = [
   },
   {
     id: 'siemens-tvb',
+    featured: true,
+    year: '2026',
+    shortTitle: 'Siemens',
     title: 'Siemens TVB',
     client: 'TVB',
     nature: 'Siemens',
-    duration: '30 Seconds Video',
+    duration: '30 secs',
     cover: 'assets/BH/images/Showcase/Video/Project-V01/Cover-V01.webp',
     videoUrl: 'https://www.youtube.com/watch?v=9UlSwBps8-g',
     services: [
       '2D Motion Graphic',
-      'Graphic and Network',
+      'Graphic Design',
       'Photo Editing',
       'Online Editing',
       'Colour Grading',
@@ -44,6 +51,9 @@ const PROJECTS = [
   },
   {
     id: 'project-v03',
+    featured: true,
+    year: '2024',
+    shortTitle: '機場購物攻略',
     title: '機場直播最後召集：洪永城和郭柏妍與您分享機場購物攻略',
     client: 'Airport Authority Hong Kong / Hong Kong International Airport',
     nature: 'TVC',
@@ -267,10 +277,9 @@ const PROJECTS = [
       'assets/BH/images/Showcase/Event/Project-E01/DBB_07.webp',
       'assets/BH/images/Showcase/Event/Project-E01/DBB_08.webp',
     ],
-    videoUrl: 'XXXX',
     services: [
-      'Event management & productions',
-      'Video recording',
+      'Event Management & Productions',
+      'Video Recording',
       'Rosewood Hotel',
       'National Palace Museum',
     ],
@@ -286,7 +295,6 @@ const PROJECTS = [
       'assets/BH/images/Showcase/Event/Project-E02/OSOP_03.webp',
       'assets/BH/images/Showcase/Event/Project-E02/OSOP_04.webp',
     ],
-    videoUrl: 'XXXX',
     services: [
       'Overall Event Producing',
       'Event Concept & Idea',
@@ -307,7 +315,6 @@ const PROJECTS = [
       'assets/BH/images/Showcase/Event/Project-E03/TCOA_03.webp',
       'assets/BH/images/Showcase/Event/Project-E03/TCOA_04.webp',
     ],
-    videoUrl: 'XXXX',
     services: [
       'Overall Event Producing',
       'Backdrop Design',
