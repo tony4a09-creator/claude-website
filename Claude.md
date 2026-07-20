@@ -47,13 +47,13 @@
 ## 頁面結構 Page Structure
 
 ```
-Nav → Hero (Think BIG split) → Logo Strip → About → Services → Projects (dark bg) → CTA → Footer
+Nav → Hero (Think BIG split) → Logo Strip → About → Services → Projects (light bg) → CTA → Footer
 ```
 
 ### 各區段重點
 - **Hero**: CSS Grid `1fr 1fr`；左文字、右照片拼貼（4 張）；`min-height: 100svh`
 - **Services**: 卡片 hover → 背景變黑、文字變白
-- **Projects**: 深色背景 (`--dark`)，5 張專案卡
+- **Projects**: 淺色背景 (`--light`)；卡片為資料驅動 — 由 `projects.js` 的 `PROJECTS` 陣列（`featured: true`）經 JS 動態產生 `.proj-slide-card`，並非靜態 HTML；新增專案請編輯 `projects.js`，不要手動改 `index.html`
 - **Footer**: 深色背景，三欄 Grid，底部含社群 icon 圓形按鈕
 
 ---
@@ -138,7 +138,6 @@ assets/
 - [ ] 將所有 CSS gradient 佔位圖替換為 `https://placehold.co/` URL：
   - Hero 照片拼貼 × 4（`.hero-photo:nth-child(n) .hero-photo-fill`）
   - About 圖片 × 1（`.about-img-fill`）
-  - Project 卡片 × 5（`.proj-card:nth-child(n) .proj-bg`）
 - [ ] 替換為真實照片後移除 placehold.co
 
 ---
