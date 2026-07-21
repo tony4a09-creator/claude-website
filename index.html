@@ -216,8 +216,8 @@
     .strip-logo:hover { opacity: 1; }
 
     @keyframes logo-scroll {
-      from { transform: translateX(0); }
-      to   { transform: translateX(-50%); }
+      from { transform: translateX(-50%); }
+      to   { transform: translateX(0); }
     }
     .strip-item.dark-bg svg { fill: var(--white); }
 
@@ -639,7 +639,7 @@
       #about { padding: 4rem 1.5rem; }
       .about-body { grid-template-columns: 1fr; gap: 2.5rem; }
       #services { padding: 5rem 1.5rem; }
-      .services-grid { grid-template-columns: 1fr 1fr; }
+      .services-grid { grid-template-columns: 1fr; }
 
       #projects { padding: 4rem 1.5rem; }
       .proj-cards-row { flex-direction: column; }
@@ -648,12 +648,18 @@
       .footer-top { gap: 2rem; }
     }
     @media (max-width: 580px) {
-      .services-grid { grid-template-columns: 1fr; }
       .footer-top { grid-template-columns: 1fr; }
       .cta-actions { flex-direction: column; }
     }
     @media (max-width: 560px) {
-      .svc-card { flex-direction: column; align-items: flex-start; gap: 1rem; }
+      .svc-cta-text { display: none; }
+      .svc-cta {
+        padding: 0;
+        width: 34px; height: 34px;
+        border-radius: 50%;
+        justify-content: center;
+        flex-shrink: 0;
+      }
     }
   </style>
 </head>
@@ -815,7 +821,7 @@
           <div class="svc-name">Photography<br>&amp; Visual Content</div>
         </div>
         <a href="works.html?filter=photo" class="svc-cta">
-          Know more
+          <span class="svc-cta-text">Know more</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
@@ -826,7 +832,7 @@
           <div class="svc-name">Video Production</div>
         </div>
         <a href="works.html?filter=video" class="svc-cta">
-          Know more
+          <span class="svc-cta-text">Know more</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
@@ -837,7 +843,7 @@
           <div class="svc-name">Event &amp; Hybrid<br>Production</div>
         </div>
         <a href="works.html?filter=event" class="svc-cta">
-          Know more
+          <span class="svc-cta-text">Know more</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
@@ -848,7 +854,7 @@
           <div class="svc-name">AI Generative Media</div>
         </div>
         <a href="works.html?filter=ai" class="svc-cta">
-          Know more
+          <span class="svc-cta-text">Know more</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
@@ -859,7 +865,7 @@
           <div class="svc-name">Motion, Design<br>&amp; Animation</div>
         </div>
         <a href="works.html?filter=motion" class="svc-cta">
-          Know more
+          <span class="svc-cta-text">Know more</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
@@ -870,7 +876,7 @@
           <div class="svc-name">Web / Interactive Media</div>
         </div>
         <a href="works.html?filter=web" class="svc-cta">
-          Know more
+          <span class="svc-cta-text">Know more</span>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
