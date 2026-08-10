@@ -253,6 +253,28 @@
       flex-shrink: 0;
     }
 
+    /* Extra links row */
+    .links-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .link-pill {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.42rem 0.9rem;
+      border: 1px solid rgba(0,0,0,0.14);
+      border-radius: 100px;
+      font-size: 0.78rem; font-weight: 400;
+      color: var(--mid);
+      background: var(--white);
+      letter-spacing: 0.005em;
+      text-decoration: none;
+      transition: border-color 0.25s, color 0.25s;
+    }
+    .link-pill:hover { border-color: var(--mid); color: var(--black); }
+    .link-pill img { width: 14px; height: 14px; display: block; filter: brightness(0.4); }
+    .link-pill:hover img { filter: brightness(0); }
+
     /* CTA row */
     .showcase-cta-row {
       display: flex;
@@ -606,6 +628,9 @@
           <div class="tags-grid" data-field="services"></div>
         </div>
 
+        <!-- Extra links (e.g. Instagram post) -->
+        <div class="links-row" data-field="links"></div>
+
         <!-- CTA -->
         <div class="showcase-cta-row">
           <a href="works.html" class="btn-more">
@@ -797,6 +822,17 @@
       if (servicesEl && project.services) {
         servicesEl.innerHTML = project.services.map(function (s) {
           return '<div class="svc-tag"><span class="tag-dot"></span>' + s + '</div>';
+        }).join('');
+      }
+
+      // Extra links (e.g. Instagram post alongside the main video)
+      var linksEl = document.querySelector('[data-field="links"]');
+      if (linksEl && project.links && project.links.length) {
+        linksEl.innerHTML = project.links.map(function (l) {
+          var icon = /instagram\.com/i.test(l.url)
+            ? '<img src="assets/BH/icons/icon_IG.svg" alt="" width="14" height="14">'
+            : '';
+          return '<a class="link-pill" href="' + l.url + '" target="_blank" rel="noopener noreferrer">' + icon + l.label + '</a>';
         }).join('');
       }
     })();
