@@ -603,7 +603,13 @@ const PROJECTS = [
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
     cover: 'assets/BH/images/Showcase/AI Generative/Project-AIGC-001/SWD-case-01.webp',
-    services: ['AI Generative Video'],
+    services: [
+      'Storyboarding & Conceptualization',
+      'Art Direction & Style Consistency',
+      'AI Prompt Engineering & Animation Generation',
+      'Voiceover Recording & Audio Mixing',
+      'Motion Graphics & Post-Production Touch-Up',
+    ],
   },
   {
     id: 'project-aigc002',
@@ -612,7 +618,13 @@ const PROJECTS = [
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
     cover: 'assets/BH/images/Showcase/AI Generative/Project-AIGC-002/SWD-case-02.webp',
-    services: ['AI Generative Video'],
+    services: [
+      'Storyboarding & Conceptualization',
+      'Art Direction & Style Consistency',
+      'AI Prompt Engineering & Animation Generation',
+      'Voiceover Recording & Audio Mixing',
+      'Motion Graphics & Post-Production Touch-Up',
+    ],
   },
   {
     id: 'project-aigc003',
@@ -621,7 +633,13 @@ const PROJECTS = [
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
     cover: 'assets/BH/images/Showcase/AI Generative/Project-AIGC-003/SWD-case-03.webp',
-    services: ['AI Generative Video'],
+    services: [
+      'Storyboarding & Conceptualization',
+      'Art Direction & Style Consistency',
+      'AI Prompt Engineering & Animation Generation',
+      'Voiceover Recording & Audio Mixing',
+      'Motion Graphics & Post-Production Touch-Up',
+    ],
   },
   {
     id: 'project-aigc004',
@@ -630,7 +648,13 @@ const PROJECTS = [
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
     cover: 'assets/BH/images/Showcase/AI Generative/Project-AIGC-004/SWD-case-04.webp',
-    services: ['AI Generative Video'],
+    services: [
+      'Storyboarding & Conceptualization',
+      'Art Direction & Style Consistency',
+      'AI Prompt Engineering & Animation Generation',
+      'Voiceover Recording & Audio Mixing',
+      'Motion Graphics & Post-Production Touch-Up',
+    ],
   },
   {
     id: 'project-aigc005',
@@ -639,7 +663,13 @@ const PROJECTS = [
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
     cover: 'assets/BH/images/Showcase/AI Generative/Project-AIGC-005/SWD-case-05.webp',
-    services: ['AI Generative Video'],
+    services: [
+      'Storyboarding & Conceptualization',
+      'Art Direction & Style Consistency',
+      'AI Prompt Engineering & Animation Generation',
+      'Voiceover Recording & Audio Mixing',
+      'Motion Graphics & Post-Production Touch-Up',
+    ],
   },
   {
     id: 'project-p001',
