@@ -2,6 +2,7 @@
 const PROJECTS = [
   {
     id: 'MVPA60',
+    category: 'video',
     featured: true,
     year: '2025',
     shortTitle: 'MVPA60',
@@ -27,6 +28,7 @@ const PROJECTS = [
   },
   {
     id: 'siemens-tvb',
+    category: 'video',
     featured: true,
     year: '2026',
     shortTitle: 'Siemens',
@@ -51,6 +53,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v03',
+    category: 'video',
     featured: true,
     year: '2024',
     shortTitle: '機場購物攻略',
@@ -73,6 +76,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v04',
+    category: 'video',
     title: 'Prof. Erin Cho, Limin Professor in Integrated Strategies and Leadership in Fashion',
     client: 'The Hong Kong Polytechnic University (PolyU)',
     nature: 'Profile Video',
@@ -92,6 +96,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v05',
+    category: 'event',
     title: "CityUHK New Year's Day Flag-Raising Ceremony 2026",
     client: 'City University of Hong Kong (CityUHK)',
     nature: 'Event Video',
@@ -108,6 +113,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v06',
+    category: 'video',
     title: '【星級用家】林子善，大善NMN20000PLUS+，善待身體，善待家人。',
     client: '日本大善 / 大善製藥 DAIZEN',
     nature: 'TVC',
@@ -127,6 +133,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v07',
+    category: 'video',
     title: '日本大善 NMN 20000 Plus+ (蔡潔)',
     client: '日本大善 / 大善製藥 DAIZEN',
     nature: 'TVC',
@@ -146,6 +153,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v08',
+    category: 'video',
     title: '【維特健靈幫你掌握健康 使大家未病防病 有病防傳】',
     client: 'Vita Green 維特健靈',
     nature: 'Corporate Video',
@@ -165,6 +173,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v09',
+    category: 'video',
     title: '鼓掌迎未來：資訊與通訊科技篇 [完整版]',
     client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
     nature: 'Promotional Video',
@@ -186,6 +195,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v010',
+    category: 'video',
     title: '鼓掌迎未來：創意媒體篇 [完整版]',
     client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
     nature: 'Promotional Video',
@@ -207,6 +217,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v011',
+    category: 'motion',
     title: '多元成掌路',
     client: 'The Hong Kong Jockey Club Charities Trust (The CLAP-TECH Pathway)',
     nature: 'Promotional Video / 2D Motion Graphic',
@@ -228,6 +239,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v012',
+    category: 'motion',
     title: 'HKIIT Opening Video',
     client: 'Hong Kong Institute of Information Technology (HKIIT)',
     nature: '3D Mapping Animation',
@@ -243,6 +255,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v013',
+    category: 'video',
     title: 'Equity, Diversity and Inclusion in Research',
     client: 'The Hong Kong Polytechnic University — Research and Innovation Office (PolyU RIO)',
     nature: 'Promotional Video',
@@ -263,6 +276,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v014',
+    category: 'event',
     title: 'EDU The 24th Congregation',
     client: '',
     nature: 'Ceremonial videos',
@@ -273,6 +287,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v015',
+    category: 'video',
     title: '土木工程拓展署_保養斜坡 保障生命',
     client: '',
     nature: 'TV APIs',
@@ -283,6 +298,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v016',
+    category: 'motion',
     title: '正向家長運動 － 大手牽小手 愉快同步走',
     client: '',
     nature: '2D Animation & Filming Video',
@@ -293,6 +309,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v017',
+    category: 'motion',
     title: '正向家長運動—關懷鼓勵與接納 正向家庭齊建立',
     client: '',
     nature: '2D Animation & Filming Video',
@@ -303,6 +320,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v018',
+    category: 'video',
     title: '我和「理」的故事 Our PolyU Stories',
     client: '',
     nature: 'Corporate Video',
@@ -313,6 +331,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v019',
+    category: 'video',
     title: '香港青年獎勵計劃賽馬會愛丁堡公爵訓練營',
     client: '',
     nature: 'Kick off videos',
@@ -323,6 +342,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v020',
+    category: 'event',
     title: 'CUHK White Coat Inauguration Ceremony for Medical Freshmen 2025',
     client: '',
     nature: 'Highlight Video',
@@ -333,6 +353,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v021',
+    category: 'event',
     title: 'PolyU_Young Innovative Researcher Award (YIRA) 2025',
     client: '',
     nature: 'Corporate Video',
@@ -343,6 +364,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v022',
+    category: 'video',
     title: '香港都會大學 樂齡科技比賽 - 香港基督教服務處 展華長者日間護理中心',
     client: '',
     nature: 'Corporate videos',
@@ -353,6 +375,7 @@ const PROJECTS = [
   },
   {
     id: 'project-v023',
+    category: 'video',
     title: '香港都會大學 樂齡科技比賽 - 温馨長者之家',
     client: '',
     nature: 'Corporate videos',
@@ -363,6 +386,7 @@ const PROJECTS = [
   },
   {
     id: 'project-e01',
+    category: 'event',
     title: 'Deutsche Bank - Roadshow',
     client: 'Deutsche Bank',
     nature: 'Roadshow',
@@ -386,6 +410,7 @@ const PROJECTS = [
   },
   {
     id: 'project-e02',
+    category: 'event',
     title: 'One Step One Paw',
     client: 'Paws Hero',
     cover: 'assets/BH/images/Showcase/Event/Project-E02/OSOP_01.webp',
@@ -405,6 +430,7 @@ const PROJECTS = [
   },
   {
     id: 'project-e03',
+    category: 'event',
     title: 'The Chinese Occupational Association of Hong Kong — Inauguration Ceremony and Gala Dinner',
     client: 'The Chinese Occupational Association of Hong Kong',
     nature: 'Inauguration Ceremony & Gala Dinner',
@@ -426,6 +452,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob001',
+    category: 'event',
     title: '基恩敬拜禱告更新2023-25',
     client: '',
     nature: 'OB Shooting',
@@ -440,6 +467,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob002',
+    category: 'event',
     title: '讚美之泉音樂事工_2024-26 巡迴',
     client: '',
     nature: 'OB Shooting',
@@ -455,6 +483,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob003',
+    category: 'event',
     title: '2023 香港麥當勞叔叔之家慈善基金慈善晚宴 RMHCHK Gala Dinner',
     client: '',
     nature: 'OB Shooting',
@@ -472,6 +501,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob004',
+    category: 'event',
     title: '城大舉行國慶升旗儀式 慶祝中華人民共和國成立76周年',
     client: '',
     nature: 'OB Shooting',
@@ -488,6 +518,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob005',
+    category: 'event',
     title: 'EdUHK 2024/25 Academic Inauguration and Flag-Raising Ceremony',
     client: '',
     nature: 'OB Shooting',
@@ -504,6 +535,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob006',
+    category: 'event',
     title: 'Hong Kong Football Club',
     client: '',
     nature: 'OB Shooting',
@@ -519,6 +551,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob007',
+    category: 'event',
     title: '同福堂聖誕崇拜',
     client: '',
     nature: 'OB Shooting',
@@ -534,6 +567,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob008',
+    category: 'event',
     title: 'Sony Chan棟篤笑2024《咁至係香港》',
     client: '',
     nature: 'OB Shooting',
@@ -548,6 +582,7 @@ const PROJECTS = [
   },
   {
     id: 'project-ob009',
+    category: 'event',
     title: '香港全民閱讀日—中小學聯校共讀半小時',
     client: '',
     nature: 'OB Shooting',
@@ -563,6 +598,7 @@ const PROJECTS = [
   },
   {
     id: 'project-aigc001',
+    category: 'ai',
     title: 'SWD Training Video — Episode 1',
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
@@ -571,6 +607,7 @@ const PROJECTS = [
   },
   {
     id: 'project-aigc002',
+    category: 'ai',
     title: 'SWD Training Video — Episode 2',
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
@@ -579,6 +616,7 @@ const PROJECTS = [
   },
   {
     id: 'project-aigc003',
+    category: 'ai',
     title: 'SWD Training Video — Episode 3',
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
@@ -587,7 +625,8 @@ const PROJECTS = [
   },
   {
     id: 'project-aigc004',
-    title: 'SWD Training Video — Case 4',
+    category: 'ai',
+    title: 'SWD Training Video — Episode 4',
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
     cover: 'assets/BH/images/Showcase/AI Generative/Project-AIGC-004/SWD-case-04.webp',
@@ -595,7 +634,8 @@ const PROJECTS = [
   },
   {
     id: 'project-aigc005',
-    title: 'SWD Training Video — Case 5',
+    category: 'ai',
+    title: 'SWD Training Video — Episode 5',
     client: 'Social Welfare Department',
     nature: 'AI Generative Video',
     cover: 'assets/BH/images/Showcase/AI Generative/Project-AIGC-005/SWD-case-05.webp',
@@ -603,6 +643,7 @@ const PROJECTS = [
   },
   {
     id: 'project-p001',
+    category: 'photo',
     title: 'CLP Power HK Ltd. — Save Energy / Light Up Lives Campaign Photography',
     client: 'CLP Power HK Ltd.',
     nature: 'Studio Photo',
@@ -618,6 +659,7 @@ const PROJECTS = [
   },
   {
     id: 'project-p002',
+    category: 'photo',
     title: 'LCSD — 16 District Venue Photography',
     client: 'LCSD',
     nature: 'Location Photo Shooting',
@@ -637,6 +679,7 @@ const PROJECTS = [
   },
   {
     id: 'project-p003',
+    category: 'photo',
     title: 'LCSD — Yau Ma Tei Theatre Profile Photography',
     client: 'LCSD',
     nature: 'Location Photo Shooting',
@@ -654,6 +697,7 @@ const PROJECTS = [
   },
   {
     id: 'project-w001',
+    category: 'web',
     title: 'PMQ — Coffee Agenda',
     client: 'PMQ',
     cover: 'assets/BH/images/Showcase/Web-Interactive/Project-W001/PMQ Coffee Agenda_01.jpg',
@@ -677,6 +721,7 @@ const PROJECTS = [
   },
   {
     id: 'project-w002',
+    category: 'web',
     title: 'CGSE — Market Open Ceremony',
     client: 'Chinese Gold and Silver Exchange',
     cover: 'assets/BH/images/Showcase/Web-Interactive/Project-W002/CGSE Market Open Ceremony_01.jpg',
