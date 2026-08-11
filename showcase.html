@@ -749,6 +749,12 @@
         if (natEl) natEl.closest('.meta-item').style.display = 'none';
       }
 
+      // Hide Client row if project has no client
+      if (!project.client) {
+        var cliEl = document.querySelector('[data-field="client"]');
+        if (cliEl) cliEl.closest('.meta-item').style.display = 'none';
+      }
+
       // Cover / video / photo slider
       var coverEl = document.querySelector('[data-field="cover"]');
       var hasVideo = project.videoUrl && project.videoUrl.startsWith('http');
@@ -856,10 +862,12 @@
 
       // Services tags
       var servicesEl = document.querySelector('[data-field="services"]');
-      if (servicesEl && project.services) {
+      if (servicesEl && project.services && project.services.length) {
         servicesEl.innerHTML = project.services.map(function (s) {
           return '<div class="svc-tag"><span class="tag-dot"></span>' + s + '</div>';
         }).join('');
+      } else if (servicesEl) {
+        servicesEl.closest('.service-section').style.display = 'none';
       }
 
       // Extra links (e.g. Instagram post alongside the main video)
