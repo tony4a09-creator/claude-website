@@ -343,6 +343,14 @@
       z-index: 1;
       transition: none;
     }
+    .slide-video-link {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      display: block;
+    }
+    .slide-video-link .yt-play-btn { opacity: 1; }
+    .slide-video-link:hover .yt-play-btn { opacity: 0.85; }
     .slider-btn {
       position: absolute; top: 50%; transform: translateY(-50%);
       background: rgba(0,0,0,0.45); border: none; color: #fff;
@@ -767,6 +775,22 @@
             fg.loading = i === 0 ? 'eager' : 'lazy';
 
             slide.append(bg, fg);
+            if (hasVideo) {
+              var slideLink = document.createElement('a');
+              slideLink.href = project.videoUrl;
+              slideLink.target = '_blank';
+              slideLink.rel = 'noopener noreferrer';
+              slideLink.className = 'slide-video-link';
+              slideLink.setAttribute('aria-label', 'Watch video');
+              slideLink.innerHTML =
+                '<span class="yt-play-btn" aria-hidden="true">' +
+                  '<svg width="68" height="48" viewBox="0 0 68 48" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+                    '<rect width="68" height="48" rx="12" fill="rgba(0,0,0,0.72)"/>' +
+                    '<path d="M28 16l20 8-20 8V16z" fill="white"/>' +
+                  '</svg>' +
+                '</span>';
+              slide.append(slideLink);
+            }
             track.appendChild(slide);
           });
 
